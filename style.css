@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:700");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@font-face {
+  font-family: ProximaNovaB;
+  src: url("fonts/proximanova-bold.otf"); }
+@font-face {
+  font-family: ProximaNovaSB;
+  src: url("fonts/proximanova-semibold.otf"); }
+@font-face {
+  font-family: ProximaNova;
+  src: url("fonts/proximanova-regular.otf"); }
+body p {
+  font-family: ProximaNova; }
+body .nova-semibold {
+  font-family: ProximaNovaSB; }
+body .nova-bold {
+  font-family: ProximaNovaB; }
+body .nova {
+  font-family: ProximaNova; }
+body .cardo {
+  font-family: cardo; }
+body .lato {
+  font-family: lato; }
+body div.nav-container {
+  width: 75vw;
+  margin: 0 auto; }
+body div.sitemap div.sitemap-flex {
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  body div.sitemap div.sitemap-flex div.card {
+    height: auto;
+    border: 0; }
+    body div.sitemap div.sitemap-flex div.card img {
+      width: 150px; }
+    body div.sitemap div.sitemap-flex div.card ls {
+      font-size: 1.2rem;
+      font-family: ProximaNova;
+      color: #828282; }
+    body div.sitemap div.sitemap-flex div.card ls.margin {
+      margin-bottom: 10px; }
+body div.next-project {
+  width: 100vw;
+  height: 500px; }
+  body div.next-project h3 {
+    color: white;
+    padding-top: 30px; }
+body .hero-next {
+  background-image: url(img/next-project-gala.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+/*# sourceMappingURL=style.css.map */

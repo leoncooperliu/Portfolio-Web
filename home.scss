@@ -1,0 +1,98 @@
+body {
+
+    div.quote {
+        height: 100vh;
+        background-color: #FAFAFA;
+
+        div.quote-center {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+
+            h1 {
+                font-size: 4rem;
+                letter-spacing: .05rem;
+                line-height: 6rem;
+                margin-bottom: 0;
+            }
+
+            h2,
+            h4.underline-link {
+                color: #878787;
+            }
+
+            h2 {
+                font-size: 2rem;
+                letter-spacing: 0;
+                margin-top: 40px;
+                margin-bottom: 30px;
+            }
+
+            div.link-container {
+                h4.underline-link {
+                    display: inline-block;
+                    font-size: 1.5rem;
+                    margin-right: 50px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    div.works {
+        background-color: #F3F3F3;
+        padding-bottom: 100px;
+
+        div.nav-category {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 55px;
+
+            ls {
+                font-size: 1.5rem;
+                margin: 0 2rem;
+                color: #A9A9A9;
+            }
+        }
+
+        div.grid {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            div.card {
+                background-color: inherit;
+
+                border: 0;
+
+                img {
+                    width: 100%;
+                }
+
+                div.card-text {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+
+                    h3 {
+                        font-size: 2rem;
+                        color: #797979;
+                        margin-bottom: 0;
+                    }
+
+                    h4 {
+                        font-size: 1.5rem;
+                        margin-bottom: 0;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+        }
+    }
+}

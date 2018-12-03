@@ -1,0 +1,54 @@
+body div.bio div.top {
+  height: 100vh; }
+  body div.bio div.top div.nav img {
+    width: 70px;
+    margin-top: 10vh; }
+  body div.bio div.top div.top-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  body div.bio div.top h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    letter-spacing: .05rem; }
+  body div.bio div.top div.img {
+    width: 600px; }
+    body div.bio div.top div.img img {
+      width: 100%; }
+body div.bio div.main {
+  text-align: left; }
+  body div.bio div.main div.bio p {
+    font-size: 1.7rem;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    line-height: 4rem;
+    letter-spacing: 1px; }
+  body div.bio div.main div.link-container {
+    margin-bottom: 80px; }
+    body div.bio div.main div.link-container ls {
+      font-size: 1.7rem;
+      margin-right: 60px; }
+  body div.bio div.main div.section {
+    display: flex;
+    text-align: left; }
+    body div.bio div.main div.section p {
+      font-size: 1.7rem;
+      line-height: 3rem;
+      margin-bottom: 60px; }
+    body div.bio div.main div.section div.left {
+      width: 300px; }
+      body div.bio div.main div.section div.left p {
+        color: #727272;
+        width: 300px; }
+    body div.bio div.main div.section div.right {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+    body div.bio div.main div.section ls {
+      text-decoration: underline;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      font-size: 1.7rem; }
+body div.sitemape div.sitemap-flex {
+  background-color: #F3F3F3; }
+
+/*# sourceMappingURL=bio.css.map */
