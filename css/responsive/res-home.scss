@@ -1,29 +1,57 @@
 @import "responsive";
 
-@media (min-width: 576px) {
+@media (min-width: 375px) {
     .container {
         h1 {
-            font-size: 1rem;
-            line-height: 1rem;
+            font-size: 2rem;
+            line-height: 2.5rem;
         }
 
         h2 {
-            font-size: .7rem;
-            margin-top: 20px;
-            margin-bottom: 10px;
+            font-size: 1rem;
+            margin-top: 30px;
+            margin-bottom: 20px;
         }
 
         h3 {
-            font-size: .8rem;
+            font-size: 1rem;
         }
 
         h4 {
-            font-size: .7rem;
+            font-size: 1rem;
         }
 
         ls {
-            font-size: .8rem;
-            margin: 0 20px;
+            font-size: 1rem;
+            margin: 0 30px;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        h1 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+
+        ls {
+            font-size: 1rem;
+            margin: 0 30px;
         }
     }
 }

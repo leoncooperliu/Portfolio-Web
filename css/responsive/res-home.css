@@ -1,3 +1,6 @@
+@media (min-width: 375px) {
+  .container {
+    max-width: 365px; } }
 @media (min-width: 576px) {
   .container {
     max-width: 540px; } }
@@ -10,21 +13,36 @@
 @media (min-width: 1200px) {
   .container {
     max-width: 1150px; } }
+@media (min-width: 375px) {
+  .container h1 {
+    font-size: 2rem;
+    line-height: 2.5rem; }
+  .container h2 {
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  .container h3 {
+    font-size: 1rem; }
+  .container h4 {
+    font-size: 1rem; }
+  .container ls {
+    font-size: 1rem;
+    margin: 0 30px; } }
 @media (min-width: 576px) {
   .container h1 {
-    font-size: 1rem;
-    line-height: 1rem; }
+    font-size: 2rem;
+    line-height: 2.5rem; }
   .container h2 {
-    font-size: .7rem;
-    margin-top: 20px;
-    margin-bottom: 10px; }
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 20px; }
   .container h3 {
-    font-size: .8rem; }
+    font-size: 1rem; }
   .container h4 {
-    font-size: .7rem; }
+    font-size: 1rem; }
   .container ls {
-    font-size: .8rem;
-    margin: 0 20px; } }
+    font-size: 1rem;
+    margin: 0 30px; } }
 @media (min-width: 768px) {
   .container h1 {
     font-size: 2rem;
