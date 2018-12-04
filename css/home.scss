@@ -15,8 +15,6 @@ body {
             text-align: left;
 
             h1 {
-                font-size: 3rem;
-                line-height: 5rem;
                 margin-bottom: 0;
             }
 
@@ -25,25 +23,19 @@ body {
                 color: #878787;
             }
 
-            h2 {
-                font-size: 1.5rem;
-                letter-spacing: 0;
-                margin-top: 40px;
-                margin-bottom: 30px;
-            }
+            h2 {}
 
             div.link-container {
                 h4.underline-link {
                     display: inline-block;
-                    font-size: 1.2rem;
                     margin-right: 50px;
                     text-decoration: underline;
                 }
             }
         }
-        
+
         .top-container {
-            width:70vw;
+            width: 70vw;
             margin: 0 auto;
         }
     }
@@ -59,8 +51,6 @@ body {
             padding: 55px;
 
             ls {
-                font-size: 1.5rem;
-                margin: 0 2rem;
                 color: #A9A9A9;
             }
         }
@@ -86,13 +76,13 @@ body {
                     padding-bottom: 40px;
 
                     h3 {
-                        font-size: 1.5rem;
+
                         color: #797979;
                         margin-bottom: 0;
                     }
 
                     h4 {
-                        font-size: 1.2rem;
+
                         margin-bottom: 0;
                         text-decoration: underline;
                     }

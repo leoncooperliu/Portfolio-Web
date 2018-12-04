@@ -10,18 +10,6 @@
 @font-face {
   font-family: ProximaNova;
   src: url("fonts/proximanova-regular.otf"); }
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px; } }
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px; } }
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px; } }
-@media (min-width: 1200px) {
-  .container {
-    max-width: 60wv; } }
 body {
   margin: 0; }
   body a {
@@ -99,20 +87,12 @@ body div.quote {
     justify-content: center;
     text-align: left; }
     body div.quote div.quote-center h1 {
-      font-size: 3rem;
-      line-height: 5rem;
       margin-bottom: 0; }
     body div.quote div.quote-center h2,
     body div.quote div.quote-center h4.underline-link {
       color: #878787; }
-    body div.quote div.quote-center h2 {
-      font-size: 1.5rem;
-      letter-spacing: 0;
-      margin-top: 40px;
-      margin-bottom: 30px; }
     body div.quote div.quote-center div.link-container h4.underline-link {
       display: inline-block;
-      font-size: 1.2rem;
       margin-right: 50px;
       text-decoration: underline; }
   body div.quote .top-container {
@@ -127,8 +107,6 @@ body div.works {
     text-align: center;
     padding: 55px; }
     body div.works div.nav-category ls {
-      font-size: 1.5rem;
-      margin: 0 2rem;
       color: #A9A9A9; }
   body div.works div.grid {
     display: grid;
@@ -145,11 +123,9 @@ body div.works {
         padding-top: 30px;
         padding-bottom: 40px; }
         body div.works div.grid div.card div.card-text h3 {
-          font-size: 1.5rem;
           color: #797979;
           margin-bottom: 0; }
         body div.works div.grid div.card div.card-text h4 {
-          font-size: 1.2rem;
           margin-bottom: 0;
           text-decoration: underline; }
 

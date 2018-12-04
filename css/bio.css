@@ -13,18 +13,6 @@
 @font-face {
   font-family: ProximaNova;
   src: url("fonts/proximanova-regular.otf"); }
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px; } }
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px; } }
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px; } }
-@media (min-width: 1200px) {
-  .container {
-    max-width: 60wv; } }
 body {
   margin: 0; }
   body a {
@@ -100,18 +88,6 @@ body {
 @font-face {
   font-family: ProximaNova;
   src: url("fonts/proximanova-regular.otf"); }
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px; } }
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px; } }
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px; } }
-@media (min-width: 1200px) {
-  .container {
-    max-width: 60wv; } }
 body {
   margin: 0; }
   body a {
