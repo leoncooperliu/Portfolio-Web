@@ -51,35 +51,7 @@ body {
         margin: 0 auto;
     }
 
-    .sitemap {
-        div.sitemap-flex {
-            margin: 0 auto;
-            background-color: #FFFFFF;
-            height: 15vh;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
 
-            div.card {
-                height: auto;
-                border: 0;
-
-                img {
-                    width: 150px;
-                }
-
-                ls {
-                    font-size: 1.2rem;
-                    font-family: ProximaNova;
-                    color: #828282;
-                }
-
-                ls.margin {
-                    margin-bottom: 10px;
-                }
-            }
-        }
-    }
 
     .top {
         height: 100vh;
@@ -94,12 +66,12 @@ body {
 
         h3.nav-right {
             font-size: 2.5rem;
-            color: #878787;
             width: 100vw;
             text-align: right;
             position: fixed;
             margin-top: 10vh;
             padding-right: 10vw;
+            color: #949494;
             z-index: 0;
             right: 0;
         }
@@ -123,19 +95,70 @@ body {
 
     .next-project {
         width: 100vw;
-        height: 500px;
+        height: 600px;
+
 
         h3 {
             color: white;
             padding-top: 30px;
         }
+
+        .hero-next {
+            width: 100vw;
+            height: 500px;
+            background-image: url(img/next-project-gala.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
     }
 
-    .hero-next {
-        background-image: url(img/next-project-gala.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+
+
+    .sitemap {
+        div.sitemap-flex {
+            margin: 0 auto;
+            height: 15vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div.card {
+                height: auto;
+                border: 0;
+                background-color: transparent;
+
+                img {
+                    width: 150px;
+                }
+
+                ls {
+                    font-size: 1.2rem;
+                    font-family: ProximaNova;
+                    color: #828282;
+                }
+
+                ls.margin {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .color-dark {
+        background-color: #1B1B1B;
+    }
+
+    .color-grey {
+        background-color: #FAFAFA;
+    }
+
+    .bg-color-light {
+        background-color: #FEFEFE;
+    }
+
+    .container {
+        padding: 0;
     }
 
     margin: 0;
