@@ -1,39 +1,29 @@
+@import "style";
+
 body {
+    div.top {
+        div.top-flex {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+        }
 
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 0;
+            letter-spacing: .05rem;
+        }
 
+        .me {
+            width: 50%;
+        }
+
+    }
 
     div.bio {
-        div.top {
-            height: 100vh;
 
-            div.nav {
-                img {
-                    width: 70px;
-                    margin-top: 10vh;
-                }
-            }
-
-
-            div.top-flex {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-
-            h2 {
-                font-size: 3rem;
-                margin-bottom: 0;
-                letter-spacing: .05rem;
-            }
-
-            div.img {
-                width: 600px;
-
-                img {
-                    width: 100%;
-                }
-            }
-        }
 
         div.main {
             text-align: left;

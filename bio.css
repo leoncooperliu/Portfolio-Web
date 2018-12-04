@@ -1,20 +1,105 @@
-body div.bio div.top {
-  height: 100vh; }
-  body div.bio div.top div.nav img {
-    width: 70px;
-    margin-top: 10vh; }
-  body div.bio div.top div.top-flex {
+@import url("https://fonts.googleapis.com/css?family=Cardo:700");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@font-face {
+  font-family: ProximaNovaB;
+  src: url("fonts/proximanova-bold.otf"); }
+@font-face {
+  font-family: ProximaNovaSB;
+  src: url("fonts/proximanova-semibold.otf"); }
+@font-face {
+  font-family: ProximaNova;
+  src: url("fonts/proximanova-regular.otf"); }
+body {
+  margin: 0; }
+  body a {
+    color: unset; }
+  body p {
+    font-family: ProximaNova; }
+  body .nova-semibold {
+    font-family: ProximaNovaSB; }
+  body .nova-bold {
+    font-family: ProximaNovaB; }
+  body .nova {
+    font-family: ProximaNova; }
+  body .cardo {
+    font-family: cardo; }
+  body .lato {
+    font-family: lato; }
+  body .nav-container {
+    width: 80vw;
+    margin: 0 auto; }
+  body .sitemap div.sitemap-flex {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  body div.bio div.top h2 {
-    font-size: 3rem;
-    margin-bottom: 0;
-    letter-spacing: .05rem; }
-  body div.bio div.top div.img {
-    width: 600px; }
-    body div.bio div.top div.img img {
-      width: 100%; }
+    body .sitemap div.sitemap-flex div.card {
+      height: auto;
+      border: 0; }
+      body .sitemap div.sitemap-flex div.card img {
+        width: 150px; }
+      body .sitemap div.sitemap-flex div.card ls {
+        font-size: 1.2rem;
+        font-family: ProximaNova;
+        color: #828282; }
+      body .sitemap div.sitemap-flex div.card ls.margin {
+        margin-bottom: 10px; }
+  body .top {
+    height: 100vh; }
+    body .top img.nav-back {
+      position: fixed;
+      width: 60px;
+      margin-top: 10vh;
+      margin-left: 10vw;
+      z-index: 1; }
+    body .top h3.nav-right {
+      font-size: 2.5rem;
+      color: #878787;
+      width: 100vw;
+      text-align: right;
+      position: fixed;
+      margin-top: 10vh;
+      padding-right: 10vw;
+      z-index: 0;
+      right: 0; }
+    body .top .top-flex {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    body .top .top-center {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  body .next-project {
+    width: 100vw;
+    height: 500px; }
+    body .next-project h3 {
+      color: white;
+      padding-top: 30px; }
+  body .hero-next {
+    background-image: url(img/next-project-gala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
+body div.top div.top-flex {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto; }
+body div.top h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  letter-spacing: .05rem; }
+body div.top .me {
+  width: 50%; }
 body div.bio div.main {
   text-align: left; }
   body div.bio div.main div.bio p {

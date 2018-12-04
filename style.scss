@@ -18,6 +18,10 @@
 
 body {
 
+    a {
+        color: unset;
+    }
+
     p {
         font-family: ProximaNova;
     }
@@ -42,12 +46,12 @@ body {
         font-family: lato;
     }
 
-    div.nav-container {
-        width: 75vw;
+    .nav-container {
+        width: 80vw;
         margin: 0 auto;
     }
 
-    div.sitemap {
+    .sitemap {
         div.sitemap-flex {
             margin: 0 auto;
             background-color: #FFFFFF;
@@ -77,7 +81,47 @@ body {
         }
     }
 
-    div.next-project {
+    .top {
+        height: 100vh;
+
+        img.nav-back {
+            position: fixed;
+            width: 60px;
+            margin-top: 10vh;
+            margin-left: 10vw;
+            z-index: 1;
+        }
+
+        h3.nav-right {
+            font-size: 2.5rem;
+            color: #878787;
+            width: 100vw;
+            text-align: right;
+            position: fixed;
+            margin-top: 10vh;
+            padding-right: 10vw;
+            z-index: 0;
+            right: 0;
+        }
+
+        .top-flex {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-center {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .next-project {
         width: 100vw;
         height: 500px;
 
@@ -93,4 +137,6 @@ body {
         background-size: cover;
         background-position: center;
     }
+
+    margin: 0;
 }
