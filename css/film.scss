@@ -1,0 +1,40 @@
+@import "project";
+
+body {
+    .top-film-gala {
+        background-image: url(../mp4/film-gala.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .top {
+        height: 100vh;
+        width: 100vw;
+        background-color: #1B1B1B;
+    }
+
+    .main {
+        color: white;
+        padding-bottom: 300px;
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 60px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 3rem;
+            margin-bottom: 100px;
+        }
+
+        .video {
+            iframe {
+                width: 100%;
+                height: 600px;
+            }
+        }
+
+    }
+}

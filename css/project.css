@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:700");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@font-face {
+  font-family: ProximaNovaB;
+  src: url("fonts/proximanova-bold.otf"); }
+@font-face {
+  font-family: ProximaNovaSB;
+  src: url("fonts/proximanova-semibold.otf"); }
+@font-face {
+  font-family: ProximaNova;
+  src: url("fonts/proximanova-regular.otf"); }
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 60wv; } }
+body {
+  margin: 0; }
+  body a {
+    color: unset; }
+  body p {
+    font-family: ProximaNova; }
+  body .nova-semibold {
+    font-family: ProximaNovaSB; }
+  body .nova-bold {
+    font-family: ProximaNovaB; }
+  body .nova {
+    font-family: ProximaNova; }
+  body .cardo {
+    font-family: cardo; }
+  body .lato {
+    font-family: lato; }
+  body .oswald {
+    font-family: oswald; }
+  body .next-project {
+    width: 100vw;
+    height: 600px; }
+    body .next-project h3 {
+      color: white;
+      padding-top: 30px; }
+    body .next-project .hero-next {
+      width: 100vw;
+      height: 500px; }
+  body .sitemap div.sitemap-flex {
+    margin: 0 auto;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    body .sitemap div.sitemap-flex div.card {
+      height: auto;
+      border: 0;
+      background-color: transparent; }
+      body .sitemap div.sitemap-flex div.card h3 {
+        font-size: 2rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: 0; }
+      body .sitemap div.sitemap-flex div.card ls {
+        font-size: 1rem;
+        font-family: ProximaNova;
+        color: #828282; }
+      body .sitemap div.sitemap-flex div.card ls.margin {
+        margin-bottom: 10px; }
+      body .sitemap div.sitemap-flex div.card .leon-icon {
+        width: 200px; }
+  body .bg-color-dark {
+    background-color: #1B1B1B; }
+  body .bg-color-grey {
+    background-color: #FAFAFA; }
+  body .bg-color-light {
+    background-color: #FEFEFE; }
+  body .bg-image-gala {
+    background-image: url(../img/next-project-gala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .container {
+    padding: 0; }
+  body .nav-container {
+    width: 90vw;
+    margin: 0 auto; }
+
+body .top {
+  height: 100vh; }
+  body .top img.nav-back {
+    position: fixed;
+    width: 45px;
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    z-index: 1; }
+  body .top h3.nav-right {
+    font-size: 1.5rem;
+    width: 100vw;
+    text-align: right;
+    position: fixed;
+    margin-top: 10vh;
+    padding-right: 2.5vw;
+    color: #949494;
+    z-index: 0;
+    right: 0; }
+  body .top .top-flex {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  body .top .top-center {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+body .info {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  body .info .info-grid {
+    display: flex;
+    justify-content: space-between;
+    color: white; }
+    body .info .info-grid .card1 h3 {
+      font-size: 1rem; }
+    body .info .info-grid .card1 h4 {
+      font-size: 1.2rem; }
+
+/*# sourceMappingURL=project.css.map */

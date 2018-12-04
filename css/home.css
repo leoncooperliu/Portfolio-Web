@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:700");
 @import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 @font-face {
   font-family: ProximaNovaB;
   src: url("fonts/proximanova-bold.otf"); }
@@ -9,6 +10,18 @@
 @font-face {
   font-family: ProximaNova;
   src: url("fonts/proximanova-regular.otf"); }
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 60wv; } }
 body {
   margin: 0; }
   body a {
@@ -25,39 +38,8 @@ body {
     font-family: cardo; }
   body .lato {
     font-family: lato; }
-  body .nav-container {
-    width: 80vw;
-    margin: 0 auto; }
-  body .top {
-    height: 100vh; }
-    body .top img.nav-back {
-      position: fixed;
-      width: 60px;
-      margin-top: 10vh;
-      margin-left: 10vw;
-      z-index: 1; }
-    body .top h3.nav-right {
-      font-size: 2.5rem;
-      width: 100vw;
-      text-align: right;
-      position: fixed;
-      margin-top: 10vh;
-      padding-right: 10vw;
-      color: #949494;
-      z-index: 0;
-      right: 0; }
-    body .top .top-flex {
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; }
-    body .top .top-center {
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
+  body .oswald {
+    font-family: oswald; }
   body .next-project {
     width: 100vw;
     height: 600px; }
@@ -66,11 +48,7 @@ body {
       padding-top: 30px; }
     body .next-project .hero-next {
       width: 100vw;
-      height: 500px;
-      background-image: url(img/next-project-gala.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
+      height: 500px; }
   body .sitemap div.sitemap-flex {
     margin: 0 auto;
     height: 15vh;
@@ -81,22 +59,34 @@ body {
       height: auto;
       border: 0;
       background-color: transparent; }
-      body .sitemap div.sitemap-flex div.card img {
-        width: 150px; }
+      body .sitemap div.sitemap-flex div.card h3 {
+        font-size: 2rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: 0; }
       body .sitemap div.sitemap-flex div.card ls {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: ProximaNova;
         color: #828282; }
       body .sitemap div.sitemap-flex div.card ls.margin {
         margin-bottom: 10px; }
-  body .color-dark {
+      body .sitemap div.sitemap-flex div.card .leon-icon {
+        width: 200px; }
+  body .bg-color-dark {
     background-color: #1B1B1B; }
-  body .color-grey {
+  body .bg-color-grey {
     background-color: #FAFAFA; }
   body .bg-color-light {
     background-color: #FEFEFE; }
+  body .bg-image-gala {
+    background-image: url(../img/next-project-gala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
   body .container {
     padding: 0; }
+  body .nav-container {
+    width: 90vw;
+    margin: 0 auto; }
 
 body div.quote {
   height: 100vh;
@@ -109,23 +99,25 @@ body div.quote {
     justify-content: center;
     text-align: left; }
     body div.quote div.quote-center h1 {
-      font-size: 4rem;
-      letter-spacing: .05rem;
-      line-height: 6rem;
+      font-size: 3rem;
+      line-height: 5rem;
       margin-bottom: 0; }
     body div.quote div.quote-center h2,
     body div.quote div.quote-center h4.underline-link {
       color: #878787; }
     body div.quote div.quote-center h2 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       letter-spacing: 0;
       margin-top: 40px;
       margin-bottom: 30px; }
     body div.quote div.quote-center div.link-container h4.underline-link {
       display: inline-block;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       margin-right: 50px;
       text-decoration: underline; }
+  body div.quote .top-container {
+    width: 70vw;
+    margin: 0 auto; }
 body div.works {
   background-color: #F3F3F3;
   padding-bottom: 100px; }
@@ -153,11 +145,11 @@ body div.works {
         padding-top: 30px;
         padding-bottom: 40px; }
         body div.works div.grid div.card div.card-text h3 {
-          font-size: 2rem;
+          font-size: 1.5rem;
           color: #797979;
           margin-bottom: 0; }
         body div.works div.grid div.card div.card-text h4 {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           margin-bottom: 0;
           text-decoration: underline; }
 

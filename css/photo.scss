@@ -1,10 +1,15 @@
-@import "style";
+@import "project";
 
 body {
     .top {
         height: 100vh;
         width: 100vw;
         background-color: #1B1B1B;
+
+        .photo-container {
+            width: 55vw;
+            margin: 0 auto;
+        }
 
         .top-flex {
             position: relative;
@@ -18,39 +23,22 @@ body {
                 h2 {
                     margin-top: 50px;
                     font-size: 5rem;
-                    letter-spacing: .1rem;
                 }
-
-                .info {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    margin-top: 50px;
-
-                    .card1 {
-                        width: 300px;
-
-                        h4 {
-                            margin-bottom: 20px;
-                        }
-                    }
-                }
-
-
             }
 
             img {
                 position: absolute;
                 right: 0;
-                width: 55%;
+                width: 45%;
                 z-index: 0;
             }
         }
     }
 
     .main {
+        padding-bottom: 200px;
         .photo-grid {
             margin-top: 100px;
-            margin-bottom: 100px;
             line-height: 0;
             column-count: 2;
             column-gap: 40px;

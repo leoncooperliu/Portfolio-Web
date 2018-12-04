@@ -1,19 +1,27 @@
 @import "style";
+@import "project";
 
 body {
+
+    .bio-container {
+        width: 50vw;
+        margin: 0 auto;
+    }
+
     div.top {
-
-
         h2 {
-            font-size: 3rem;
+            font-size: 2rem;
             margin-bottom: 0;
-            letter-spacing: .05rem;
         }
 
         .me {
             width: 50%;
         }
 
+        .bio-container {
+            width: 50vw;
+            margin: 0 auto;
+        }
     }
 
     div.bio {
@@ -22,11 +30,10 @@ body {
 
             div.bio {
                 p {
-                    font-size: 1.7rem;
+                    font-size: 1.5rem;
                     margin-top: 80px;
                     margin-bottom: 80px;
-                    line-height: 4rem;
-                    letter-spacing: 1px;
+                    line-height: 3rem;
                 }
             }
 
@@ -34,7 +41,7 @@ body {
                 margin-bottom: 80px;
 
                 ls {
-                    font-size: 1.7rem;
+                    font-size: 1.2rem;
                     margin-right: 60px;
 
                 }
@@ -45,13 +52,13 @@ body {
                 text-align: left;
 
                 p {
-                    font-size: 1.7rem;
-                    line-height: 3rem;
+                    font-size: 1.2rem;
+                    line-height: 2.5rem;
                     margin-bottom: 60px;
                 }
 
                 div.left {
-                    width: 300px;
+                    width: 150px;
 
                     p {
                         color: #727272;
@@ -69,7 +76,7 @@ body {
                     text-decoration: underline;
                     margin-top: 100px;
                     margin-bottom: 100px;
-                    font-size: 1.7rem;
+                    font-size: 1.5rem;
                 }
 
             }
