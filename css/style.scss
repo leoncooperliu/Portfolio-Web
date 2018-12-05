@@ -68,41 +68,23 @@ body {
             width: 100vw;
             height: 500px;
         }
-
-
-
-
     }
 
 
 
     .sitemap {
         div.sitemap-flex {
-            margin: 0 auto;
-            height: 15vh;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
             div.card {
                 height: auto;
                 border: 0;
                 background-color: transparent;
 
                 h3 {
-                    font-size: 2rem;
-                    letter-spacing: 0.05rem;
                     margin-bottom: 0;
                 }
 
                 ls {
-                    font-size: 1rem;
-                    font-family: ProximaNova;
                     color: #828282;
-                }
-
-                ls.margin {
-                    margin-bottom: 10px;
                 }
 
                 .leon-icon {
@@ -136,9 +118,8 @@ body {
     }
 
     .nav-container {
-        width: 90vw;
+        width: 95vw;
         margin: 0 auto;
     }
-
     margin: 0;
 }

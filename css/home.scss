@@ -68,6 +68,14 @@ body {
                     width: 100%;
                 }
 
+                video {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+
                 div.card-text {
                     display: flex;
                     justify-content: space-between;

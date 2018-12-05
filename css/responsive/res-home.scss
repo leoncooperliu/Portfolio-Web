@@ -23,43 +23,18 @@
 
         ls {
             font-size: 1rem;
-            margin: 0 30px;
+            margin: 0 15px;
         }
     }
 }
 
 @media (min-width: 576px) {
-    .container {
-        h1 {
-            font-size: 2rem;
-            line-height: 2.5rem;
-        }
-
-        h2 {
-            font-size: 1rem;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-
-        h3 {
-            font-size: 1rem;
-        }
-
-        h4 {
-            font-size: 1rem;
-        }
-
-        ls {
-            font-size: 1rem;
-            margin: 0 30px;
-        }
-    }
 }
 
 @media (min-width: 768px) {
     .container {
         h1 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             line-height: 2.5rem;
         }
 
@@ -79,7 +54,7 @@
 
         ls {
             font-size: 1rem;
-            margin: 0 30px;
+            margin: 0 20px;
         }
     }
 }
@@ -90,6 +65,8 @@
             font-size: 2.5rem;
             line-height: 4rem;
         }
+        
+        
 
         h2 {
             font-size: 1.2rem;

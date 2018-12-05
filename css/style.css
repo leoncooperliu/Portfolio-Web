@@ -37,28 +37,16 @@ body {
     body .next-project .hero-next {
       width: 100vw;
       height: 500px; }
-  body .sitemap div.sitemap-flex {
-    margin: 0 auto;
-    height: 15vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    body .sitemap div.sitemap-flex div.card {
-      height: auto;
-      border: 0;
-      background-color: transparent; }
-      body .sitemap div.sitemap-flex div.card h3 {
-        font-size: 2rem;
-        letter-spacing: 0.05rem;
-        margin-bottom: 0; }
-      body .sitemap div.sitemap-flex div.card ls {
-        font-size: 1rem;
-        font-family: ProximaNova;
-        color: #828282; }
-      body .sitemap div.sitemap-flex div.card ls.margin {
-        margin-bottom: 10px; }
-      body .sitemap div.sitemap-flex div.card .leon-icon {
-        width: 200px; }
+  body .sitemap div.sitemap-flex div.card {
+    height: auto;
+    border: 0;
+    background-color: transparent; }
+    body .sitemap div.sitemap-flex div.card h3 {
+      margin-bottom: 0; }
+    body .sitemap div.sitemap-flex div.card ls {
+      color: #828282; }
+    body .sitemap div.sitemap-flex div.card .leon-icon {
+      width: 200px; }
   body .bg-color-dark {
     background-color: #1B1B1B; }
   body .bg-color-grey {
@@ -73,7 +61,7 @@ body {
   body .container {
     padding: 0; }
   body .nav-container {
-    width: 90vw;
+    width: 95vw;
     margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
