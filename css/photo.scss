@@ -29,14 +29,15 @@ body {
             img {
                 position: absolute;
                 right: 0;
-                width: 45%;
                 z-index: 0;
+                width: 45%;
             }
         }
     }
 
     .main {
         padding-bottom: 200px;
+
         .photo-grid {
             margin-top: 100px;
             line-height: 0;

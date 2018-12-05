@@ -1,26 +1,26 @@
 @import "responsive";
 
 @media (min-width: 375px) {
-    .container {
+    .top {
         
     }
 
 }
 
 @media (min-width: 576px) {
-    .container {
+    .top {
         
     }
 }
 
 @media (min-width: 768px) {
-    .container {
+    .top {
         
     }
 }
 
 @media (min-width: 992px) {
-    .container {
+    .top {
         
 
 
@@ -30,6 +30,16 @@
 
 
 @media (min-width: 1200px) {
-    .container {
+    .top {
+        
+        .top-flex {
+            h2 {
+            }
+        }
+        
+        img {
+        }
     }
+    
+    
 }

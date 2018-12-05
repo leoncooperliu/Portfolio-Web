@@ -66,23 +66,23 @@ body {
 
 body div.quote {
   height: 100vh;
-  background-color: white; }
+  width: 100vw;
+  background-color: #1B1B1B; }
   body div.quote div.quote-center {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left; }
-    body div.quote div.quote-center h1 {
-      margin-bottom: 0; }
-    body div.quote div.quote-center h2,
-    body div.quote div.quote-center h4.underline-link {
-      color: #878787; }
-    body div.quote div.quote-center div.link-container h4.underline-link {
-      display: inline-block;
-      margin-right: 50px;
-      text-decoration: underline; }
+    position: relative; }
+    body div.quote div.quote-center div.text-left {
+      top: 0;
+      z-index: 1; }
+      body div.quote div.quote-center div.text-left h1 {
+        color: white;
+        margin-bottom: 0; }
+      body div.quote div.quote-center div.text-left h2,
+      body div.quote div.quote-center div.text-left h4.underline-link {
+        color: #878787; }
+      body div.quote div.quote-center div.text-left div.link-container h4.underline-link {
+        display: inline-block;
+        margin-right: 50px;
+        text-decoration: underline; }
   body div.quote .top-container {
     width: 70vw;
     margin: 0 auto; }
@@ -92,8 +92,7 @@ body div.works {
   body div.works div.nav-category {
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding: 55px; }
+    text-align: center; }
     body div.works div.nav-category ls {
       color: #A9A9A9; }
   body div.works div.grid {
@@ -113,9 +112,7 @@ body div.works {
       body div.works div.grid div.card div.card-text {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        padding-top: 30px;
-        padding-bottom: 40px; }
+        align-items: center; }
         body div.works div.grid div.card div.card-text h3 {
           color: #797979;
           margin-bottom: 0; }

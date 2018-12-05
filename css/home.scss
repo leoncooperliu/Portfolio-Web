@@ -4,34 +4,40 @@ body {
 
     div.quote {
         height: 100vh;
-        background-color: white;
+        width: 100vw;
+        background-color: #1B1B1B;
 
         div.quote-center {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: left;
+            position: relative;
 
-            h1 {
-                margin-bottom: 0;
-            }
+            div.img-right {}
 
-            h2,
-            h4.underline-link {
-                color: #878787;
-            }
+            div.text-left {
+                top: 0;
+                z-index: 1;
 
-            h2 {}
+                h1 {
+                    color: white;
+                    margin-bottom: 0;
+                }
 
-            div.link-container {
+                h2,
                 h4.underline-link {
-                    display: inline-block;
-                    margin-right: 50px;
-                    text-decoration: underline;
+                    color: #878787;
+                }
+
+                div.link-container {
+                    h4.underline-link {
+                        display: inline-block;
+                        margin-right: 50px;
+                        text-decoration: underline;
+                    }
                 }
             }
+
+
+
+
         }
 
         .top-container {
@@ -48,7 +54,6 @@ body {
             display: flex;
             justify-content: center;
             text-align: center;
-            padding: 55px;
 
             ls {
                 color: #A9A9A9;
@@ -61,7 +66,6 @@ body {
 
             div.card {
                 background-color: inherit;
-
                 border: 0;
 
                 img {
@@ -80,17 +84,13 @@ body {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    padding-top: 30px;
-                    padding-bottom: 40px;
 
                     h3 {
-
                         color: #797979;
                         margin-bottom: 0;
                     }
 
                     h4 {
-
                         margin-bottom: 0;
                         text-decoration: underline;
                     }

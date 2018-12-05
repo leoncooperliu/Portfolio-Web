@@ -126,8 +126,8 @@ body .top {
     body .top .top-flex img {
       position: absolute;
       right: 0;
-      width: 45%;
-      z-index: 0; }
+      z-index: 0;
+      width: 45%; }
 body .main {
   padding-bottom: 200px; }
   body .main .photo-grid {
