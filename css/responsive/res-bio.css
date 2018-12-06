@@ -46,7 +46,7 @@
     font-size: 1.2rem;
     line-height: 2.5rem;
     margin-bottom: 20px; }
-  .container .bio .link-container ls {
+  .container .link-container ls {
     font-size: 1.3rem; }
   .container .section .right {
     grid-template-columns: 1fr 1fr; } }
@@ -56,7 +56,7 @@
     line-height: 3rem;
     letter-spacing: .05rem;
     margin-bottom: 50px; }
-  .container .bio .link-container ls {
+  .container .link-container ls {
     font-size: 1.3rem; }
   .container .section .right {
     grid-template-columns: 1fr 1fr; } }
