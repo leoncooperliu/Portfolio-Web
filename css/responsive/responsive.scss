@@ -1,6 +1,6 @@
-@media (min-width: 320px) {
+@media (min-width: 300px) {
     .container {
-        max-width: 360px;
+        max-width: 96vw;
     }
 
     .sitemap {
@@ -12,15 +12,46 @@
             grid-template-columns: 1fr 1fr;
 
             h3 {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
             }
 
             ls {
-                font-size: .8rem;
+                font-size: .6rem;
             }
 
             ls.margin {
                 margin-bottom: 5px;
+            }
+        }
+    }
+
+    .next-project {
+        height: 180px;
+
+        .hero-next {
+            height: 140px;
+        }
+    }
+
+    .info {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: white;
+
+            .card1 {
+                margin-bottom: 10px;
+
+                h3 {
+                    font-size: .8rem;
+                }
+
+                h4 {
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -32,12 +63,47 @@
         max-width: 540px;
     }
 
+    .sitemap {
+        .sitemap-flex {
+
+            h3 {
+                font-size: 1.7rem;
+            }
+
+            ls {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .next-project {
+        height: 250px;
+
+        .hero-next {
+            height: 200px;
+        }
+    }
+
+    .info-grid {
+        .card1 {
+            margin-bottom: 10px;
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            h4 {
+                font-size: 1.2rem;
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
+
 
     .sitemap {
         .sitemap-flex {
@@ -60,6 +126,14 @@
         }
     }
 
+    .next-project {
+        height: 340px;
+
+        .hero-next {
+            height: 280px;
+        }
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -67,11 +141,37 @@
         max-width: 960px;
     }
 
+    .next-project {
+        height: 400px;
+
+        .hero-next {
+            height: 350px;
+        }
+    }
+
+    .info {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .info-grid {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+    }
 }
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1150px;
+    }
+
+    .next-project {
+        height: 650px;
+
+        .hero-next {
+            height: 550px;
+        }
     }
 
 

@@ -2,51 +2,20 @@
 
 body {
     .top {
+
         height: 100vh;
         background-color: #1B1B1B;
 
-        .photo-container {
-            width: 55vw;
-            margin: 0 auto;
-        }
 
-        .top-flex {
-            position: relative;
-
-            .text-left {
-                color: white;
-                position: absolute;
-                text-align: left;
-                z-index: 1;
-
-                h2 {
-                    margin-top: 50px;
-                    font-size: 5rem;
-                }
-            }
-
-            img {
-                position: absolute;
-                right: 0;
-                z-index: 0;
-                width: 45%;
-            }
-        }
     }
 
     .main {
         padding-bottom: 200px;
 
         .photo-grid {
-            margin-top: 100px;
-            line-height: 0;
-            column-count: 2;
-            column-gap: 40px;
-
             img {
                 width: 100%;
                 height: auto;
-                margin-bottom: 40px;
             }
         }
 

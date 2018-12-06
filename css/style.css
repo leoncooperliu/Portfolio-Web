@@ -28,13 +28,6 @@ body {
     font-family: lato; }
   body .oswald {
     font-family: oswald; }
-  body .next-project {
-    height: 600px; }
-    body .next-project h3 {
-      color: white;
-      padding-top: 30px; }
-    body .next-project .hero-next {
-      height: 500px; }
   body .sitemap div.sitemap-flex div.card {
     height: auto;
     border: 0;
@@ -60,6 +53,16 @@ body {
     background-position: center; }
   body .bg-image-dancer {
     background-image: url(../img/next-project-dancer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-long {
+    background-image: url(../img/next-project-long.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-kathy {
+    background-image: url(../img/next-project-kathy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }

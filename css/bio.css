@@ -31,13 +31,6 @@ body {
     font-family: lato; }
   body .oswald {
     font-family: oswald; }
-  body .next-project {
-    height: 600px; }
-    body .next-project h3 {
-      color: white;
-      padding-top: 30px; }
-    body .next-project .hero-next {
-      height: 500px; }
   body .sitemap div.sitemap-flex div.card {
     height: auto;
     border: 0;
@@ -63,6 +56,16 @@ body {
     background-position: center; }
   body .bg-image-dancer {
     background-image: url(../img/next-project-dancer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-long {
+    background-image: url(../img/next-project-long.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-kathy {
+    background-image: url(../img/next-project-kathy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -101,13 +104,6 @@ body {
     font-family: lato; }
   body .oswald {
     font-family: oswald; }
-  body .next-project {
-    height: 600px; }
-    body .next-project h3 {
-      color: white;
-      padding-top: 30px; }
-    body .next-project .hero-next {
-      height: 500px; }
   body .sitemap div.sitemap-flex div.card {
     height: auto;
     border: 0;
@@ -133,6 +129,16 @@ body {
     background-position: center; }
   body .bg-image-dancer {
     background-image: url(../img/next-project-dancer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-long {
+    background-image: url(../img/next-project-long.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-kathy {
+    background-image: url(../img/next-project-kathy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -162,7 +168,6 @@ body .top {
       margin-bottom: 0; }
   body .top .top-flex {
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -172,50 +177,34 @@ body .top {
     display: flex;
     justify-content: center;
     align-items: center; }
-body .info {
-  padding-top: 60px;
-  padding-bottom: 60px; }
-  body .info .info-grid {
-    display: flex;
-    justify-content: space-between;
-    color: white; }
-    body .info .info-grid .card1 h3 {
-      font-size: 1rem; }
-    body .info .info-grid .card1 h4 {
-      font-size: 1.2rem; }
+  body .top .top-flex {
+    position: relative; }
+    body .top .top-flex .text-left {
+      color: white;
+      position: absolute;
+      text-align: left;
+      z-index: 1; }
+      body .top .top-flex .text-left h2 {
+        margin-top: 0px;
+        margin-bottom: 0px; }
+    body .top .top-flex img {
+      position: absolute;
+      right: 0;
+      z-index: 0; }
+body .header-container {
+  margin: 0 auto; }
 
 body div.top h2 {
-  font-size: 2rem;
   margin-bottom: 0; }
-body div.top .me {
-  width: 45%; }
-body div.top .bio-container {
-  width: 50vw;
-  margin: 0 auto; }
-body div.bio div.main {
-  text-align: left; }
-  body div.bio div.main div.link-container {
-    margin-bottom: 80px; }
-    body div.bio div.main div.link-container ls {
-      margin-right: 60px; }
-  body div.bio div.main div.section {
-    display: flex;
-    text-align: left; }
-    body div.bio div.main div.section p {
-      font-size: 1.3rem;
-      line-height: 3rem;
-      margin-bottom: 30px; }
-    body div.bio div.main div.section div.left {
-      width: 200px; }
-      body div.bio div.main div.section div.left p {
-        color: #727272; }
-    body div.bio div.main div.section div.right {
-      display: grid; }
-      body div.bio div.main div.section div.right p {
-        width: 350px; }
-    body div.bio div.main div.section ls {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      font-size: 1.5rem; }
+body div.bio div.main div.section .bio {
+  display: grid;
+  grid-template-columns: 1fr; }
+body div.bio div.main div.section div.left p {
+  color: #727272; }
+body div.bio div.main div.section div.right {
+  text-align: left;
+  display: grid; }
+body div.bio div.main .bottom {
+  margin-bottom: 100px; }
 
 /*# sourceMappingURL=bio.css.map */

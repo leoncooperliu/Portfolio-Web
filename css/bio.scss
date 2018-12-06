@@ -4,68 +4,33 @@
 body {
     div.top {
         h2 {
-            font-size: 2rem;
             margin-bottom: 0;
         }
-
-        .me {
-            width: 45%;
-        }
-
-        .bio-container {
-            width: 50vw;
-            margin: 0 auto;
-        }
-    }
+    }    
 
     div.bio {
         div.main {
-            text-align: left;
-
-            div.bio {
-                p {}
-            }
-
-            div.link-container {
-                margin-bottom: 80px;
-
-                ls {
-                    margin-right: 60px;
-                }
-            }
-
             div.section {
-                display: flex;
-                text-align: left;
 
-                p {
-                    font-size: 1.3rem;
-                    line-height: 3rem;
-                    margin-bottom: 30px;
+                .bio {
+                    display: grid;
+                    grid-template-columns: 1fr;
                 }
 
                 div.left {
-                    width: 200px;
-
                     p {
                         color: #727272;
                     }
                 }
 
                 div.right {
+                    text-align: left;
                     display: grid;
-
-                    p {
-                        width: 350px;
-                    }
                 }
-
-                ls {
-                    margin-top: 100px;
-                    margin-bottom: 100px;
-                    font-size: 1.5rem;
-                }
-
+            }
+            
+            .bottom {
+                margin-bottom: 100px;
             }
         }
     }
