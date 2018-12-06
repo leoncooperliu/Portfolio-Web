@@ -29,13 +29,11 @@ body {
   body .oswald {
     font-family: oswald; }
   body .next-project {
-    width: 100vw;
     height: 600px; }
     body .next-project h3 {
       color: white;
       padding-top: 30px; }
     body .next-project .hero-next {
-      width: 100vw;
       height: 500px; }
   body .sitemap div.sitemap-flex div.card {
     height: auto;
@@ -53,8 +51,15 @@ body {
     background-color: #FAFAFA; }
   body .bg-color-light {
     background-color: #FEFEFE; }
+  body .bg-color-white {
+    background-color: red; }
   body .bg-image-gala {
     background-image: url(../img/next-project-gala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-dancer {
+    background-image: url(../img/next-project-dancer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -63,10 +68,11 @@ body {
   body .nav-container {
     width: 95vw;
     margin: 0 auto; }
+  body .underline {
+    text-decoration: underline; }
 
 body div.quote {
   height: 100vh;
-  width: 100vw;
   background-color: #1B1B1B; }
   body div.quote div.quote-center {
     position: relative; }
@@ -81,14 +87,13 @@ body div.quote {
         color: #878787; }
       body div.quote div.quote-center div.text-left div.link-container h4.underline-link {
         display: inline-block;
-        margin-right: 50px;
         text-decoration: underline; }
   body div.quote .top-container {
     width: 70vw;
     margin: 0 auto; }
 body div.works {
-  background-color: #F3F3F3;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  background-color: #f3f3f3; }
   body div.works div.nav-category {
     display: flex;
     justify-content: center;
@@ -110,14 +115,8 @@ body div.works {
         width: 100%;
         height: 100%; }
       body div.works div.grid div.card div.card-text {
-        display: flex;
-        justify-content: space-between;
-        align-items: center; }
-        body div.works div.grid div.card div.card-text h3 {
-          color: #797979;
-          margin-bottom: 0; }
+        text-align: right; }
         body div.works div.grid div.card div.card-text h4 {
-          margin-bottom: 0;
-          text-decoration: underline; }
+          margin-bottom: 0; }
 
 /*# sourceMappingURL=home.css.map */

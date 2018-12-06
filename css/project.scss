@@ -4,24 +4,24 @@ body {
     .top {
         height: 100vh;
 
-        img.nav-back {
+        .nav-bar {
             position: fixed;
-            width: 45px;
-            margin-top: 10vh;
-            margin-left: 2.5vw;
-            z-index: 1;
-        }
+            padding-top: 2.5vh;
+            width: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-        h3.nav-right {
-            font-size: 1.5rem;
-            width: 100vw;
-            text-align: right;
-            position: fixed;
-            margin-top: 10vh;
-            padding-right: 2.5vw;
-            color: #949494;
-            z-index: 0;
-            right: 0;
+            img.nav-back {
+                width: 45px;
+            }
+
+            h3.nav-right {
+                font-size: 1.5rem;
+                text-align: right;
+                color: #949494;
+                margin-bottom: 0;
+            }
         }
 
         .top-flex {

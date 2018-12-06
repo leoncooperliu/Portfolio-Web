@@ -51,11 +51,7 @@ body {
         font-family: oswald;
     }
 
-
-
-
     .next-project {
-        width: 100vw;
         height: 600px;
 
 
@@ -65,11 +61,9 @@ body {
         }
 
         .hero-next {
-            width: 100vw;
             height: 500px;
         }
     }
-
 
 
     .sitemap {
@@ -106,8 +100,19 @@ body {
         background-color: #FEFEFE;
     }
 
+    .bg-color-white {
+        background-color: red;
+    }
+
     .bg-image-gala {
         background-image: url(../img/next-project-gala.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-dancer {
+        background-image: url(../img/next-project-dancer.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -121,5 +126,10 @@ body {
         width: 95vw;
         margin: 0 auto;
     }
+
+    .underline {
+        text-decoration: underline;
+    }
+
     margin: 0;
 }

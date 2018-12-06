@@ -29,13 +29,11 @@ body {
   body .oswald {
     font-family: oswald; }
   body .next-project {
-    width: 100vw;
     height: 600px; }
     body .next-project h3 {
       color: white;
       padding-top: 30px; }
     body .next-project .hero-next {
-      width: 100vw;
       height: 500px; }
   body .sitemap div.sitemap-flex div.card {
     height: auto;
@@ -53,8 +51,15 @@ body {
     background-color: #FAFAFA; }
   body .bg-color-light {
     background-color: #FEFEFE; }
+  body .bg-color-white {
+    background-color: red; }
   body .bg-image-gala {
     background-image: url(../img/next-project-gala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-dancer {
+    background-image: url(../img/next-project-dancer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -63,25 +68,25 @@ body {
   body .nav-container {
     width: 95vw;
     margin: 0 auto; }
+  body .underline {
+    text-decoration: underline; }
 
 body .top {
   height: 100vh; }
-  body .top img.nav-back {
+  body .top .nav-bar {
     position: fixed;
-    width: 45px;
-    margin-top: 10vh;
-    margin-left: 2.5vw;
-    z-index: 1; }
-  body .top h3.nav-right {
-    font-size: 1.5rem;
-    width: 100vw;
-    text-align: right;
-    position: fixed;
-    margin-top: 10vh;
-    padding-right: 2.5vw;
-    color: #949494;
-    z-index: 0;
-    right: 0; }
+    padding-top: 2.5vh;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    body .top .nav-bar img.nav-back {
+      width: 45px; }
+    body .top .nav-bar h3.nav-right {
+      font-size: 1.5rem;
+      text-align: right;
+      color: #949494;
+      margin-bottom: 0; }
   body .top .top-flex {
     height: 100vh;
     width: 100vw;

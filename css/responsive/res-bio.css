@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .container {
     max-width: 360px; }
 
@@ -38,5 +38,27 @@
 @media (min-width: 1200px) {
   .container {
     max-width: 1150px; } }
+@media (min-width: 320px) {
+  .container .section .right {
+    grid-template-columns: 1fr; } }
+@media (min-width: 992px) {
+  .container .bio p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 20px; }
+  .container .bio .link-container ls {
+    font-size: 1.3rem; }
+  .container .section .right {
+    grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1200px) {
+  .container .bio p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    letter-spacing: .05rem;
+    margin-bottom: 50px; }
+  .container .bio .link-container ls {
+    font-size: 1.3rem; }
+  .container .section .right {
+    grid-template-columns: 1fr 1fr; } }
 
 /*# sourceMappingURL=res-bio.css.map */

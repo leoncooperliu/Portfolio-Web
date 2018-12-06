@@ -4,7 +4,6 @@ body {
 
     div.quote {
         height: 100vh;
-        width: 100vw;
         background-color: #1B1B1B;
 
         div.quote-center {
@@ -29,15 +28,10 @@ body {
                 div.link-container {
                     h4.underline-link {
                         display: inline-block;
-                        margin-right: 50px;
                         text-decoration: underline;
                     }
                 }
             }
-
-
-
-
         }
 
         .top-container {
@@ -47,8 +41,8 @@ body {
     }
 
     div.works {
-        background-color: #F3F3F3;
         padding-bottom: 100px;
+        background-color: #f3f3f3;
 
         div.nav-category {
             display: flex;
@@ -81,18 +75,12 @@ body {
                 }
 
                 div.card-text {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+                    text-align: right;
 
-                    h3 {
-                        color: #797979;
-                        margin-bottom: 0;
-                    }
 
                     h4 {
                         margin-bottom: 0;
-                        text-decoration: underline;
+
                     }
                 }
             }

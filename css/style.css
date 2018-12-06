@@ -29,13 +29,11 @@ body {
   body .oswald {
     font-family: oswald; }
   body .next-project {
-    width: 100vw;
     height: 600px; }
     body .next-project h3 {
       color: white;
       padding-top: 30px; }
     body .next-project .hero-next {
-      width: 100vw;
       height: 500px; }
   body .sitemap div.sitemap-flex div.card {
     height: auto;
@@ -53,8 +51,15 @@ body {
     background-color: #FAFAFA; }
   body .bg-color-light {
     background-color: #FEFEFE; }
+  body .bg-color-white {
+    background-color: red; }
   body .bg-image-gala {
     background-image: url(../img/next-project-gala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-dancer {
+    background-image: url(../img/next-project-dancer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -63,5 +68,7 @@ body {
   body .nav-container {
     width: 95vw;
     margin: 0 auto; }
+  body .underline {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */

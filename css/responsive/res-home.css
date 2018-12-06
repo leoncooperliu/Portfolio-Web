@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .container {
     max-width: 360px; }
 
@@ -38,18 +38,18 @@
 @media (min-width: 1200px) {
   .container {
     max-width: 1150px; } }
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .container h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2.8rem; }
   .container h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 30px;
     margin-bottom: 20px; }
-  .container h3 {
-    font-size: 1rem; }
   .container h4 {
     font-size: 1rem; }
+  .container h4.underline-link {
+    margin-right: 20px; }
   .container ls {
     font-size: 1rem;
     margin: 0 15px; }
@@ -68,17 +68,17 @@
       width: 100%;
       margin-bottom: 30px; }
       .quote .quote-center .img-right img {
-        width: 100%; }
+        width: 60%; }
   .quote .large-screen {
     display: none; }
   .quote .small-screen {
     display: block; } }
 @media (min-width: 576px) {
   .container h1 {
-    font-size: 2.4rem;
-    line-height: 4rem; }
+    font-size: 1.8rem;
+    line-height: 3rem; }
   .container h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 30px;
     margin-bottom: 20px; }
   .container .nav-category {
@@ -86,19 +86,19 @@
   .container .card-text {
     padding-top: 15px;
     padding-bottom: 25px; }
+  .container h4.underline-link {
+    margin-right: 30px; }
 
   .quote .quote-center .img-right img {
-    width: 70%; } }
+    width: 50%; } }
 @media (min-width: 768px) {
   .container h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     line-height: 4rem; }
   .container h2 {
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 20px; }
-  .container h3 {
-    font-size: 1rem; }
   .container h4 {
     font-size: 1.2rem; }
   .container ls {
@@ -106,17 +106,17 @@
     margin: 0 20px; }
   .container .card-text {
     padding-top: 20px;
-    padding-bottom: 30px; } }
+    padding-bottom: 30px; }
+  .container h4.underline-link {
+    margin-right: 40px; } }
 @media (min-width: 992px) {
   .container h1 {
     font-size: 2.2rem;
-    line-height: 3.7rem; }
+    line-height: 4rem; }
   .container h2 {
     font-size: 1.5rem;
     margin-top: 40px;
     margin-bottom: 30px; }
-  .container h3 {
-    font-size: 1.5rem; }
   .container h4 {
     font-size: 1.2rem; }
   .container ls {
@@ -143,7 +143,7 @@
       position: absolute;
       right: 0;
       z-index: 0;
-      width: 45%; }
+      width: 40%; }
   .quote .large-screen {
     display: block; }
   .quote .small-screen {
@@ -156,8 +156,6 @@
     font-size: 1.6rem;
     margin-top: 40px;
     margin-bottom: 30px; }
-  .container h3 {
-    font-size: 1.5rem; }
   .container h4 {
     font-size: 1.3rem; }
   .container ls {
