@@ -85,5 +85,7 @@ body {
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
+  body a {
+    z-index: 10; }
 
 /*# sourceMappingURL=style.css.map */

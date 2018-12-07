@@ -88,6 +88,8 @@ body {
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
+  body a {
+    z-index: 10; }
 
 @font-face {
   font-family: ProximaNovaB;
@@ -173,6 +175,8 @@ body {
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
+  body a {
+    z-index: 10; }
 
 body .top {
   height: 100vh; }
@@ -182,7 +186,8 @@ body .top {
     width: inherit;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    z-index: 5; }
     body .top .nav-bar h3.nav-right {
       font-size: 1.5rem;
       text-align: right;

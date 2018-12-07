@@ -11,6 +11,7 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            z-index: 5;
 
             h3.nav-right {
                 font-size: 1.5rem;
