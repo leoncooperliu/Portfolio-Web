@@ -38,6 +38,8 @@ body {
       color: #828282; }
     body .sitemap div.sitemap-flex div.card .leon-icon {
       width: 200px; }
+  body .bg-color-black {
+    background-color: black; }
   body .bg-color-dark {
     background-color: #1B1B1B; }
   body .bg-color-grey {
@@ -66,6 +68,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
+  body .bg-image-near {
+    background-image: url(../img/next-project-near.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  body .bg-image-shadows {
+    background-image: url(../img/next-project-shadows.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
   body .container {
     padding: 0; }
   body .nav-container {
@@ -83,8 +95,6 @@ body .top {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    body .top .nav-bar img.nav-back {
-      width: 45px; }
     body .top .nav-bar h3.nav-right {
       font-size: 1.5rem;
       text-align: right;

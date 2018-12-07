@@ -32,7 +32,11 @@
         .info .info-grid .card1 h3 {
           font-size: .8rem; }
         .info .info-grid .card1 h4 {
-          font-size: 1rem; } }
+          font-size: 1rem; }
+
+  #back-icon {
+    width: 25px;
+    z-index: 3; } }
 @media (min-width: 576px) {
   .container {
     max-width: 540px; }
@@ -52,7 +56,10 @@
     .info-grid .card1 h3 {
       font-size: 1rem; }
     .info-grid .card1 h4 {
-      font-size: 1.2rem; } }
+      font-size: 1.2rem; }
+
+  #back-icon {
+    width: 35px; } }
 @media (min-width: 768px) {
   .container {
     max-width: 720px; }
@@ -72,7 +79,10 @@
   .next-project {
     height: 340px; }
     .next-project .hero-next {
-      height: 280px; } }
+      height: 280px; }
+
+  #back-icon {
+    width: 45px; } }
 @media (min-width: 992px) {
   .container {
     max-width: 960px; }

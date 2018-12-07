@@ -3,7 +3,7 @@
 body {
     .top {
         height: 100vh;
-        
+
         .nav-bar {
             position: fixed;
             padding-top: 2.5vh;
@@ -11,10 +11,6 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-
-            img.nav-back {
-                width: 45px;
-            }
 
             h3.nav-right {
                 font-size: 1.5rem;
@@ -62,7 +58,7 @@ body {
         }
     }
 
-    
+
 
     .header-container {
         margin: 0 auto;

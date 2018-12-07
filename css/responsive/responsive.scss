@@ -56,6 +56,11 @@
         }
     }
 
+    #back-icon {
+        width: 25px;
+        z-index: 3;
+    }
+
 }
 
 @media (min-width: 576px) {
@@ -97,6 +102,10 @@
             }
         }
     }
+
+    #back-icon {
+        width: 35px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -134,6 +143,9 @@
         }
     }
 
+    #back-icon {
+        width: 45px;
+    }
 }
 
 @media (min-width: 992px) {

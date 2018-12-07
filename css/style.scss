@@ -73,6 +73,10 @@ body {
         }
     }
 
+    .bg-color-black {
+        background-color: black;
+    }
+
     .bg-color-dark {
         background-color: #1B1B1B;
     }
@@ -102,16 +106,30 @@ body {
         background-size: cover;
         background-position: center;
     }
-    
+
     .bg-image-long {
         background-image: url(../img/next-project-long.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    
+
     .bg-image-kathy {
         background-image: url(../img/next-project-kathy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-near {
+        background-image: url(../img/next-project-near.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-shadows {
+        background-image: url(../img/next-project-shadows.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

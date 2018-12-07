@@ -12,11 +12,16 @@ body {
     .main {
         padding-bottom: 200px;
 
-        .photo-grid {
-            img {
-                width: 100%;
-                height: auto;
-            }
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .photo-grid-1 {
+            margin-top: 50px;
+            line-height: 0;
+            column-count: 1;
+            column-gap: 0;
         }
 
     }
