@@ -138,6 +138,10 @@ body .top-film-gala {
   background-size: cover; }
 body .top {
   height: 100vh; }
+  body .top .video-center {
+    display: flex;
+    align-items: center;
+    height: 100vh; }
   body .top video {
     z-index: 0;
     width: 100%; }
