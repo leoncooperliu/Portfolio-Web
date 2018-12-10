@@ -1,4 +1,8 @@
-body .delay-slow {
-  animation-delay: .5s; }
+body .delay-slow-2 {
+  animation-delay: .2s; }
+body .delay-slow-4 {
+  animation-delay: .4s; }
+body .delay-slow-6 {
+  animation-delay: .6s; }
 
 /*# sourceMappingURL=self-define.css.map */

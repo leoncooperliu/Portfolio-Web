@@ -52,6 +52,12 @@ body {
             ls {
                 color: #A9A9A9;
             }
+
+            .ls-active {
+                color: #464646;
+                text-decoration: underline;
+            }
+
         }
 
         div.grid {
@@ -76,7 +82,6 @@ body {
 
                 div.card-text {
                     text-align: right;
-
 
                     h4 {
                         margin-bottom: 0;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/responsive/res-home.css">
     <link rel="icon" href="img/web-icon.jpg" sizes="16x16">
+    <script src="js/home.js" defer></script>
     <title>LEON LIU</title>
 </head>
 
@@ -15,7 +16,7 @@
     <div class="quote">
         <div class="quote-center container">
             <div class="img-right">
-                <img class="animated fadeInRight delay-slow" src="img/me-photo2.jpg">
+                <img class="animated fadeInRight delay-slow-6" src="img/me-photo2.jpg">
             </div>
             <div class="text-left">
                 <h1 class="animated fadeInUp nova-bold small-screen">
@@ -24,8 +25,8 @@
                 <h1 class="animated fadeInUp nova-bold large-screen">
                     The challenges of my work have always<br>been how to use less to tell more.
                 </h1>
-                <h2 class="animated fadeInUp delay-slow nova-semibold">I am Leon Liu, a Minimalist Visual Artist.</h2>
-                <div class="animated fadeInUp delay-slow link-container nova-semibold">
+                <h2 class="animated fadeInUp delay-slow-2 nova-semibold">I am Leon Liu, a Minimalist Visual Artist.</h2>
+                <div class="animated fadeInUp delay-slow-4 link-container nova-semibold">
                     <h4 class="underline-link"> <a href="#my-works">View Works</a></h4>
                     <h4 class="underline-link" href="contact.html"><a href="bio.html">View Biography</a></h4>
                 </div>
@@ -35,23 +36,20 @@
     <div class="works" id="my-works">
         <div class="container">
             <div class="nav-category cardo animated fadeInUp">
-                <ls>Recent Project</ls>
-                <!--
-                <ls>
+                <ls class="pointer ls-active" id="nav-recent">
                     Recent
                 </ls>
-                <ls>
+                <ls class="pointer" id="nav-photo">
                     Photo
                 </ls>
-                <ls>
+                <ls class="pointer" id="nav-film">
                     Film
                 </ls>
-                <ls>
+                <ls class="pointer" id="nav-design">
                     Design
                 </ls>
--->
             </div>
-            <div class="grid underline">
+            <div class="grid underline" id="all-project">
                 <div class="card animated fadeInUp">
                     <a href="photo-dancer.html"><img src="img/home-photo-dancer.jpg"></a>
                     <div class="card-text">
@@ -118,14 +116,14 @@
                 </div>
                 <div class="card">
                     <ls class="margin">E-mail: <span class="underline"><a href="mailto:leoncooper@nyu.edu">leoncooper@nyu.edu</a></span></ls>
-                    <ls> Follow: <span class="underline"><a href="https://unsplash.com/@leoncooper">unsplash/@leoncooper</a></span></ls>
+                    <ls> Follow: <span class="underline"><a href="https://unsplash.com/@leoncooper" target="_blank">unsplash/@leoncooper</a></span></ls>
                 </div>
                 <div class="card">
                     <ls class="margin"><a href="bio.html">About</a></ls>
                     <ls><a href="index.html#my-works">Works</a></ls>
                 </div>
                 <div class="card">
-                    <ls class="margin"><a href="leon_resume.pdf"><u>View Resume ></u></a></ls>
+                    <ls class="margin"><a href="leon_resume.pdf" target="_blank"><u>View Resume ></u></a></ls>
                     <ls>© 2018 by Leon Liu</ls>
                 </div>
             </div>

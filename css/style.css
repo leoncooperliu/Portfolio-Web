@@ -92,5 +92,10 @@ body {
     text-decoration: underline; }
   body a {
     z-index: 10; }
+  body .pointer {
+    cursor: pointer; }
+  body .ls-active {
+    color: #464646;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */

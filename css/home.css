@@ -92,6 +92,11 @@ body {
     text-decoration: underline; }
   body a {
     z-index: 10; }
+  body .pointer {
+    cursor: pointer; }
+  body .ls-active {
+    color: #464646;
+    text-decoration: underline; }
 
 body div.quote {
   height: 100vh;
@@ -122,6 +127,9 @@ body div.works {
     text-align: center; }
     body div.works div.nav-category ls {
       color: #A9A9A9; }
+    body div.works div.nav-category .ls-active {
+      color: #464646;
+      text-decoration: underline; }
   body div.works div.grid {
     display: grid;
     grid-template-columns: 1fr; }

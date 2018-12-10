@@ -1,6 +1,6 @@
 @import "responsive";
 
-@media (min-width: 300px) {
+@media (min-width: 300px) and (orientation: portrait) {
     .container {
         h1 {
             font-size: 1.6rem;
@@ -45,7 +45,6 @@
 
             .img-right {
                 width: 100%;
-
                 margin-bottom: 30px;
 
                 img {
@@ -65,7 +64,83 @@
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) and (orientation: landscape) {
+    .container {
+        h1 {
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+        }
+
+        h2 {
+            font-size: .9rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: .9rem;
+        }
+
+        h4.underline-link {
+            margin-right: 20px;
+        }
+
+        ls {
+            font-size: 1rem;
+            margin: 0 15px;
+        }
+
+        .nav-category {
+            padding: 20px;
+        }
+
+        .card-text {
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .quote {
+        .quote-center {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .text-left {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                position: absolute;
+            }
+
+            .img-right {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                img {
+                    position: absolute;
+                    right: 0;
+                    z-index: 0;
+                    width: 35%;
+                }
+            }
+        }
+
+        .large-screen {
+            display: block;
+        }
+
+        .small-screen {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
     .container {
         h1 {
             font-size: 1.8rem;
@@ -96,14 +171,78 @@
         .quote-center {
             .img-right {
                 img {
-                    width: 50%;
+                    width: 30%;
                 }
             }
         }
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (orientation: landscape) {
+    .container {
+        h1 {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+
+        ls {
+            font-size: 1rem;
+            margin: 0 20px;
+        }
+
+        .card-text {
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+
+        h4.underline-link {
+            margin-right: 40px;
+        }
+    }
+
+    .quote {
+        .quote-center {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .text-left {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                position: absolute;
+            }
+
+            .img-right {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                img {
+                    position: absolute;
+                    right: 0;
+                    z-index: 0;
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
     .container {
         h1 {
             font-size: 2.2rem;
@@ -135,7 +274,23 @@
         }
     }
 
+    .quote {
+        .quote-center {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
+            .img-right {
+                width: 100%;
+                margin-bottom: 10px;
+
+                img {
+                    width: 35%;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 992px) {
@@ -237,7 +392,5 @@
             padding-top: 30px;
             padding-bottom: 40px;
         }
-
     }
-
 }

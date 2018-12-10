@@ -1,6 +1,6 @@
 @import "responsive";
 
-@media (min-width: 300px) {
+@media (min-width: 300px) and (orientation: portrait) {
     .top {
         .header-container {
             width: 75vw;
@@ -28,10 +28,39 @@
             margin-bottom: 10px;
         }
     }
-
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) and (orientation: landscape) {
+    .top {
+        .header-container {
+            width: 75vw;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        h2 {
+            margin-left: 10px;
+            font-size: 2.5rem;
+            letter-spacing: .1rem;
+        }
+    }
+
+    .main {
+        .photo-grid {
+            margin-top: 30px;
+            line-height: 0;
+            column-count: 1;
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
     .top {
         .header-container {
             width: 75vw;
@@ -49,7 +78,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (orientation: portrait) {
     .top {
         .header-container {
             width: 75vw;
@@ -57,6 +86,37 @@
 
         img {
             width: 60%;
+        }
+
+        h2 {
+            margin-left: 0;
+            font-size: 3rem;
+            letter-spacing: .1rem;
+        }
+    }
+
+    .main {
+        .photo-grid {
+            margin-top: 50px;
+            line-height: 0;
+            column-count: 2;
+            column-gap: 15px;
+        }
+
+        img {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    .top {
+        .header-container {
+            width: 75vw;
+        }
+
+        img {
+            width: 45%;
         }
 
         h2 {
@@ -97,7 +157,6 @@
     }
 }
 
-
 @media (min-width: 1200px) {
     .top {
         .header-container {
@@ -118,7 +177,6 @@
         .photo-grid {
             margin-top: 80px;
             column-gap: 25px;
-
         }
 
         img {

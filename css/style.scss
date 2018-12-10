@@ -159,5 +159,14 @@ body {
         z-index: 10;
     }
 
+    .pointer {
+        cursor: pointer;
+    }
+
+    .ls-active {
+        color: #464646;
+        text-decoration: underline;
+    }
+
     margin: 0;
 }

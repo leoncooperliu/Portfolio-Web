@@ -107,7 +107,7 @@
     height: 650px; }
     .next-project .hero-next {
       height: 550px; } }
-@media (min-width: 300px) {
+@media (min-width: 300px) and (orientation: portrait) {
   .container h1 {
     font-size: 1.6rem;
     line-height: 2.8rem; }
@@ -142,7 +142,53 @@
     display: none; }
   .quote .small-screen {
     display: block; } }
-@media (min-width: 576px) {
+@media (min-width: 300px) and (orientation: landscape) {
+  .container h1 {
+    font-size: 1.4rem;
+    line-height: 2.5rem; }
+  .container h2 {
+    font-size: .9rem;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .container h4 {
+    font-size: .9rem; }
+  .container h4.underline-link {
+    margin-right: 20px; }
+  .container ls {
+    font-size: 1rem;
+    margin: 0 15px; }
+  .container .nav-category {
+    padding: 20px; }
+  .container .card-text {
+    padding-top: 10px;
+    padding-bottom: 20px; }
+
+  .quote .quote-center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .quote .quote-center .text-left {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute; }
+    .quote .quote-center .img-right {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .quote .quote-center .img-right img {
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        width: 35%; }
+  .quote .large-screen {
+    display: block; }
+  .quote .small-screen {
+    display: none; } }
+@media (min-width: 576px) and (orientation: portrait) {
   .container h1 {
     font-size: 1.8rem;
     line-height: 3rem; }
@@ -159,8 +205,48 @@
     margin-right: 30px; }
 
   .quote .quote-center .img-right img {
-    width: 50%; } }
-@media (min-width: 768px) {
+    width: 30%; } }
+@media (min-width: 768px) and (orientation: landscape) {
+  .container h1 {
+    font-size: 1.8rem;
+    line-height: 2.5rem; }
+  .container h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .container h4 {
+    font-size: 1rem; }
+  .container ls {
+    font-size: 1rem;
+    margin: 0 20px; }
+  .container .card-text {
+    padding-top: 20px;
+    padding-bottom: 30px; }
+  .container h4.underline-link {
+    margin-right: 40px; }
+
+  .quote .quote-center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .quote .quote-center .text-left {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute; }
+    .quote .quote-center .img-right {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .quote .quote-center .img-right img {
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        width: 30%; } }
+@media (min-width: 768px) and (orientation: portrait) {
   .container h1 {
     font-size: 2.2rem;
     line-height: 4rem; }
@@ -177,7 +263,18 @@
     padding-top: 20px;
     padding-bottom: 30px; }
   .container h4.underline-link {
-    margin-right: 40px; } }
+    margin-right: 40px; }
+
+  .quote .quote-center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .quote .quote-center .img-right {
+      width: 100%;
+      margin-bottom: 10px; }
+      .quote .quote-center .img-right img {
+        width: 35%; } }
 @media (min-width: 992px) {
   .container h1 {
     font-size: 2.2rem;
