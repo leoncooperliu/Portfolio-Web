@@ -14,8 +14,16 @@ body {
         .video-center {
             display: flex;
             align-items: center;
+            justify-content: center;
+            flex-direction: column;
             height: 100vh;
+
+            h3 {
+                color: white;
+                text-decoration: underline;
+            }
         }
+
         video {
             z-index: 0;
             width: 100%;

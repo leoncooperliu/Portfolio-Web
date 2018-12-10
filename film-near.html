@@ -14,17 +14,18 @@
 <body>
     <div class="top bg-color-black">
         <div class="nav-container">
-            <div class="nav-bar">
+            <div class="nav-bar animated fadeInDown">
                 <a href="index.html"><img id="back-icon" src="svg/back-icon-grey.svg"></a>
             </div>
         </div>
-        <div class="video-center">
+        <div class="video-center animated fadeIn">
             <video loop autoplay muted poster="img/home-film-near.jpg">
                 <source type="video/mp4" src="mp4/home-near1.mp4" />
             </video>
+            <h3 class="nova-semibold"><a href="#film-info">View Short film</a></h3>
         </div>
     </div>
-    <div class="info bg-color-dark">
+    <div class="info bg-color-dark" id="film-info">
         <div class="info-grid container">
             <div class="card1">
                 <h3 class="nova-bold">TYPE:</h3>
@@ -75,15 +76,15 @@
                     </a>
                 </div>
                 <div class="card">
-                    <ls class="margin">Email: <u>leoncooper@nyu.com</u></ls>
-                    <ls>Follow: <u>unsplash/@leoncooper</u></ls>
+                    <ls class="margin">E-mail: <span class="underline"><a href="mailto:leoncooper@nyu.edu">leoncooper@nyu.edu</a></span></ls>
+                    <ls> Follow: <span class="underline"><a href="https://unsplash.com/@leoncooper">unsplash/@leoncooper</a></span></ls>
                 </div>
                 <div class="card">
-                    <ls class="margin">About</ls>
-                    <ls>Works</ls>
+                    <ls class="margin"><a href="bio.html">About</a></ls>
+                    <ls><a href="index.html#my-works">Works</a></ls>
                 </div>
                 <div class="card">
-                    <ls class="margin"><u>View Resume ></u></ls>
+                    <ls class="margin"><a href="leon_resume.pdf"><u>View Resume ></u></a></ls>
                     <ls>© 2018 by Leon Liu</ls>
                 </div>
             </div>

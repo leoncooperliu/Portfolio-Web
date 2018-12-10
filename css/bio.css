@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:700");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("anim/animate.css");
+@import url("anim/self-define.css");
 @import url("https://fonts.googleapis.com/css?family=Cardo:700");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("anim/animate.css");
+@import url("anim/self-define.css");
 @font-face {
   font-family: ProximaNovaB;
   src: url("fonts/proximanova-bold.otf"); }
@@ -13,6 +17,9 @@
 @font-face {
   font-family: ProximaNova;
   src: url("fonts/proximanova-regular.otf"); }
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0; }
   body a {
@@ -100,6 +107,9 @@ body {
 @font-face {
   font-family: ProximaNova;
   src: url("fonts/proximanova-regular.otf"); }
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0; }
   body a {
