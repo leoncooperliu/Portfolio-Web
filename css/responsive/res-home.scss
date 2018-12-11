@@ -17,7 +17,7 @@
             font-size: 1rem;
         }
 
-        h4.underline-link {
+        .quote--underline {
             margin-right: 20px;
         }
 
@@ -26,24 +26,24 @@
             margin: 0 15px;
         }
 
-        .nav-category {
+        .works__category {
             padding: 20px;
         }
 
-        .card-text {
+        .works__card__text {
             padding-top: 10px;
             padding-bottom: 20px;
         }
     }
 
     .quote {
-        .quote-center {
+        .quote--center {
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
-            .img-right {
+            .quote__right {
                 width: 100%;
                 margin-bottom: 30px;
 
@@ -81,7 +81,7 @@
             font-size: .9rem;
         }
 
-        h4.underline-link {
+        .quote--underline {
             margin-right: 20px;
         }
 
@@ -90,24 +90,24 @@
             margin: 0 15px;
         }
 
-        .nav-category {
+        .works__category {
             padding: 20px;
         }
 
-        .card-text {
+        .works__card__text {
             padding-top: 10px;
             padding-bottom: 20px;
         }
     }
 
     .quote {
-        .quote-center {
+        .quote--center {
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
-            .text-left {
+            .quote__left {
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -115,7 +115,7 @@
                 position: absolute;
             }
 
-            .img-right {
+            .quote__right {
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -153,23 +153,23 @@
             margin-bottom: 20px;
         }
 
-        .nav-category {
+        .works__category {
             padding: 30px;
         }
 
-        .card-text {
+        .works__card__text {
             padding-top: 15px;
             padding-bottom: 25px;
         }
 
-        h4.underline-link {
+        .quote--underline {
             margin-right: 30px;
         }
     }
 
     .quote {
-        .quote-center {
-            .img-right {
+        .quote--center {
+            .quote__right {
                 img {
                     width: 30%;
                 }
@@ -200,24 +200,24 @@
             margin: 0 20px;
         }
 
-        .card-text {
+        .works__card__text {
             padding-top: 20px;
             padding-bottom: 30px;
         }
 
-        h4.underline-link {
+        .quote--underline {
             margin-right: 40px;
         }
     }
 
     .quote {
-        .quote-center {
+        .quote--center {
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
-            .text-left {
+            .quote__left {
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -225,7 +225,7 @@
                 position: absolute;
             }
 
-            .img-right {
+            .quote__right {
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -264,24 +264,24 @@
             margin: 0 20px;
         }
 
-        .card-text {
+        .works__card__text {
             padding-top: 20px;
             padding-bottom: 30px;
         }
 
-        h4.underline-link {
+        .quote--underline {
             margin-right: 40px;
         }
     }
 
     .quote {
-        .quote-center {
+        .quote--center {
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
-            .img-right {
+            .quote__right {
                 width: 100%;
                 margin-bottom: 10px;
 
@@ -315,19 +315,19 @@
             margin: 0 40px;
         }
 
-        .nav-category {
+        .works__category {
             padding: 40px;
         }
 
-        .card-text {
+        .works__card__text {
             padding-top: 25px;
             padding-bottom: 35px;
         }
     }
 
     .quote {
-        .quote-center {
-            .text-left {
+        .quote--center {
+            .quote__left {
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -335,7 +335,7 @@
                 position: absolute;
             }
 
-            .img-right {
+            .quote__right {
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -383,12 +383,11 @@
             margin: 0 50px;
         }
 
-
-        .nav-category {
+        .works__category {
             padding: 55px;
         }
 
-        .card-text {
+        .works__card__text {
             padding-top: 30px;
             padding-bottom: 40px;
         }

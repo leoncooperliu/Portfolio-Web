@@ -8,14 +8,14 @@ const FILMS = {
 
 const PHOTOS = {
     page: ["photo-dancer.html", "photo-kathy.html", "photo-long.html"],
-    location: ["img/home-photo-dancer.jpg", "img/home-photo-kathy.jpg", "img/home-photo-land.jpg"],
+    location: ["img/home-photo-dancer.jpg", "img/home-photo-kathy.jpg", "img/home-photo-long.jpg"],
     name: ["View Portraiture", "View Portraiture", "View Landscape"],
     type: ["img", "img", "img"]
 }
 
 const RECENTS = {
     page: ["photo-dancer.html", "film-near.html", "photo-kathy.html", "film-chasing.html", "photo-long.html", "film-gala.html"],
-    location: ["img/home-photo-dancer.jpg", "mp4/home-near1.mp4", "img/home-photo-kathy.jpg", "mp4/home-shadow.mp4", "img/home-photo-land.jpg", "mp4/home-gala.mp4"],
+    location: ["img/home-photo-dancer.jpg", "mp4/home-near1.mp4", "img/home-photo-kathy.jpg", "mp4/home-shadow.mp4", "img/home-photo-long.jpg", "mp4/home-gala.mp4"],
     name: ["View Portraiture", "View Short Film", "View Portraiture", "View Feature Film", "View Landscape", "View Trailer"],
     poster: ["", "img/home-film-near.jpg", "", "img/home-film-shadow.jpg", "", "img/home-film-gala.jpg"],
     type: ["img", "mp4", "img", "mp4", "img", "mp4"]

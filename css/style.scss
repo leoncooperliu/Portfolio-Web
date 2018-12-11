@@ -34,46 +34,49 @@ body {
         font-family: ProximaNova;
     }
 
-    .nova-semibold {
+    /* Fonts */
+
+    .font--nova-semibold {
         font-family: ProximaNovaSB;
     }
 
-    .nova-bold {
+    .font--nova-bold {
         font-family: ProximaNovaB;
     }
 
-    .nova {
+    .font--nova {
         font-family: ProximaNova;
     }
 
-    .cardo {
+    .font--cardo {
         font-family: cardo;
     }
 
-    .lato {
+    .font--lato {
         font-family: lato;
     }
 
-    .oswald {
+    .font--oswald {
         font-family: oswald;
     }
 
     .sitemap {
-        div.sitemap-flex {
-            div.card {
+        .sitemap--flex {
+            .sitemap__card {
                 height: auto;
                 border: 0;
                 background-color: transparent;
 
                 h3 {
-                    margin-bottom: 0;
+                    margin: 0;
                 }
 
                 ls {
+                    display: block;
                     color: #828282;
                 }
 
-                .leon-icon {
+                .sitemap__icon {
                     width: 200px;
                 }
             }
@@ -146,7 +149,7 @@ body {
         padding: 0;
     }
 
-    .nav-container {
+    .nav--container {
         width: 95vw;
         margin: 0 auto;
     }
@@ -159,13 +162,8 @@ body {
         z-index: 10;
     }
 
-    .pointer {
+    .text--pointer {
         cursor: pointer;
-    }
-
-    .ls-active {
-        color: #464646;
-        text-decoration: underline;
     }
 
     margin: 0;

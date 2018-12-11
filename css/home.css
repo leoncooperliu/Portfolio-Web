@@ -16,32 +16,34 @@ html {
   scroll-behavior: smooth; }
 
 body {
+  /* Fonts */
   margin: 0; }
   body a {
     color: unset; }
   body p {
     font-family: ProximaNova; }
-  body .nova-semibold {
+  body .font--nova-semibold {
     font-family: ProximaNovaSB; }
-  body .nova-bold {
+  body .font--nova-bold {
     font-family: ProximaNovaB; }
-  body .nova {
+  body .font--nova {
     font-family: ProximaNova; }
-  body .cardo {
+  body .font--cardo {
     font-family: cardo; }
-  body .lato {
+  body .font--lato {
     font-family: lato; }
-  body .oswald {
+  body .font--oswald {
     font-family: oswald; }
-  body .sitemap div.sitemap-flex div.card {
+  body .sitemap .sitemap--flex .sitemap__card {
     height: auto;
     border: 0;
     background-color: transparent; }
-    body .sitemap div.sitemap-flex div.card h3 {
-      margin-bottom: 0; }
-    body .sitemap div.sitemap-flex div.card ls {
+    body .sitemap .sitemap--flex .sitemap__card h3 {
+      margin: 0; }
+    body .sitemap .sitemap--flex .sitemap__card ls {
+      display: block;
       color: #828282; }
-    body .sitemap div.sitemap-flex div.card .leon-icon {
+    body .sitemap .sitemap--flex .sitemap__card .sitemap__icon {
       width: 200px; }
   body .bg-color-black {
     background-color: black; }
@@ -85,68 +87,65 @@ body {
     background-position: center; }
   body .container {
     padding: 0; }
-  body .nav-container {
+  body .nav--container {
     width: 95vw;
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
   body a {
     z-index: 10; }
-  body .pointer {
+  body .text--pointer {
     cursor: pointer; }
-  body .ls-active {
-    color: #464646;
-    text-decoration: underline; }
 
-body div.quote {
+body .quote {
   height: 100vh;
   background-color: #1B1B1B; }
-  body div.quote div.quote-center {
+  body .quote .quote--center {
     position: relative; }
-    body div.quote div.quote-center div.text-left {
+    body .quote .quote--center .quote__left {
       top: 0;
       z-index: 1; }
-      body div.quote div.quote-center div.text-left h1 {
+      body .quote .quote--center .quote__left h1 {
         color: white;
         margin-bottom: 0; }
-      body div.quote div.quote-center div.text-left h2,
-      body div.quote div.quote-center div.text-left h4.underline-link {
+      body .quote .quote--center .quote__left .quote--grey {
         color: #878787; }
-      body div.quote div.quote-center div.text-left div.link-container h4.underline-link {
-        display: inline-block;
+      body .quote .quote--center .quote__left .quote--underline {
         text-decoration: underline; }
-  body div.quote .top-container {
+      body .quote .quote--center .quote__left .quote--inline {
+        display: inline-block; }
+  body .quote .top-container {
     width: 70vw;
     margin: 0 auto; }
-body div.works {
+body .works {
   padding-bottom: 100px;
   background-color: #f3f3f3; }
-  body div.works div.nav-category {
+  body .works .works__category {
     display: flex;
     justify-content: center;
     text-align: center; }
-    body div.works div.nav-category ls {
+    body .works .works__category ls {
       color: #A9A9A9; }
-    body div.works div.nav-category .ls-active {
+    body .works .works__category .btn--active {
       color: #464646;
       text-decoration: underline; }
-  body div.works div.grid {
+  body .works .works__grid {
     display: grid;
     grid-template-columns: 1fr; }
-    body div.works div.grid div.card {
+    body .works .works__grid .works__card {
       background-color: inherit;
       border: 0; }
-      body div.works div.grid div.card img {
+      body .works .works__grid .works__card img {
         width: 100%; }
-      body div.works div.grid div.card video {
+      body .works .works__grid .works__card video {
         margin: 0;
         padding: 0;
         border: 0;
         width: 100%;
         height: 100%; }
-      body div.works div.grid div.card div.card-text {
+      body .works .works__grid .works__card .works__card__text {
         text-align: right; }
-        body div.works div.grid div.card div.card-text h4 {
+        body .works .works__grid .works__card .works__card__text h4 {
           margin-bottom: 0; }
 
 /*# sourceMappingURL=home.css.map */

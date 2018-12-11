@@ -21,7 +21,7 @@ body {
             }
         }
 
-        .top-flex {
+        .top--flex {
             height: 100vh;
             display: flex;
             justify-content: space-between;
@@ -36,10 +36,10 @@ body {
             align-items: center;
         }
 
-        .top-flex {
+        .top--flex {
             position: relative;
 
-            .text-left {
+            .top__text {
                 color: white;
                 position: absolute;
                 text-align: left;
@@ -59,9 +59,7 @@ body {
         }
     }
 
-
-
-    .header-container {
+    .header--container {
         margin: 0 auto;
     }
 

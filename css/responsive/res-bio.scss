@@ -2,7 +2,7 @@
 
 @media (min-width: 300px) {
     .top {
-        .header-container {
+        .header--container {
             width: 70vw;
         }
 
@@ -18,20 +18,15 @@
     }
 
     .container {
-
-        .section {
+        .bio__section {
             display: flex;
             flex-direction: column;
 
-            .right {
+            .bio__right {
                 grid-template-columns: 1fr;
             }
 
-            ls {}
-        }
-
-        .section {
-            .bio {
+            .bio--main {
                 p {
                     font-size: 1rem;
                     line-height: 2.2rem;
@@ -39,7 +34,7 @@
                 }
             }
 
-            .detail {
+            .bio--detail {
 
                 p,
                 ls {
@@ -48,7 +43,7 @@
                 }
             }
 
-            .left {
+            .bio__left {
                 text-align: left;
 
                 p {
@@ -56,8 +51,8 @@
                 }
             }
 
-            .right {
-                .small-card {
+            .bio__right {
+                .bio__right__card {
                     width: 300px;
                     margin-bottom: 20px;
                 }
@@ -70,7 +65,7 @@
 
 @media (min-width: 576px) {
     .top {
-        .header-container {
+        .header--container {
             width: 70vw;
         }
 
@@ -85,11 +80,11 @@
     }
 
     .container {
-        .section {
+        .bio__section {
             display: flex;
             flex-direction: row;
 
-            .bio {
+            .bio--main {
                 p {
                     font-size: 1rem;
                     line-height: 2.2rem;
@@ -97,7 +92,7 @@
                 }
             }
 
-            .detail {
+            .bio--detail {
 
                 p,
                 ls {
@@ -106,7 +101,7 @@
                 }
             }
 
-            .left {
+            .bio__left {
                 text-align: right;
 
                 p {
@@ -115,8 +110,8 @@
                 }
             }
 
-            .right {
-                .small-card {
+            .bio__right {
+                .bio__right__card {
                     width: 300px;
                     margin-bottom: 20px;
                 }
@@ -128,7 +123,7 @@
 
 @media (min-width: 768px) {
     .top {
-        .header-container {
+        .header--container {
             width: 60vw;
         }
 
@@ -143,9 +138,8 @@
     }
 
     .container {
-        .section {
-
-            .bio {
+        .bio__section {
+            .bio--main {
                 p {
                     font-size: 1.2rem;
                     line-height: 3rem;
@@ -153,7 +147,7 @@
                 }
             }
 
-            .detail {
+            .bio--detail {
 
                 p,
                 ls {
@@ -162,17 +156,17 @@
                 }
             }
 
-            .left {
+            .bio__left {
                 p {
                     width: 80px;
                     margin-right: 25px;
                 }
             }
 
-            .right {
+            .bio__right {
                 grid-template-columns: 1fr 1fr;
 
-                .small-card {
+                .bio__right__card {
                     width: 300px;
                     margin-bottom: 30px;
                 }
@@ -184,7 +178,7 @@
 
 @media (min-width: 992px) {
     .top {
-        .header-container {
+        .header--container {
             width: 55vw;
         }
 
@@ -198,8 +192,8 @@
     }
 
     .container {
-        .section {
-            .bio {
+        .bio__section {
+            .bio--main {
                 p {
                     font-size: 1.2rem;
                     line-height: 3rem;
@@ -207,7 +201,7 @@
                 }
             }
 
-            .detail {
+            .bio--detail {
 
                 p,
                 ls {
@@ -216,17 +210,17 @@
                 }
             }
 
-            .left {
+            .bio__left {
                 p {
                     width: 100px;
                     margin-right: 25px;
                 }
             }
 
-            .right {
+            .bio__right {
                 grid-template-columns: 1fr 1fr;
 
-                .small-card {
+                .bio__right__card {
                     width: 300px;
                     margin-bottom: 30px;
                 }
@@ -240,7 +234,7 @@
 
 @media (min-width: 1200px) {
     .top {
-        .header-container {
+        .header--container {
             width: 60vw;
         }
 
@@ -254,8 +248,8 @@
     }
 
     .container {
-        .section {
-            .bio {
+        .bio__section {
+            .bio--main {
                 p {
                     font-size: 1.2rem;
                     line-height: 3rem;
@@ -263,7 +257,7 @@
                 }
             }
 
-            .detail {
+            .bio--detail {
 
                 p,
                 ls {
@@ -272,15 +266,15 @@
                 }
             }
 
-            .left {
+            .bio__left {
                 p {
                     width: 150px;
                     margin-right: 30px;
                 }
             }
 
-            .right {
-                .small-card {
+            .bio__right {
+                .bio__right__card {
                     width: 350px;
                     margin-bottom: 30px;
                 }

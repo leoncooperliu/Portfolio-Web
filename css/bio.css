@@ -21,32 +21,34 @@ html {
   scroll-behavior: smooth; }
 
 body {
+  /* Fonts */
   margin: 0; }
   body a {
     color: unset; }
   body p {
     font-family: ProximaNova; }
-  body .nova-semibold {
+  body .font--nova-semibold {
     font-family: ProximaNovaSB; }
-  body .nova-bold {
+  body .font--nova-bold {
     font-family: ProximaNovaB; }
-  body .nova {
+  body .font--nova {
     font-family: ProximaNova; }
-  body .cardo {
+  body .font--cardo {
     font-family: cardo; }
-  body .lato {
+  body .font--lato {
     font-family: lato; }
-  body .oswald {
+  body .font--oswald {
     font-family: oswald; }
-  body .sitemap div.sitemap-flex div.card {
+  body .sitemap .sitemap--flex .sitemap__card {
     height: auto;
     border: 0;
     background-color: transparent; }
-    body .sitemap div.sitemap-flex div.card h3 {
-      margin-bottom: 0; }
-    body .sitemap div.sitemap-flex div.card ls {
+    body .sitemap .sitemap--flex .sitemap__card h3 {
+      margin: 0; }
+    body .sitemap .sitemap--flex .sitemap__card ls {
+      display: block;
       color: #828282; }
-    body .sitemap div.sitemap-flex div.card .leon-icon {
+    body .sitemap .sitemap--flex .sitemap__card .sitemap__icon {
       width: 200px; }
   body .bg-color-black {
     background-color: black; }
@@ -90,18 +92,15 @@ body {
     background-position: center; }
   body .container {
     padding: 0; }
-  body .nav-container {
+  body .nav--container {
     width: 95vw;
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
   body a {
     z-index: 10; }
-  body .pointer {
+  body .text--pointer {
     cursor: pointer; }
-  body .ls-active {
-    color: #464646;
-    text-decoration: underline; }
 
 @font-face {
   font-family: ProximaNovaB;
@@ -116,32 +115,34 @@ html {
   scroll-behavior: smooth; }
 
 body {
+  /* Fonts */
   margin: 0; }
   body a {
     color: unset; }
   body p {
     font-family: ProximaNova; }
-  body .nova-semibold {
+  body .font--nova-semibold {
     font-family: ProximaNovaSB; }
-  body .nova-bold {
+  body .font--nova-bold {
     font-family: ProximaNovaB; }
-  body .nova {
+  body .font--nova {
     font-family: ProximaNova; }
-  body .cardo {
+  body .font--cardo {
     font-family: cardo; }
-  body .lato {
+  body .font--lato {
     font-family: lato; }
-  body .oswald {
+  body .font--oswald {
     font-family: oswald; }
-  body .sitemap div.sitemap-flex div.card {
+  body .sitemap .sitemap--flex .sitemap__card {
     height: auto;
     border: 0;
     background-color: transparent; }
-    body .sitemap div.sitemap-flex div.card h3 {
-      margin-bottom: 0; }
-    body .sitemap div.sitemap-flex div.card ls {
+    body .sitemap .sitemap--flex .sitemap__card h3 {
+      margin: 0; }
+    body .sitemap .sitemap--flex .sitemap__card ls {
+      display: block;
       color: #828282; }
-    body .sitemap div.sitemap-flex div.card .leon-icon {
+    body .sitemap .sitemap--flex .sitemap__card .sitemap__icon {
       width: 200px; }
   body .bg-color-black {
     background-color: black; }
@@ -185,18 +186,15 @@ body {
     background-position: center; }
   body .container {
     padding: 0; }
-  body .nav-container {
+  body .nav--container {
     width: 95vw;
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
   body a {
     z-index: 10; }
-  body .pointer {
+  body .text--pointer {
     cursor: pointer; }
-  body .ls-active {
-    color: #464646;
-    text-decoration: underline; }
 
 body .top {
   height: 100vh; }
@@ -213,7 +211,7 @@ body .top {
       text-align: right;
       color: #949494;
       margin-bottom: 0; }
-  body .top .top-flex {
+  body .top .top--flex {
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -224,34 +222,34 @@ body .top {
     display: flex;
     justify-content: center;
     align-items: center; }
-  body .top .top-flex {
+  body .top .top--flex {
     position: relative; }
-    body .top .top-flex .text-left {
+    body .top .top--flex .top__text {
       color: white;
       position: absolute;
       text-align: left;
       z-index: 1; }
-      body .top .top-flex .text-left h2 {
+      body .top .top--flex .top__text h2 {
         margin-top: 0px;
         margin-bottom: 0px; }
-    body .top .top-flex img {
+    body .top .top--flex img {
       position: absolute;
       right: 0;
       z-index: 0; }
-body .header-container {
+body .header--container {
   margin: 0 auto; }
 
-body div.top h2 {
+body .top h2 {
   margin-bottom: 0; }
-body div.bio div.main div.section .bio {
+body .bio .bio__section .bio--main {
   display: grid;
   grid-template-columns: 1fr; }
-body div.bio div.main div.section div.left p {
+body .bio .bio__section .bio__left p {
   color: #727272; }
-body div.bio div.main div.section div.right {
+body .bio .bio__section .bio__right {
   text-align: left;
   display: grid; }
-body div.bio div.main .bottom {
+body .bio .bio--bottom {
   margin-bottom: 100px; }
 
 /*# sourceMappingURL=bio.css.map */

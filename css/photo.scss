@@ -9,7 +9,7 @@ body {
 
     }
 
-    .main {
+    .photos {
         padding-bottom: 200px;
 
         img {
@@ -17,12 +17,23 @@ body {
             height: auto;
         }
 
-        .photo-grid-1 {
+        .photo--grid-1 {
             margin-top: 50px;
             line-height: 0;
             column-count: 1;
             column-gap: 0;
         }
+    }
 
+    .generate-button {
+        text-align: center;
+        margin-top: 30px;
+
+        ls {
+            margin-bottom: 30px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            text-decoration: underline;
+        }
     }
 }

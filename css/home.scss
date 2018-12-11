@@ -2,16 +2,14 @@
 
 body {
 
-    div.quote {
+    .quote {
         height: 100vh;
         background-color: #1B1B1B;
 
-        div.quote-center {
+        .quote--center {
             position: relative;
 
-            div.img-right {}
-
-            div.text-left {
+            .quote__left {
                 top: 0;
                 z-index: 1;
 
@@ -20,16 +18,16 @@ body {
                     margin-bottom: 0;
                 }
 
-                h2,
-                h4.underline-link {
+                .quote--grey {
                     color: #878787;
                 }
 
-                div.link-container {
-                    h4.underline-link {
-                        display: inline-block;
-                        text-decoration: underline;
-                    }
+                .quote--underline {
+                    text-decoration: underline;
+                }
+
+                .quote--inline {
+                    display: inline-block;
                 }
             }
         }
@@ -40,11 +38,11 @@ body {
         }
     }
 
-    div.works {
+    .works {
         padding-bottom: 100px;
         background-color: #f3f3f3;
 
-        div.nav-category {
+        .works__category {
             display: flex;
             justify-content: center;
             text-align: center;
@@ -53,18 +51,18 @@ body {
                 color: #A9A9A9;
             }
 
-            .ls-active {
+            .btn--active {
                 color: #464646;
                 text-decoration: underline;
             }
 
         }
 
-        div.grid {
+        .works__grid {
             display: grid;
             grid-template-columns: 1fr;
 
-            div.card {
+            .works__card {
                 background-color: inherit;
                 border: 0;
 
@@ -80,7 +78,7 @@ body {
                     height: 100%;
                 }
 
-                div.card-text {
+                .works__card__text {
                     text-align: right;
 
                     h4 {

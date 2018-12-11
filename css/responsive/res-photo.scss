@@ -2,7 +2,7 @@
 
 @media (min-width: 300px) and (orientation: portrait) {
     .top {
-        .header-container {
+        .header--container {
             width: 75vw;
         }
 
@@ -17,8 +17,8 @@
         }
     }
 
-    .main {
-        .photo-grid {
+    .photos {
+        .photo--grid {
             margin-top: 30px;
             line-height: 0;
             column-count: 1;
@@ -32,12 +32,12 @@
 
 @media (min-width: 300px) and (orientation: landscape) {
     .top {
-        .header-container {
+        .header--container {
             width: 75vw;
         }
 
         img {
-            width: 50%;
+            width: 45%;
         }
 
         h2 {
@@ -47,8 +47,8 @@
         }
     }
 
-    .main {
-        .photo-grid {
+    .photos {
+        .photo--grid {
             margin-top: 30px;
             line-height: 0;
             column-count: 1;
@@ -62,7 +62,7 @@
 
 @media (min-width: 576px) and (orientation: portrait) {
     .top {
-        .header-container {
+        .header--container {
             width: 75vw;
         }
 
@@ -80,7 +80,7 @@
 
 @media (min-width: 768px) and (orientation: portrait) {
     .top {
-        .header-container {
+        .header--container {
             width: 75vw;
         }
 
@@ -95,8 +95,8 @@
         }
     }
 
-    .main {
-        .photo-grid {
+    .photos {
+        .photo--grid {
             margin-top: 50px;
             line-height: 0;
             column-count: 2;
@@ -111,7 +111,7 @@
 
 @media (min-width: 768px) and (orientation: landscape) {
     .top {
-        .header-container {
+        .header--container {
             width: 75vw;
         }
 
@@ -126,8 +126,8 @@
         }
     }
 
-    .main {
-        .photo-grid {
+    .photos {
+        .photo--grid {
             margin-top: 50px;
             line-height: 0;
             column-count: 2;
@@ -142,7 +142,7 @@
 
 @media (min-width: 992px) {
     .top {
-        .header-container {
+        .header--container {
             width: 65vw;
         }
 
@@ -159,7 +159,7 @@
 
 @media (min-width: 1200px) {
     .top {
-        .header-container {
+        .header--container {
             width: 55vw;
         }
 
@@ -173,8 +173,8 @@
         }
     }
 
-    .main {
-        .photo-grid {
+    .photos {
+        .photo--grid {
             margin-top: 80px;
             column-gap: 25px;
         }

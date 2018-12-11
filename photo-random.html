@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/photo.css">
     <link rel="stylesheet" href="css/responsive/res-photo.css">
     <link rel="icon" href="img/web-icon.jpg" sizes="16x16">
+    <script src="js/unsplash.js" defer></script>
     <title>LEON LIU - Long Exposure</title>
 </head>
 
@@ -18,40 +19,18 @@
                 <a href="index.html"><img id="back-icon" src="svg/back-icon-grey.svg"></a>
             </div>
         </div>
-        <div class="header--container top--flex">
+        <div class="container top--flex">
             <div class="top__text">
-                <h2 class="font--nova-bold animated fadeInLeft">LONG EXPOSURE</h2>
-            </div>
-            <img class="animated fadeInRight" src="img/long/photo-long-1.jpg">
-        </div>
-    </div>
-    <div class="info bg-color-dark">
-        <div class="info--grid container">
-            <div class="info__card">
-                <h3 class="font--nova-bold">TYPE:</h3>
-                <h4 class="font--nova">Landscape</h4>
-            </div>
-            <div class="info__card">
-                <h3 class="font--nova-bold">ROLE:</h3>
-                <h4 class="font--nova">Photographer</h4>
-            </div>
-            <div class="info__card">
-                <h3 class="font--nova-bold">TIME:</h3>
-                <h4 class="font--nova">2016-2018</h4>
-            </div>
-            <div class="info__card">
-                <h3 class="font--nova-bold">LOCATION:</h3>
-                <h4 class="font--nova">China, United States</h4>
+                <h2 class="font--nova-bold animated fadeInLeft">UNSPLASH RANDON PHOTO GALLERY</h2>
             </div>
         </div>
     </div>
 
-    <div class="photos bg-color-light">
-        <div class="photo--grid-1 container">
-            <img src="img/long/photo-long-2.jpg" alt="me photo">
-            <img src="img/long/photo-long-3.jpg" alt="me photo">
-            <img src="img/long/photo-long-4.jpg" alt="me photo">
-            <img src="img/long/photo-long-5.jpg" alt="me photo">
+    <div class="main bg-color-light">
+        <div class="generate-button container">
+            <ls class="font--nova" id="generate-btn">Click to Render Photos!</ls>
+        </div>
+        <div class="photo-grid container" id="body-img">
         </div>
     </div>
 

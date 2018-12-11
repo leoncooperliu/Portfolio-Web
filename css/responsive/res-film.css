@@ -2,17 +2,17 @@
   .container {
     max-width: 93vw; }
 
-  .sitemap .sitemap-flex {
+  .sitemap .sitemap--flex {
     margin: 0 auto;
     height: 150px;
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr; }
-    .sitemap .sitemap-flex h3 {
+    .sitemap .sitemap--flex h3 {
       font-size: 1.5rem; }
-    .sitemap .sitemap-flex ls {
+    .sitemap .sitemap--flex ls {
       font-size: .6rem; }
-    .sitemap .sitemap-flex ls.margin {
+    .sitemap .sitemap--flex .card--margin {
       margin-bottom: 5px; }
 
   .next-project {
@@ -23,15 +23,15 @@
   .info {
     padding-top: 60px;
     padding-bottom: 60px; }
-    .info .info-grid {
+    .info .info--grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       color: white; }
-      .info .info-grid .card1 {
+      .info .info--grid .info__card {
         margin-bottom: 10px; }
-        .info .info-grid .card1 h3 {
+        .info .info--grid .info__card h3 {
           font-size: .8rem; }
-        .info .info-grid .card1 h4 {
+        .info .info--grid .info__card h4 {
           font-size: 1rem; }
 
   #back-icon {
@@ -41,9 +41,9 @@
   .container {
     max-width: 540px; }
 
-  .sitemap .sitemap-flex h3 {
+  .sitemap .sitemap--flex h3 {
     font-size: 1.7rem; }
-  .sitemap .sitemap-flex ls {
+  .sitemap .sitemap--flex ls {
     font-size: .8rem; }
 
   .next-project {
@@ -51,11 +51,11 @@
     .next-project .hero-next {
       height: 200px; }
 
-  .info-grid .card1 {
+  .info--grid .info__card {
     margin-bottom: 10px; }
-    .info-grid .card1 h3 {
+    .info--grid .info__card h3 {
       font-size: 1rem; }
-    .info-grid .card1 h4 {
+    .info--grid .info__card h4 {
       font-size: 1.2rem; }
 
   #back-icon {
@@ -64,16 +64,16 @@
   .container {
     max-width: 720px; }
 
-  .sitemap .sitemap-flex {
+  .sitemap .sitemap--flex {
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    .sitemap .sitemap-flex h3 {
+    .sitemap .sitemap--flex h3 {
       font-size: 2rem; }
-    .sitemap .sitemap-flex ls {
+    .sitemap .sitemap--flex ls {
       font-size: 1rem; }
-    .sitemap .sitemap-flex ls.margin {
+    .sitemap .sitemap--flex .card--margin {
       margin-bottom: 10px; }
 
   .next-project {
@@ -95,7 +95,7 @@
   .info {
     padding-top: 60px;
     padding-bottom: 60px; }
-    .info .info-grid {
+    .info .info--grid {
       display: flex;
       justify-content: space-between;
       color: white; } }
@@ -107,7 +107,7 @@
     height: 650px; }
     .next-project .hero-next {
       height: 550px; } }
-@media (min-width: 300px) {
+@media (min-width: 300px) and (orientation: portrait) {
   .main {
     padding-bottom: 150px; }
 
@@ -128,8 +128,31 @@
   .video iframe {
     height: 200px; }
 
-  .video-center h3 {
+  .video--center h3 {
     display: block; } }
+@media (min-width: 300px) and (orientation: landscape) {
+  .main {
+    padding-bottom: 150px; }
+
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 30px; }
+
+  h3 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+
+  p {
+    font-size: .9rem;
+    line-height: 1.8rem;
+    margin-bottom: 70px; }
+
+  .video iframe {
+    height: 200px; }
+
+  .video--center h3 {
+    display: none; } }
 @media (min-width: 576px) {
   h2 {
     font-size: 2rem;
@@ -165,7 +188,7 @@
 
   .video iframe {
     height: 400px; } }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (orientation: portrait) {
   h2 {
     font-size: 2.5rem;
     margin-bottom: 50px; }
@@ -181,7 +204,30 @@
     margin-bottom: 100px; }
 
   .video iframe {
-    height: 500px; } }
+    height: 500px; }
+
+  .video--center h3 {
+    display: block; } }
+@media (min-width: 992px) and (orientation: landscape) {
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px; }
+
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 35px;
+    margin-bottom: 15px; }
+
+  p {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    margin-bottom: 100px; }
+
+  .video iframe {
+    height: 500px; }
+
+  .video--center h3 {
+    display: block; } }
 @media (min-width: 1200px) {
   h2 {
     font-size: 3rem;
@@ -200,7 +246,7 @@
   .video iframe {
     height: 600px; }
 
-  .video-center h3 {
+  .video--center h3 {
     display: none; } }
 
 /*# sourceMappingURL=res-film.css.map */
