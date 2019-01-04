@@ -35,33 +35,27 @@ const RECENTS = {
     page: ["photo-dancer.html",
            "film-near.html",
            "photo-kathy.html",
-           "film-chasing.html",
-           "photo-long.html",
-           "film-gala.html"],
+
+           "photo-long.html"
+           ],
     location: ["img/home-photo-dancer.jpg",
                "mp4/home-near1.mp4",
                "img/home-photo-kathy.jpg",
-               "mp4/home-shadow.mp4",
-               "img/home-photo-long.jpg",
-               "mp4/home-gala.mp4"],
+               "img/home-photo-long.jpg"
+               ],
     name: ["View Portraiture",
            "View Short Film",
            "View Portraiture",
-           "View Feature Film",
-           "View Landscape",
-           "View Trailer"],
+           "View Landscape"
+           ],
     poster: ["",
              "img/home-film-near.jpg",
              "",
-             "img/home-film-shadow.jpg",
-             "",
-             "img/home-film-gala.jpg"],
+             ""],
     type: ["img",
            "mp4",
            "img",
-           "mp4",
-           "img",
-           "mp4"]
+           "img"]
 }
 
 const BLOGS = {
@@ -101,6 +95,13 @@ const showProjects = (inputArray) => {
         const inDiv = document.createElement("div");
         const title = document.createElement('h4');
 
+        //poster
+        const inDivPoster = document.createElement('div');
+        const outDivPoster = document.createElement('div');
+        const a3 = document.createElement('a');
+        const a4 = document.createElement('a');
+        const title1 = document.createElement('h4');
+
         if (inputArray['type'][i] == "mp4") {
             const vid = document.createElement('video');
             a1.setAttribute('href', inputArray["page"][i]);
@@ -115,16 +116,35 @@ const showProjects = (inputArray) => {
             title.innerHTML = inputArray["name"][i];
             title.classList.add('font--nova-semibold');
             a2.appendChild(title);
-            console.log(title);
 
             inDiv.appendChild(a2);
             inDiv.classList.add('works__card__text');
 
-            outDiv.classList.add('works__card', 'animated', 'fadeInUp');
+            outDiv.classList.add('works__card', 'animated', 'fadeInUp', 'large-screen');
             outDiv.appendChild(a1);
             outDiv.appendChild(inDiv);
             allProject.appendChild(outDiv);
-            console.log('sucess-video');
+
+
+            //poster
+            a3.setAttribute('href', inputArray["page"][i]);
+            const img = document.createElement('img');
+            img.src = inputArray["poster"][i];
+            a3.appendChild(img);
+
+            a4.setAttribute('href', inputArray["page"][i]);
+            title1.innerHTML = inputArray["name"][i];
+            title1.classList.add('font--nova-semibold');
+            a4.appendChild(title1);
+
+            inDivPoster.appendChild(a4);
+            inDivPoster.classList.add('works__card__text');
+
+            outDivPoster.classList.add('works__card', 'animated', 'fadeInUp', 'small-screen')
+            outDivPoster.appendChild(a3);
+            outDivPoster.appendChild(inDivPoster);
+            allProject.appendChild(outDivPoster);
+            console.log('sucess video img')
 
         }
         if (inputArray['type'][i] == "img") {
@@ -154,7 +174,7 @@ const showProjects = (inputArray) => {
 const showFilmProjects = (event) => {
     showProjects(FILMS);
     films.classList.add('btn--active');
-    blogs.classList.remove('btn--active');
+    designs.classList.remove('btn--active');
     photos.classList.remove('btn--active');
     recent.classList.remove('btn--active');
 }
@@ -162,7 +182,7 @@ const showFilmProjects = (event) => {
 const showPhotoProjects = (event) => {
     showProjects(PHOTOS);
     photos.classList.add('btn--active');
-    blogs.classList.remove('btn--active');
+    designs.classList.remove('btn--active');
     films.classList.remove('btn--active');
     recent.classList.remove('btn--active');
 }
@@ -170,15 +190,7 @@ const showPhotoProjects = (event) => {
 const showRecentProjects = (event) => {
     showProjects(RECENTS);
     recent.classList.add('btn--active');
-    blogs.classList.remove('btn--active');
-    photos.classList.remove('btn--active');
-    films.classList.remove('btn--active');
-}
-
-const showBlogs = (event) => {
-    showProjects(BLOGS);
-    blogs.classList.add('btn--active');
-    recent.classList.remove('btn--active');
+    designs.classList.remove('btn--active');
     photos.classList.remove('btn--active');
     films.classList.remove('btn--active');
 }
@@ -186,4 +198,3 @@ const showBlogs = (event) => {
 films.addEventListener('click', showFilmProjects);
 photos.addEventListener('click', showPhotoProjects);
 recent.addEventListener('click', showRecentProjects);
-blogs.addEventListener('click', showBlogs);

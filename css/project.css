@@ -18,8 +18,20 @@ html {
 body {
   /* Fonts */
   margin: 0; }
+  body video::-webkit-media-controls-panel {
+    display: none !important;
+    -webkit-appearance: none; }
+  body video::-webkit-media-controls-play-button {
+    display: none !important;
+    -webkit-appearance: none; }
+  body video::-webkit-media-controls {
+    display: none !important;
+    -webkit-appearance: none; }
+  body video {
+    pointer-events: none; }
   body a {
-    color: unset; }
+    color: unset;
+    height: inherit; }
   body p {
     font-family: ProximaNova; }
   body .font--nova-semibold {
@@ -89,6 +101,9 @@ body {
     padding: 0; }
   body .nav--container {
     width: 95vw;
+    margin: 0 auto; }
+  body .quote--container {
+    width: 60vw;
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }

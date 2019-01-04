@@ -12,16 +12,17 @@ body {
     .photos {
         padding-bottom: 200px;
 
-        img {
-            width: 100%;
-            height: auto;
-        }
+        .photo--grid {
+            .photo__info {
 
-        .photo--grid-1 {
-            margin-top: 50px;
-            line-height: 0;
-            column-count: 1;
-            column-gap: 0;
+                p {
+                    color: #727272;
+                }
+
+                .photo--margin0 {
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 

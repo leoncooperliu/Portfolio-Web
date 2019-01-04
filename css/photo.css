@@ -18,8 +18,20 @@ html {
 body {
   /* Fonts */
   margin: 0; }
+  body video::-webkit-media-controls-panel {
+    display: none !important;
+    -webkit-appearance: none; }
+  body video::-webkit-media-controls-play-button {
+    display: none !important;
+    -webkit-appearance: none; }
+  body video::-webkit-media-controls {
+    display: none !important;
+    -webkit-appearance: none; }
+  body video {
+    pointer-events: none; }
   body a {
-    color: unset; }
+    color: unset;
+    height: inherit; }
   body p {
     font-family: ProximaNova; }
   body .font--nova-semibold {
@@ -90,6 +102,9 @@ body {
   body .nav--container {
     width: 95vw;
     margin: 0 auto; }
+  body .quote--container {
+    width: 60vw;
+    margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
   body a {
@@ -145,14 +160,10 @@ body .top {
   background-color: #1B1B1B; }
 body .photos {
   padding-bottom: 200px; }
-  body .photos img {
-    width: 100%;
-    height: auto; }
-  body .photos .photo--grid-1 {
-    margin-top: 50px;
-    line-height: 0;
-    column-count: 1;
-    column-gap: 0; }
+  body .photos .photo--grid .photo__info p {
+    color: #727272; }
+  body .photos .photo--grid .photo__info .photo--margin0 {
+    margin-bottom: 0; }
 body .generate-button {
   text-align: center;
   margin-top: 30px; }

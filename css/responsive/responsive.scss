@@ -17,6 +17,7 @@
 
             ls {
                 font-size: .6rem;
+                margin: 0;
             }
 
             .card--margin {
@@ -77,6 +78,7 @@
 
             ls {
                 font-size: .8rem;
+                margin: 0;
             }
         }
     }
@@ -122,11 +124,12 @@
             align-items: center;
 
             h3 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
 
             ls {
-                font-size: 1rem;
+                font-size: .8rem;
+                margin: 0;
             }
 
             .card--margin {
@@ -175,7 +178,7 @@
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1150px;
+        max-width: 1000px;
     }
 
     .next-project {

@@ -26,8 +26,29 @@ html {
 
 body {
 
+    video::-webkit-media-controls-panel {
+        display: none !important;
+        -webkit-appearance: none;
+    }
+    
+    
+    video::-webkit-media-controls-play-button {
+        display: none !important;
+        -webkit-appearance: none;
+    }
+    
+    video::-webkit-media-controls {
+        display: none !important;
+        -webkit-appearance: none;
+    }
+    
+    video {
+        pointer-events: none;
+    }
+
     a {
         color: unset;
+        height: inherit;
     }
 
     p {
@@ -151,6 +172,11 @@ body {
 
     .nav--container {
         width: 95vw;
+        margin: 0 auto;
+    }
+    
+    .quote--container {
+        width:60vw;
         margin: 0 auto;
     }
 

@@ -11,7 +11,8 @@
     .sitemap .sitemap--flex h3 {
       font-size: 1.5rem; }
     .sitemap .sitemap--flex ls {
-      font-size: .6rem; }
+      font-size: .6rem;
+      margin: 0; }
     .sitemap .sitemap--flex .card--margin {
       margin-bottom: 5px; }
 
@@ -44,7 +45,8 @@
   .sitemap .sitemap--flex h3 {
     font-size: 1.7rem; }
   .sitemap .sitemap--flex ls {
-    font-size: .8rem; }
+    font-size: .8rem;
+    margin: 0; }
 
   .next-project {
     height: 250px; }
@@ -70,9 +72,10 @@
     justify-content: space-between;
     align-items: center; }
     .sitemap .sitemap--flex h3 {
-      font-size: 2rem; }
+      font-size: 1.8rem; }
     .sitemap .sitemap--flex ls {
-      font-size: 1rem; }
+      font-size: .8rem;
+      margin: 0; }
     .sitemap .sitemap--flex .card--margin {
       margin-bottom: 10px; }
 
@@ -101,30 +104,36 @@
       color: white; } }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1150px; }
+    max-width: 1000px; }
 
   .next-project {
     height: 650px; }
     .next-project .hero-next {
       height: 550px; } }
 @media (min-width: 300px) and (orientation: portrait) {
-  .container h1 {
-    font-size: 1.6rem;
-    line-height: 2.8rem; }
-  .container h2 {
+  h1 {
+    font-size: 1.3rem;
+    line-height: 2.5rem; }
+
+  h2 {
     font-size: 1rem;
-    margin-top: 30px;
-    margin-bottom: 20px; }
-  .container h4 {
-    font-size: 1rem; }
-  .container .quote--underline {
+    margin-top: 25px;
+    margin-bottom: 15px; }
+
+  h4 {
+    font-size: .9rem; }
+
+  .quote--underline {
     margin-right: 20px; }
-  .container ls {
-    font-size: 1rem;
+
+  ls {
+    font-size: .8rem;
     margin: 0 15px; }
-  .container .works__category {
+
+  .works__category {
     padding: 20px; }
-  .container .works__card__text {
+
+  .works__card__text {
     padding-top: 10px;
     padding-bottom: 20px; }
 
@@ -137,29 +146,45 @@
       width: 100%;
       margin-bottom: 30px; }
       .quote .quote--center .quote__right img {
-        width: 60%; }
-  .quote .large-screen {
+        width: 100%; }
+      .quote .quote--center .quote__right .hero--portrait {
+        display: none; }
+      .quote .quote--center .quote__right .hero--landscape {
+        display: block; }
+  .quote .h1--portrait {
+    display: block; }
+  .quote .h1--landscape {
     display: none; }
-  .quote .small-screen {
+
+  .large-screen {
+    display: none; }
+
+  .small-screen {
     display: block; } }
 @media (min-width: 300px) and (orientation: landscape) {
-  .container h1 {
+  h1 {
     font-size: 1.4rem;
     line-height: 2.5rem; }
-  .container h2 {
+
+  h2 {
     font-size: .9rem;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .container h4 {
+
+  h4 {
     font-size: .9rem; }
-  .container .quote--underline {
+
+  .quote--underline {
     margin-right: 20px; }
-  .container ls {
-    font-size: 1rem;
+
+  ls {
+    font-size: .7rem;
     margin: 0 15px; }
-  .container .works__category {
+
+  .works__category {
     padding: 20px; }
-  .container .works__card__text {
+
+  .works__card__text {
     padding-top: 10px;
     padding-bottom: 20px; }
 
@@ -184,45 +209,72 @@
         right: 0;
         z-index: 0;
         width: 35%; }
-  .quote .large-screen {
+      .quote .quote--center .quote__right .hero--portrait {
+        display: block; }
+      .quote .quote--center .quote__right .hero--landscape {
+        display: none; }
+  .quote .h1--portrait {
+    display: none; }
+  .quote .h1--landscape {
     display: block; }
-  .quote .small-screen {
+
+  .large-screen {
+    display: block; }
+
+  .small-screen {
     display: none; } }
 @media (min-width: 576px) and (orientation: portrait) {
-  .container h1 {
+  h1 {
     font-size: 1.8rem;
     line-height: 3rem; }
-  .container h2 {
+
+  h2 {
     font-size: 1.2rem;
     margin-top: 30px;
     margin-bottom: 20px; }
-  .container .works__category {
+
+  .works__category {
     padding: 30px; }
-  .container .works__card__text {
+
+  .works__card__text {
     padding-top: 15px;
     padding-bottom: 25px; }
-  .container .quote--underline {
+
+  .quote--underline {
     margin-right: 30px; }
 
   .quote .quote--center .quote__right img {
-    width: 30%; } }
+    width: 30%; }
+  .quote .quote--center .quote__right .hero--portrait {
+    display: block; }
+  .quote .quote--center .quote__right .hero--landscape {
+    display: none; }
+  .quote .h1--portrait {
+    display: block; }
+  .quote .h1--landscape {
+    display: none; } }
 @media (min-width: 768px) and (orientation: landscape) {
-  .container h1 {
-    font-size: 1.8rem;
-    line-height: 2.5rem; }
-  .container h2 {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2.8rem; }
+
+  h2 {
     font-size: 1.2rem;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  .container h4 {
+    margin-top: 20px;
+    margin-bottom: 15px; }
+
+  h4 {
     font-size: 1rem; }
-  .container ls {
+
+  ls {
     font-size: 1rem;
     margin: 0 20px; }
-  .container .works__card__text {
+
+  .works__card__text {
     padding-top: 20px;
     padding-bottom: 30px; }
-  .container .quote--underline {
+
+  .quote--underline {
     margin-right: 40px; }
 
   .quote .quote--center {
@@ -245,24 +297,38 @@
         position: absolute;
         right: 0;
         z-index: 0;
-        width: 30%; } }
+        width: 30%; }
+      .quote .quote--center .quote__right .hero--portrait {
+        display: block; }
+      .quote .quote--center .quote__right .hero--landscape {
+        display: none; }
+    .quote .quote--center .h1--portrait {
+      display: none; }
+    .quote .quote--center .h1--landscape {
+      display: block; } }
 @media (min-width: 768px) and (orientation: portrait) {
-  .container h1 {
+  h1 {
     font-size: 2.2rem;
-    line-height: 4rem; }
-  .container h2 {
+    line-height: 4rem;
+    margin-top: 15px; }
+
+  h2 {
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 20px; }
-  .container h4 {
+
+  h4 {
     font-size: 1.2rem; }
-  .container ls {
+
+  ls {
     font-size: 1rem;
     margin: 0 20px; }
-  .container .works__card__text {
+
+  .works__card__text {
     padding-top: 20px;
     padding-bottom: 30px; }
-  .container .quote--underline {
+
+  .quote--underline {
     margin-right: 40px; }
 
   .quote .quote--center {
@@ -274,23 +340,36 @@
       width: 100%;
       margin-bottom: 10px; }
       .quote .quote--center .quote__right img {
-        width: 35%; } }
+        width: 40%; }
+      .quote .quote--center .quote__right .hero--portrait {
+        display: block; }
+      .quote .quote--center .quote__right .hero--landscape {
+        display: none; }
+  .quote .h1--portrait {
+    display: block; }
+  .quote .h1--landscape {
+    display: none; } }
 @media (min-width: 992px) {
-  .container h1 {
-    font-size: 2.2rem;
+  h1 {
+    font-size: 2rem;
     line-height: 4rem; }
-  .container h2 {
-    font-size: 1.5rem;
-    margin-top: 40px;
+
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 35px;
     margin-bottom: 30px; }
-  .container h4 {
+
+  h4 {
     font-size: 1.2rem; }
-  .container ls {
+
+  ls {
     font-size: 1.2rem;
     margin: 0 40px; }
-  .container .works__category {
+
+  .works__category {
     padding: 40px; }
-  .container .works__card__text {
+
+  .works__card__text {
     padding-top: 25px;
     padding-bottom: 35px; }
 
@@ -309,28 +388,74 @@
       position: absolute;
       right: 0;
       z-index: 0;
-      width: 40%; }
-  .quote .large-screen {
+      width: 35%; }
+    .quote .quote--center .quote__right .hero--portrait {
+      display: block; }
+    .quote .quote--center .quote__right .hero--landscape {
+      display: none; }
+  .quote .h1--portrait {
+    display: none; }
+  .quote .h1--landscape {
     display: block; }
-  .quote .small-screen {
+
+  .large-screen {
+    display: block; }
+
+  .small-screen {
     display: none; } }
 @media (min-width: 1200px) {
-  .container h1 {
-    font-size: 2.6rem;
-    line-height: 4.5rem; }
-  .container h2 {
-    font-size: 1.6rem;
-    margin-top: 40px;
-    margin-bottom: 30px; }
-  .container h4 {
-    font-size: 1.3rem; }
-  .container ls {
-    font-size: 1.5rem;
+  h1 {
+    font-size: 2rem;
+    line-height: 4rem; }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 20px; }
+
+  h4 {
+    font-size: 1.2rem; }
+
+  ls {
+    font-size: 1.3rem;
     margin: 0 50px; }
-  .container .works__category {
+
+  .works__category {
     padding: 55px; }
-  .container .works__card__text {
+
+  .works__card__text {
     padding-top: 30px;
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+
+  .quote .quote--center .quote__left {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute; }
+  .quote .quote--center .quote__right {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .quote .quote--center .quote__right img {
+      position: absolute;
+      right: 0;
+      z-index: 0;
+      width: 35%; }
+    .quote .quote--center .quote__right .hero--portrait {
+      display: block; }
+    .quote .quote--center .quote__right .hero--landscape {
+      display: none; }
+  .quote .h1--portrait {
+    display: none; }
+  .quote .h1--landscape {
+    display: block; }
+
+  .large-screen {
+    display: block; }
+
+  .small-screen {
+    display: none; } }
 
 /*# sourceMappingURL=res-home.css.map */

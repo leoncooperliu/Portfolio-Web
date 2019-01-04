@@ -18,14 +18,35 @@
     }
 
     .photos {
-        .photo--grid {
-            margin-top: 30px;
-            line-height: 0;
-            column-count: 1;
-        }
 
-        img {
-            margin-bottom: 10px;
+        $photo-margin: 15px;
+
+        .photo--grid {
+            display: grid;
+            grid-column-gap: 0;
+            grid-template-columns: 1;
+
+            margin-top: $photo-margin;
+
+            .photo__img {
+                margin-bottom: $photo-margin;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .photo__info {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin-bottom: $photo-margin;
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
@@ -48,14 +69,44 @@
     }
 
     .photos {
-        .photo--grid {
-            margin-top: 30px;
-            line-height: 0;
-            column-count: 1;
-        }
 
-        img {
-            margin-bottom: 10px;
+        $photo-margin: 20px;
+
+        .photo--grid {
+            display: grid;
+            grid-column-gap: 0;
+            grid-template-columns: 60% 40%;
+
+            margin-top: $photo-margin;
+
+            .photo__img {
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: $photo-margin;
+
+                img {
+                    height: 85vh;
+                }
+            }
+
+            .photo__info {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin-bottom: $photo-margin;
+                margin-left: $photo-margin;
+
+                h3 {
+                    font-size: 1.5rem;
+                    margin-bottom: $photo-margin;
+                }
+
+                p {
+                    font-size: .8rem;
+                    line-height: $photo-margin;
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
@@ -96,15 +147,40 @@
     }
 
     .photos {
-        .photo--grid {
-            margin-top: 50px;
-            line-height: 0;
-            column-count: 2;
-            column-gap: 15px;
-        }
+        $photo-margin: 30px;
 
-        img {
-            margin-bottom: 15px;
+        .photo--grid {
+            display: grid;
+            grid-column-gap: 0;
+            grid-template-columns: 1;
+            margin-top: $photo-margin;
+
+            .photo__img {
+                margin-bottom: $photo-margin;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .photo__info {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin-bottom: $photo-margin;
+
+                h3 {
+                    font-size: 2.3rem;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 1.3rem;
+                    line-height: $photo-margin;
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
@@ -126,18 +202,7 @@
         }
     }
 
-    .photos {
-        .photo--grid {
-            margin-top: 50px;
-            line-height: 0;
-            column-count: 2;
-            column-gap: 15px;
-        }
-
-        img {
-            margin-bottom: 15px;
-        }
-    }
+    .photos {}
 }
 
 @media (min-width: 992px) {
@@ -155,6 +220,48 @@
             letter-spacing: .1rem;
         }
     }
+
+    .photos {
+        $photo-margin: 22px;
+
+        .photo--grid {
+            display: grid;
+            grid-column-gap: 0;
+            grid-template-columns: 1;
+            margin-top: $photo-margin;
+
+            .photo__img {
+                margin-bottom: $photo-margin;
+
+                img {
+                    height: 85vh;
+                    width: auto;
+                }
+            }
+
+            .photo__info {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin-bottom: $photo-margin;
+
+                h3 {
+                    font-size: 1.75rem;
+                    margin-bottom: $photo-margin;
+                }
+
+                p {
+                    font-size: 1rem;
+                    line-height: $photo-margin;
+                    margin-bottom: 0;
+                }
+
+                .photo--margin0 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1200px) {
@@ -170,17 +277,6 @@
         h2 {
             font-size: 4rem;
             letter-spacing: .2rem;
-        }
-    }
-
-    .photos {
-        .photo--grid {
-            margin-top: 80px;
-            column-gap: 25px;
-        }
-
-        img {
-            margin-bottom: 25px;
         }
     }
 }
