@@ -116,20 +116,21 @@ body .top {
   height: 100vh; }
   body .top .nav-bar {
     position: fixed;
-    padding-top: 2.5vh;
+    padding-top: 5vh;
     width: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 5; }
-    body .top .nav-bar h3.nav-right {
-      font-size: 1.5rem;
-      text-align: right;
-      color: #949494;
-      margin-bottom: 0; }
   body .top .top--flex {
     height: 100vh;
     display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  body .top .top--flex-column {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center; }
   body .top .top-center {

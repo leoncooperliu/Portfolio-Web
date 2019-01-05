@@ -36,7 +36,7 @@
           font-size: 1rem; }
 
   #back-icon {
-    width: 25px;
+    width: 20px;
     z-index: 3; } }
 @media (min-width: 576px) {
   .container {
@@ -61,7 +61,7 @@
       font-size: 1.2rem; }
 
   #back-icon {
-    width: 35px; } }
+    width: 30px; } }
 @media (min-width: 768px) {
   .container {
     max-width: 720px; }
@@ -85,7 +85,7 @@
       height: 280px; }
 
   #back-icon {
-    width: 45px; } }
+    width: 35px; } }
 @media (min-width: 992px) {
   .container {
     max-width: 960px; }

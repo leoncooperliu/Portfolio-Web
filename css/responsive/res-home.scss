@@ -2,167 +2,110 @@
 
 @media (min-width: 300px) and (orientation: portrait) {
 
-    h1 {
-        font-size: 1.3rem;
-        line-height: 2.5rem;
-    }
+    $category-margin: 20px;
 
-    h2 {
-        font-size: 1rem;
-        margin-top: 25px;
-        margin-bottom: 15px;
-    }
+    .works {
+        h4 {
+            font-size: .8rem;
+        }
 
-    h4 {
-        font-size: .9rem;
-    }
+        ls {
+            font-size: .8rem;
+            margin: 0 15px;
+        }
 
-    .quote--underline {
-        margin-right: 20px;
-    }
+        .works__category {
+            padding: $category-margin;
+        }
 
-    ls {
-        font-size: .8rem;
-        margin: 0 15px;
-    }
+        .works__card__text {
+            padding-top: 20px;
+            padding-bottom: 25px;
+        }
 
-    .works__category {
-        padding: 20px;
-    }
+        .large-screen {
+            display: none;
+        }
 
-    .works__card__text {
-        padding-top: 10px;
-        padding-bottom: 20px;
+        .small-screen {
+            display: block;
+        }
     }
-
 
     .quote {
         .quote--center {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
 
-            .quote__right {
+            h1 {
+                font-size: 2.7rem;
+                letter-spacing: .15rem;
+            }
+
+            img {
                 width: 100%;
-                margin-bottom: 30px;
+                height: auto;
+            }
 
-                img {
-                    width: 100%;
-                }
+            .link--container {
+                margin-bottom: $category-margin;
 
-                .hero--portrait {
-                    display: none;
-                }
-
-                .hero--landscape {
-                    display: block;
+                h4 {
+                    font-size: .8rem;
+                    margin: 0 30px;
                 }
             }
         }
-
-        .h1--portrait {
-            display: block;
-        }
-
-        .h1--landscape {
-            display: none;
-        }
-    }
-
-    .large-screen {
-        display: none;
-    }
-
-    .small-screen {
-        display: block;
     }
 
 }
 
 @media (min-width: 300px) and (orientation: landscape) {
 
-    h1 {
-        font-size: 1.4rem;
-        line-height: 2.5rem;
-    }
+    $category-margin: 20px;
 
-    h2 {
-        font-size: .9rem;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+    .works {
+        h4 {
+            font-size: .8rem;
+        }
 
-    h4 {
-        font-size: .9rem;
-    }
+        ls {
+            font-size: .8rem;
+            margin: 0 20px;
+        }
 
-    .quote--underline {
-        margin-right: 20px;
-    }
+        .works__category {
+            padding: $category-margin;
+        }
 
-    ls {
-        font-size: .7rem;
-        margin: 0 15px;
+        .works__card__text {
+            padding-top: 15px;
+            padding-bottom: 20px;
+        }
     }
-
-    .works__category {
-        padding: 20px;
-    }
-
-    .works__card__text {
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-
 
     .quote {
         .quote--center {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
 
-            .quote__left {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                position: absolute;
+            h1 {
+                font-size: 2.5rem;
+                letter-spacing: .1rem;
             }
 
-            .quote__right {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+            img {
+                width: 100%;
+                height: auto;
+            }
 
-                img {
-                    position: absolute;
-                    right: 0;
-                    z-index: 0;
-                    width: 35%;
-                }
+            .link--container {
+                margin-bottom: $category-margin;
 
-                .hero--portrait {
-                    display: block;
-                }
-
-                .hero--landscape {
-                    display: none;
+                h4 {
+                    font-size: .8rem;
+                    margin: 0 30px;
                 }
             }
         }
-
-        .h1--portrait {
-            display: none;
-        }
-
-        .h1--landscape {
-            display: block;
-        }
-
     }
+
 
     .large-screen {
         display: block;
@@ -175,361 +118,249 @@
 
 @media (min-width: 576px) and (orientation: portrait) {
 
-    h1 {
-        font-size: 1.8rem;
-        line-height: 3rem;
-    }
+    $category-margin: 30px;
 
-    h2 {
-        font-size: 1.2rem;
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
+    .works {
+        h4 {
+            font-size: 1.2rem;
+        }
 
-    .works__category {
-        padding: 30px;
-    }
+        ls {
+            font-size: 1.2rem;
+            margin: 0 30px;
+        }
 
-    .works__card__text {
-        padding-top: 15px;
-        padding-bottom: 25px;
-    }
+        .works__category {
+            padding: $category-margin;
+        }
 
-    .quote--underline {
-        margin-right: 30px;
+        .works__card__text {
+            padding-top: 25px;
+            padding-bottom: 35px;
+        }
     }
-
 
     .quote {
         .quote--center {
-            .quote__right {
-                img {
-                    width: 30%;
-                }
 
-                .hero--portrait {
-                    display: block;
-                }
+            h1 {
+                font-size: 2.7rem;
+                letter-spacing: .15rem;
+            }
 
-                .hero--landscape {
-                    display: none;
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .link--container {
+                margin-bottom: $category-margin;
+
+                h4 {
+                    font-size: 1.1rem;
+                    margin: 0 30px;
                 }
             }
-        }
-
-        .h1--portrait {
-            display: block;
-        }
-
-        .h1--landscape {
-            display: none;
         }
     }
 }
 
+
+
 @media (min-width: 768px) and (orientation: landscape) {
 
-    h1 {
-        font-size: 1.5rem;
-        line-height: 2.8rem;
-    }
+    $category-margin: 20px;
 
-    h2 {
-        font-size: 1.2rem;
-        margin-top: 20px;
-        margin-bottom: 15px;
-    }
+    .works {
+        h4 {
+            font-size: 1.2rem;
+        }
 
-    h4 {
-        font-size: 1rem;
-    }
+        ls {
+            font-size: 1.2rem;
+            margin: 0 30px;
+        }
 
-    ls {
-        font-size: 1rem;
-        margin: 0 20px;
-    }
+        .works__category {
+            padding: $category-margin;
+        }
 
-    .works__card__text {
-        padding-top: 20px;
-        padding-bottom: 30px;
+        .works__card__text {
+            padding-top: 25px;
+            padding-bottom: 35px;
+        }
     }
-
-    .quote--underline {
-        margin-right: 40px;
-    }
-
 
     .quote {
         .quote--center {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
 
-            .quote__left {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                position: absolute;
+            h1 {
+                font-size: 2.7rem;
+                letter-spacing: .15rem;
             }
 
-            .quote__right {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                img {
-                    position: absolute;
-                    right: 0;
-                    z-index: 0;
-                    width: 30%;
-                }
-
-                .hero--portrait {
-                    display: block;
-                }
-
-                .hero--landscape {
-                    display: none;
-                }
+            img {
+                width: 75%;
+                height: auto;
             }
 
-            .h1--portrait {
-                display: none;
-            }
+            .link--container {
+                margin-bottom: $category-margin;
 
-            .h1--landscape {
-                display: block;
+                h4 {
+                    font-size: 1.1rem;
+                    margin: 0 30px;
+                }
             }
         }
     }
 }
 
 @media (min-width: 768px) and (orientation: portrait) {
+    $category-margin: 20px;
 
-    h1 {
-        font-size: 2.2rem;
-        line-height: 4rem;
-        margin-top: 15px;
+    .works {
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        ls {
+            font-size: 1.2rem;
+            margin: 0 30px;
+        }
+
+        .works__category {
+            padding: $category-margin;
+        }
+
+        .works__card__text {
+            padding-top: 25px;
+            padding-bottom: 35px;
+        }
     }
-
-    h2 {
-        font-size: 1.5rem;
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
-
-    h4 {
-        font-size: 1.2rem;
-    }
-
-    ls {
-        font-size: 1rem;
-        margin: 0 20px;
-    }
-
-    .works__card__text {
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
-
-    .quote--underline {
-        margin-right: 40px;
-    }
-
 
     .quote {
         .quote--center {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
 
-            .quote__right {
+            h1 {
+                font-size: 2.7rem;
+                letter-spacing: .15rem;
+            }
+
+            img {
                 width: 100%;
-                margin-bottom: 10px;
+                height: auto;
+            }
 
-                img {
-                    width: 40%;
-                }
+            .link--container {
+                margin-bottom: $category-margin;
 
-                .hero--portrait {
-                    display: block;
-                }
-
-                .hero--landscape {
-                    display: none;
+                h4 {
+                    font-size: 1.1rem;
+                    margin: 0 30px;
                 }
             }
-        }
-
-        .h1--portrait {
-            display: block;
-        }
-
-        .h1--landscape {
-            display: none;
         }
     }
 }
 
 @media (min-width: 992px) {
 
-    h1 {
-        font-size: 2rem;
-        line-height: 4rem;
-    }
+    $category-margin: 30px;
 
-    h2 {
-        font-size: 1.2rem;
-        margin-top: 35px;
-        margin-bottom: 30px;
-    }
+    .works {
+        h4 {
+            font-size: 1.2rem;
+        }
 
-    h4 {
-        font-size: 1.2rem;
-    }
+        ls {
+            font-size: 1.2rem;
+            margin: 0 30px;
+        }
 
-    ls {
-        font-size: 1.2rem;
-        margin: 0 40px;
-    }
+        .works__category {
+            padding: $category-margin;
+        }
 
-    .works__category {
-        padding: 40px;
-    }
-
-    .works__card__text {
-        padding-top: 25px;
-        padding-bottom: 35px;
+        .works__card__text {
+            padding-top: 25px;
+            padding-bottom: 35px;
+        }
     }
 
 
     .quote {
         .quote--center {
-            .quote__left {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                position: absolute;
+
+            h1 {
+                font-size: 2.7rem;
+                letter-spacing: .15rem;
             }
 
-            .quote__right {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+            img {
+                width: 80%;
+                height: auto;
+            }
 
-                img {
-                    position: absolute;
-                    right: 0;
-                    z-index: 0;
-                    width: 35%;
-                }
+            .link--container {
+                margin-bottom: $category-margin;
 
-                .hero--portrait {
-                    display: block;
-                }
-
-                .hero--landscape {
-                    display: none;
+                h4 {
+                    font-size: 1.1rem;
+                    margin: 0 30px;
                 }
             }
+
         }
-
-        .h1--portrait {
-            display: none;
-        }
-
-        .h1--landscape {
-            display: block;
-        }
-    }
-
-    .large-screen {
-        display: block;
-    }
-
-    .small-screen {
-        display: none;
     }
 }
 
 
 @media (min-width: 1200px) {
 
-    h1 {
-        font-size: 2rem;
-        line-height: 4rem;
-    }
+    $category-margin: 40px;
 
-    h2 {
-        font-size: 1.4rem;
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
+    .works {
+        h4 {
+            font-size: 1.2rem;
+        }
 
-    h4 {
-        font-size: 1.2rem;
-    }
+        ls {
+            font-size: 1.3rem;
+            margin: 0 30px;
+        }
 
-    ls {
-        font-size: 1.3rem;
-        margin: 0 50px;
-    }
+        .works__category {
+            padding: $category-margin;
+        }
 
-    .works__category {
-        padding: 55px;
+        .works__card__text {
+            padding-top: 30px;
+            padding-bottom: 40px;
+        }
     }
-
-    .works__card__text {
-        padding-top: 30px;
-        padding-bottom: 40px;
-    }
-
 
     .quote {
         .quote--center {
-            .quote__left {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                position: absolute;
+
+            h1 {
+                font-size: 2.7rem;
+                letter-spacing: .15rem;
             }
 
-            .quote__right {
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+            img {
+                width: 75%;
+                height: auto;
+            }
 
-                img {
-                    position: absolute;
-                    right: 0;
-                    z-index: 0;
-                    width: 35%;
-                }
+            .link--container {
+                margin-bottom: $category-margin;
 
-                .hero--portrait {
-                    display: block;
-                }
-
-                .hero--landscape {
-                    display: none;
+                h4 {
+                    font-size: 1.1rem;
+                    margin: 0 30px;
                 }
             }
-        }
-
-        .h1--portrait {
-            display: none;
-        }
-
-        .h1--landscape {
-            display: block;
         }
     }
 

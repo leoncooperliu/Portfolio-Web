@@ -36,7 +36,7 @@
           font-size: 1rem; }
 
   #back-icon {
-    width: 25px;
+    width: 20px;
     z-index: 3; } }
 @media (min-width: 576px) {
   .container {
@@ -61,7 +61,7 @@
       font-size: 1.2rem; }
 
   #back-icon {
-    width: 35px; } }
+    width: 30px; } }
 @media (min-width: 768px) {
   .container {
     max-width: 720px; }
@@ -85,7 +85,7 @@
       height: 280px; }
 
   #back-icon {
-    width: 45px; } }
+    width: 35px; } }
 @media (min-width: 992px) {
   .container {
     max-width: 960px; }
@@ -110,15 +110,14 @@
     height: 650px; }
     .next-project .hero-next {
       height: 550px; } }
-@media (min-width: 300px) {
-  .top .header--container {
-    width: 70vw; }
-  .top h2 {
-    font-size: 2rem;
-    color: white;
-    margin-left: 10px; }
-  .top img {
-    width: 100%; }
+@media (min-width: 300px) and (orientation: portrait) {
+  .top {
+    margin-bottom: 30px; }
+    .top h2 {
+      font-size: 1.2rem; }
+    .top h4 {
+      font-size: 0.8rem;
+      margin-bottom: 30px; }
 
   .container .bio__section {
     display: flex;
@@ -141,13 +140,13 @@
       width: 300px;
       margin-bottom: 20px; } }
 @media (min-width: 576px) {
-  .top .header--container {
-    width: 70vw; }
-  .top h2 {
-    font-size: 2rem;
-    margin-left: 10px; }
-  .top img {
-    width: 100%; }
+  .top {
+    margin-bottom: 30px; }
+    .top h2 {
+      font-size: 1.2rem; }
+    .top h4 {
+      font-size: .8rem;
+      margin-bottom: 30px; }
 
   .container .bio__section {
     display: flex;
@@ -168,14 +167,39 @@
     .container .bio__section .bio__right .bio__right__card {
       width: 300px;
       margin-bottom: 20px; } }
-@media (min-width: 768px) {
-  .top .header--container {
-    width: 60vw; }
-  .top h2 {
-    font-size: 2rem;
-    color: black; }
-  .top img {
-    width: 60%; }
+@media (min-width: 768px) and (orientation: portrait) {
+  .top {
+    margin-bottom: 30px; }
+    .top h2 {
+      font-size: 2rem; }
+    .top h4 {
+      font-size: 1.2rem;
+      margin-bottom: 30px; }
+
+  .container .bio__section .bio--main p {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin-bottom: 40px; }
+  .container .bio__section .bio--detail p,
+  .container .bio__section .bio--detail ls {
+    font-size: 1rem;
+    line-height: 2rem; }
+  .container .bio__section .bio__left p {
+    width: 80px;
+    margin-right: 25px; }
+  .container .bio__section .bio__right {
+    grid-template-columns: 1fr 1fr; }
+    .container .bio__section .bio__right .bio__right__card {
+      width: 300px;
+      margin-bottom: 30px; } }
+@media (min-width: 768px) and (orientation: landscape) {
+  .top {
+    margin-bottom: 15px; }
+    .top h2 {
+      font-size: 1.3rem; }
+    .top h4 {
+      font-size: .8rem;
+      margin-bottom: 15px; }
 
   .container .bio__section .bio--main p {
     font-size: 1.2rem;
@@ -194,12 +218,13 @@
       width: 300px;
       margin-bottom: 30px; } }
 @media (min-width: 992px) {
-  .top .header--container {
-    width: 55vw; }
-  .top h2 {
-    font-size: 2.5rem; }
-  .top img {
-    width: 50%; }
+  .top {
+    margin-bottom: 30px; }
+    .top h2 {
+      font-size: 1.7rem; }
+    .top h4 {
+      font-size: 1.2rem;
+      margin-bottom: 30px; }
 
   .container .bio__section .bio--main p {
     font-size: 1.2rem;
@@ -218,12 +243,13 @@
       width: 300px;
       margin-bottom: 30px; } }
 @media (min-width: 1200px) {
-  .top .header--container {
-    width: 60vw; }
-  .top h2 {
-    font-size: 2.5rem; }
-  .top img {
-    width: 50%; }
+  .top {
+    margin-bottom: 30px; }
+    .top h2 {
+      font-size: 2rem; }
+    .top h4 {
+      font-size: 1.2rem;
+      margin-bottom: 30px; }
 
   .container .bio__section .bio--main p {
     font-size: 1.2rem;
