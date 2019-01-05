@@ -107,9 +107,9 @@
     max-width: 1000px; }
 
   .next-project {
-    height: 650px; }
+    height: 550px; }
     .next-project .hero-next {
-      height: 550px; } }
+      height: 450px; } }
 @media (min-width: 300px) and (orientation: portrait) {
   .main {
     padding-bottom: 150px; }

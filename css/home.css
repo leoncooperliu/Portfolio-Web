@@ -112,12 +112,6 @@ body {
   body .text--pointer {
     cursor: pointer; }
 
-@keyframe imgAppear {
-  from {
-    height: 30px; }
-
-  to {
-    height: 60px; } }
 body .quote {
   height: 100vh;
   background-color: #1B1B1B; }
@@ -125,15 +119,15 @@ body .quote {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: center; }
     body .quote .quote--center .img--container {
       position: relative;
       text-align: center; }
-    body .quote .quote--center .text--centered {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
+      body .quote .quote--center .img--container .text--centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
     body .quote .quote--center img {
       margin: 0; }
     body .quote .quote--center h1 {

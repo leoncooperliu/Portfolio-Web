@@ -20,44 +20,35 @@ body {
             justify-content: space-between;
             align-items: center;
         }
-        
+
         .top--flex-column {
             height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
 
-        .top-center {
+        .top--center {
             height: 100vh;
-            width: 100vw;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .top--flex {
+        .img--container {
             position: relative;
+            text-align: center;
 
-            .top__text {
-                color: white;
+            .text--centered {
                 position: absolute;
-                text-align: left;
-                z-index: 1;
-
-                h2 {
-                    margin-top: 0px;
-                    margin-bottom: 0px;
-                }
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
 
-            img {
-                position: absolute;
-                right: 0;
-                z-index: 0;
-            }
         }
+
     }
 
     .header--container {

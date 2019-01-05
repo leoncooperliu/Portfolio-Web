@@ -1,15 +1,5 @@
 @import "style";
 
-@keyframe imgAppear {
-    from {
-        height: 30px;
-    }
-
-    to {
-        height: 60px;
-    }
-}
-
 body {
 
     .quote {
@@ -20,19 +10,21 @@ body {
             height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
 
             .img--container {
                 position: relative;
                 text-align: center;
+
+                .text--centered {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
             }
 
-            .text--centered {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
 
             img {
                 margin: 0;

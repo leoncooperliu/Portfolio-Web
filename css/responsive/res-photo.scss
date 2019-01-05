@@ -1,215 +1,80 @@
 @import "responsive";
 
 @media (min-width: 300px) and (orientation: portrait) {
+    $grid-gap: 12px;
+    $photos-padding: 12px;
+
     .top {
-        .header--container {
-            width: 75vw;
-        }
 
         img {
             width: 100%;
         }
 
         h2 {
-            margin-left: 10px;
             font-size: 2.5rem;
-            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: 0.8rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
         }
     }
 
     .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
 
-        $photo-margin: 15px;
-
-        .photo--grid {
-            display: grid;
-            grid-column-gap: 0;
-            grid-template-columns: 1;
-
-            margin-top: $photo-margin;
-
-            .photo__img {
-                margin-bottom: $photo-margin;
-
-                img {
-                    width: 100%;
-                    height: auto;
-                }
-            }
-
-            .photo__info {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                margin-bottom: $photo-margin;
-
-                p {
-                    margin-bottom: 0;
-                }
-            }
-        }
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
     }
 }
 
-@media (min-width: 300px) and (orientation: landscape) {
+@media (min-width: 576px) {
+    $grid-gap: 15px;
+    $photos-padding: 15px;
+
     .top {
-        .header--container {
-            width: 75vw;
-        }
 
         img {
-            width: 45%;
+            width: 50%;
         }
 
         h2 {
-            margin-left: 10px;
             font-size: 2.5rem;
             letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: .8rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
         }
     }
 
     .photos {
-
-        $photo-margin: 20px;
-
-        .photo--grid {
-            display: grid;
-            grid-column-gap: 0;
-            grid-template-columns: 60% 40%;
-
-            margin-top: $photo-margin;
-
-            .photo__img {
-                display: flex;
-                justify-content: flex-end;
-                margin-bottom: $photo-margin;
-
-                img {
-                    height: 85vh;
-                }
-            }
-
-            .photo__info {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                margin-bottom: $photo-margin;
-                margin-left: $photo-margin;
-
-                h3 {
-                    font-size: 1.5rem;
-                    margin-bottom: $photo-margin;
-                }
-
-                p {
-                    font-size: .8rem;
-                    line-height: $photo-margin;
-                    margin-bottom: 0;
-                }
-            }
-        }
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
     }
-}
 
-@media (min-width: 576px) and (orientation: portrait) {
-    .top {
-        .header--container {
-            width: 75vw;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        h2 {
-
-            font-size: 3rem;
-            letter-spacing: .1rem;
-        }
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
     }
 }
 
 @media (min-width: 768px) and (orientation: portrait) {
+
+    $grid-gap: 15px;
+    $photos-padding: 30px;
+
     .top {
-        .header--container {
-            width: 75vw;
-        }
-
-        img {
-            width: 60%;
-        }
-
-        h2 {
-            margin-left: 0;
-            font-size: 3rem;
-            letter-spacing: .1rem;
-        }
-    }
-
-    .photos {
-        $photo-margin: 30px;
-
-        .photo--grid {
-            display: grid;
-            grid-column-gap: 0;
-            grid-template-columns: 1;
-            margin-top: $photo-margin;
-
-            .photo__img {
-                margin-bottom: $photo-margin;
-
-                img {
-                    width: 100%;
-                    height: auto;
-                }
-            }
-
-            .photo__info {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                margin-bottom: $photo-margin;
-
-                h3 {
-                    font-size: 2.3rem;
-                    margin-bottom: 20px;
-                }
-
-                p {
-                    font-size: 1.3rem;
-                    line-height: $photo-margin;
-                    margin-bottom: 0;
-                }
-            }
-        }
-    }
-}
-
-@media (min-width: 768px) and (orientation: landscape) {
-    .top {
-        .header--container {
-            width: 75vw;
-        }
-
-        img {
-            width: 45%;
-        }
-
-        h2 {
-            margin-left: 0;
-            font-size: 3rem;
-            letter-spacing: .1rem;
-        }
-    }
-
-    .photos {}
-}
-
-@media (min-width: 992px) {
-    .top {
-        .header--container {
-            width: 65vw;
-        }
 
         img {
             width: 50%;
@@ -219,62 +84,129 @@
             font-size: 3.5rem;
             letter-spacing: .1rem;
         }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
     }
 
     .photos {
-        $photo-margin: 22px;
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
 
-        .photo--grid {
-            display: grid;
-            grid-column-gap: 0;
-            grid-template-columns: 1;
-            margin-top: $photo-margin;
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+}
 
-            .photo__img {
-                margin-bottom: $photo-margin;
+@media (min-width: 768px) and (orientation: landscape) {
+    $grid-gap: 15px;
+    $photos-padding: 30px;
 
-                img {
-                    height: 85vh;
-                    width: auto;
-                }
-            }
+    .top {
 
-            .photo__info {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                margin-bottom: $photo-margin;
-
-                h3 {
-                    font-size: 1.75rem;
-                    margin-bottom: $photo-margin;
-                }
-
-                p {
-                    font-size: 1rem;
-                    line-height: $photo-margin;
-                    margin-bottom: 0;
-                }
-
-                
-            }
+        img {
+            width: 40%;
         }
+
+        h2 {
+            font-size: 3rem;
+            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: .8rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+}
+
+@media (min-width: 992px) {
+
+    $grid-gap: 15px;
+    $photos-padding: 30px;
+
+    .top {
+
+        img {
+            width: 60%;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
     }
 }
 
 @media (min-width: 1200px) {
+    $grid-gap: 20px;
+    $photos-padding: 50px;
+
     .top {
-        .header--container {
-            width: 55vw;
-        }
 
         img {
-            width: 52%;
+            width: 60%;
         }
 
         h2 {
-            font-size: 4rem;
-            letter-spacing: .2rem;
+            font-size: 3.5rem;
+            letter-spacing: .1rem;
         }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
     }
 }

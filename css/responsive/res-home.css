@@ -107,9 +107,9 @@
     max-width: 1000px; }
 
   .next-project {
-    height: 650px; }
+    height: 550px; }
     .next-project .hero-next {
-      height: 550px; } }
+      height: 450px; } }
 @media (min-width: 300px) and (orientation: portrait) {
   .works h4 {
     font-size: .8rem; }
@@ -133,44 +133,15 @@
     width: 100%;
     height: auto; }
   .quote .quote--center .link--container {
-    margin-bottom: 20px; }
+    margin-top: 20px; }
     .quote .quote--center .link--container h4 {
       font-size: .8rem;
       margin: 0 30px; } }
-@media (min-width: 300px) and (orientation: landscape) {
+@media (min-width: 576px) {
   .works h4 {
     font-size: .8rem; }
   .works ls {
     font-size: .8rem;
-    margin: 0 20px; }
-  .works .works__category {
-    padding: 20px; }
-  .works .works__card__text {
-    padding-top: 15px;
-    padding-bottom: 20px; }
-
-  .quote .quote--center h1 {
-    font-size: 2.5rem;
-    letter-spacing: .1rem; }
-  .quote .quote--center img {
-    width: 100%;
-    height: auto; }
-  .quote .quote--center .link--container {
-    margin-bottom: 20px; }
-    .quote .quote--center .link--container h4 {
-      font-size: .8rem;
-      margin: 0 30px; }
-
-  .large-screen {
-    display: block; }
-
-  .small-screen {
-    display: none; } }
-@media (min-width: 576px) and (orientation: portrait) {
-  .works h4 {
-    font-size: 1.2rem; }
-  .works ls {
-    font-size: 1.2rem;
     margin: 0 30px; }
   .works .works__category {
     padding: 30px; }
@@ -185,7 +156,7 @@
     width: 100%;
     height: auto; }
   .quote .quote--center .link--container {
-    margin-bottom: 30px; }
+    margin-top: 30px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
       margin: 0 30px; } }
@@ -208,7 +179,7 @@
     width: 75%;
     height: auto; }
   .quote .quote--center .link--container {
-    margin-bottom: 20px; }
+    margin-top: 20px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
       margin: 0 30px; } }
@@ -231,7 +202,7 @@
     width: 100%;
     height: auto; }
   .quote .quote--center .link--container {
-    margin-bottom: 20px; }
+    margin-top: 20px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
       margin: 0 30px; } }
@@ -254,7 +225,7 @@
     width: 80%;
     height: auto; }
   .quote .quote--center .link--container {
-    margin-bottom: 30px; }
+    margin-top: 30px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
       margin: 0 30px; } }
@@ -271,13 +242,13 @@
     padding-bottom: 40px; }
 
   .quote .quote--center h1 {
-    font-size: 2.7rem;
+    font-size: 3rem;
     letter-spacing: .15rem; }
   .quote .quote--center img {
     width: 75%;
     height: auto; }
   .quote .quote--center .link--container {
-    margin-bottom: 40px; }
+    margin-top: 40px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
       margin: 0 30px; }

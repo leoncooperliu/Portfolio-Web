@@ -2,28 +2,28 @@
 
 body {
     .top {
-
         height: 100vh;
         background-color: #1B1B1B;
 
+        h2 {
+            color: white;
+            margin: 0;
+            width: 100%;
+        }
 
+        h4 {
+            color: #878787;
+            text-decoration: underline;
+        }
     }
 
     .photos {
         padding-bottom: 200px;
 
-        .photo--grid {
-            .photo__info {
-
-                p {
-                    color: #727272;
-                }
-
-                .photo--margin0 {
-                    margin-bottom: 0;
-                }
-            }
+        img {
+            width: 100%;
         }
+
     }
 
     .generate-button {
