@@ -124,7 +124,22 @@
     padding-top: 12px;
     padding-bottom: 12px; }
 
+  .photo__section {
+    margin-bottom: 12px; }
+
   .photo--grid--portrait32 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px; }
+
+  .photo--grid--portrait3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px; }
+
+  .photo--grid--land2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 12px;
@@ -144,14 +159,29 @@
     padding-top: 15px;
     padding-bottom: 15px; }
 
+  .photo__section {
+    margin-bottom: 15px; }
+
   .photo--grid--portrait32 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 15px;
+    grid-row-gap: 15px; }
+
+  .photo--grid--portrait3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px; }
+
+  .photo--grid--land2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
     grid-row-gap: 15px; } }
 @media (min-width: 768px) and (orientation: portrait) {
   .top img {
-    width: 50%; }
+    width: 70%; }
   .top h2 {
     font-size: 3.5rem;
     letter-spacing: .1rem; }
@@ -164,9 +194,24 @@
     padding-top: 30px;
     padding-bottom: 30px; }
 
+  .photo__section {
+    margin-bottom: 15px; }
+
   .photo--grid--portrait32 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px; }
+
+  .photo--grid--portrait3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px; }
+
+  .photo--grid--land2 {
+    display: grid;
+    grid-template-columns: 1fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px; } }
 @media (min-width: 768px) and (orientation: landscape) {
@@ -184,34 +229,29 @@
     padding-top: 30px;
     padding-bottom: 30px; }
 
+  .photo__section {
+    margin-bottom: 15px; }
+
   .photo--grid--portrait32 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px; }
+
+  .photo--grid--portrait3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px; }
+
+  .photo--grid--land2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px; } }
 @media (min-width: 992px) {
   .top img {
-    width: 60%; }
-  .top h2 {
-    font-size: 3.5rem;
-    letter-spacing: .1rem; }
-  .top h4 {
-    font-size: 1.2rem;
-    margin-top: 15px;
-    margin-bottom: 0; }
-
-  .photos {
-    padding-top: 30px;
-    padding-bottom: 30px; }
-
-  .photo--grid--portrait32 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px; } }
-@media (min-width: 1200px) {
-  .top img {
-    width: 60%; }
+    width: 65%; }
   .top h2 {
     font-size: 3.5rem;
     letter-spacing: .1rem; }
@@ -221,12 +261,62 @@
     margin-bottom: 0; }
 
   .photos {
-    padding-top: 50px;
-    padding-bottom: 50px; }
+    padding-top: 30px;
+    padding-bottom: 30px; }
+
+  .photo__section {
+    margin-bottom: 20px; }
 
   .photo--grid--portrait32 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; }
+
+  .photo--grid--portrait3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; }
+
+  .photo--grid--land2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; } }
+@media (min-width: 1200px) {
+  .top img {
+    width: 55%; }
+  .top h2 {
+    font-size: 3.5rem;
+    letter-spacing: .1rem; }
+  .top h4 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 0; }
+
+  .photos {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  .photo__section {
+    margin-bottom: 20px; }
+
+  .photo--grid--portrait32 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; }
+
+  .photo--grid--portrait3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; }
+
+  .photo--grid--land2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px; } }
 

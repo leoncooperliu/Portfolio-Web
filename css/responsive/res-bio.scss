@@ -5,7 +5,7 @@
         $margin: 40px;
 
         h2 {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
 
         h4 {
@@ -15,49 +15,45 @@
         }
 
         margin-bottom: $margin;
+
+        .intro--grid {
+            grid-template-columns: 30% 70%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 10px;
+        }
     }
 
-    .container {
-        .bio__section {
-            display: flex;
-            flex-direction: column;
+    .bio--container {
+        width: 90vw;
+        $margin-bottom: 20px;
 
-            .bio__right {
-                grid-template-columns: 1fr;
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 30px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1rem;
+            line-height: 2rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                display: block;
+                margin-right: $margin-bottom;
             }
+        }
 
-            .bio--main {
-                p {
-                    font-size: 1rem;
-                    line-height: 2.2rem;
-                    margin-bottom: 25px;
-                }
-            }
-
-            .bio--detail {
-
-                p,
-                ls {
-                    font-size: .9rem;
-                    line-height: 2rem;
-                }
-            }
-
-            .bio__left {
-                text-align: left;
-
-                p {
-                    width: 60px;
-                }
-            }
-
-            .bio__right {
-                .bio__right__card {
-                    width: 300px;
-                    margin-bottom: 20px;
-                }
-
-            }
+        .bio__resume {
+            margin-bottom: $margin-bottom;
         }
     }
 
@@ -81,46 +77,44 @@
         }
 
         margin-bottom: $margin;
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
     }
 
-    .container {
-        .bio__section {
-            display: flex;
-            flex-direction: row;
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
 
-            .bio--main {
-                p {
-                    font-size: 1rem;
-                    line-height: 2.2rem;
-                    margin-bottom: 25px;
-                }
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.4rem;
+            line-height: 3rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
             }
+        }
 
-            .bio--detail {
-
-                p,
-                ls {
-                    font-size: 1rem;
-                    line-height: 2rem;
-                }
-            }
-
-            .bio__left {
-                text-align: right;
-
-                p {
-                    width: 80px;
-                    margin-right: 20px;
-                }
-            }
-
-            .bio__right {
-                .bio__right__card {
-                    width: 300px;
-                    margin-bottom: 20px;
-                }
-
-            }
+        .bio__resume {
+            margin-bottom: $margin-bottom;
         }
     }
 }
@@ -140,43 +134,44 @@
         }
 
         margin-bottom: $margin;
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
     }
 
-    .container {
-        .bio__section {
-            .bio--main {
-                p {
-                    font-size: 1.2rem;
-                    line-height: 3rem;
-                    margin-bottom: 40px;
-                }
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
+
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.4rem;
+            line-height: 3rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
             }
+        }
 
-            .bio--detail {
-
-                p,
-                ls {
-                    font-size: 1rem;
-                    line-height: 2rem;
-                }
-            }
-
-            .bio__left {
-                p {
-                    width: 80px;
-                    margin-right: 25px;
-                }
-            }
-
-            .bio__right {
-                grid-template-columns: 1fr 1fr;
-
-                .bio__right__card {
-                    width: 300px;
-                    margin-bottom: 30px;
-                }
-
-            }
+        .bio__resume {
+            margin-bottom: $margin-bottom;
         }
     }
 }
@@ -196,43 +191,44 @@
         }
 
         margin-bottom: $margin;
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
     }
 
-    .container {
-        .bio__section {
-            .bio--main {
-                p {
-                    font-size: 1.2rem;
-                    line-height: 3rem;
-                    margin-bottom: 40px;
-                }
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
+
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.4rem;
+            line-height: 3rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
             }
+        }
 
-            .bio--detail {
-
-                p,
-                ls {
-                    font-size: 1rem;
-                    line-height: 2rem;
-                }
-            }
-
-            .bio__left {
-                p {
-                    width: 80px;
-                    margin-right: 25px;
-                }
-            }
-
-            .bio__right {
-                grid-template-columns: 1fr 1fr;
-
-                .bio__right__card {
-                    width: 300px;
-                    margin-bottom: 30px;
-                }
-
-            }
+        .bio__resume {
+            margin-bottom: $margin-bottom;
         }
     }
 }
@@ -252,46 +248,46 @@
         }
 
         margin-bottom: $margin;
-    }
 
-    .container {
-        .bio__section {
-            .bio--main {
-                p {
-                    font-size: 1.2rem;
-                    line-height: 3rem;
-                    margin-bottom: 40px;
-                }
-            }
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
 
-            .bio--detail {
-
-                p,
-                ls {
-                    font-size: 1rem;
-                    line-height: 2rem;
-                }
-            }
-
-            .bio__left {
-                p {
-                    width: 100px;
-                    margin-right: 25px;
-                }
-            }
-
-            .bio__right {
-                grid-template-columns: 1fr 1fr;
-
-                .bio__right__card {
-                    width: 300px;
-                    margin-bottom: 30px;
-                }
-
-            }
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
         }
     }
 
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
+
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.4rem;
+            line-height: 3rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
+            }
+        }
+
+        .bio__resume {
+            margin-bottom: $margin-bottom;
+        }
+    }
 }
 
 
@@ -310,6 +306,16 @@
         }
 
         margin-bottom: $margin;
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
+
     }
 
     .bio--container {

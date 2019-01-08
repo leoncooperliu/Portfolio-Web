@@ -102,6 +102,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
+  body .bg-image-park {
+    background-image: url(../img/next-project-park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
   body .container {
     padding: 0; }
   body .nav--container {
@@ -211,6 +216,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
+  body .bg-image-park {
+    background-image: url(../img/next-project-park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
   body .container {
     padding: 0; }
   body .nav--container {
@@ -266,21 +276,17 @@ body .header--container {
 body .top {
   height: 100vh;
   background-color: #1B1B1B; }
+  body .top h2 {
+    margin: 0; }
   body .top .intro--grid {
     width: 100%;
-    display: grid;
-    grid-template-columns: 40% 60%; }
-    body .top .intro--grid h2 {
-      margin: 0; }
+    display: grid; }
     body .top .intro--grid .color--white {
       color: white; }
     body .top .intro--grid .color--grey {
       color: #878787; }
     body .top .intro--grid .margin--top {
       margin-top: 30px; }
-    body .top .intro--grid .text--right {
-      text-align: right;
-      margin-right: 30px; }
   body .top h4 {
     color: #878787;
     text-decoration: underline; }

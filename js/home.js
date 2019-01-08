@@ -19,64 +19,24 @@ const FILMS = {
 const PHOTOS = {
     page: ["photo-dancer.html",
            "photo-kathy.html",
-           "photo-long.html"],
+           "photo-long.html",
+          "photo-park.html"],
     location: ["img/home-photo-dancer.jpg",
                "img/home-photo-kathy.jpg",
-               "img/home-photo-long.jpg"],
+               "img/home-photo-long.jpg",
+              "img/home-photo-park.jpg"],
     name: ["View Portraiture",
            "View Portraiture",
-           "View Landscape"],
+           "View Landscape",
+          "View Landscape"],
     type: ["img",
            "img",
-           "img"]
-}
-
-const RECENTS = {
-    page: ["photo-dancer.html",
-           "film-near.html",
-           "photo-kathy.html",
-
-           "photo-long.html"
-           ],
-    location: ["img/home-photo-dancer.jpg",
-               "mp4/home-near1.mp4",
-               "img/home-photo-kathy.jpg",
-               "img/home-photo-long.jpg"
-               ],
-    name: ["View Portraiture",
-           "View Short Film",
-           "View Portraiture",
-           "View Landscape"
-           ],
-    poster: ["",
-             "img/home-film-near.jpg",
-             "",
-             ""],
-    type: ["img",
-           "mp4",
            "img",
-           "img"]
+          "img"]
 }
 
-const BLOGS = {
-    page: ["https://nyu-web.github.io/homework-2-leoncooperliu/",
-           "https://nyu-web.github.io/homework-3-leoncooperliu/",
-           "https://nyu-web.github.io/homework-5-leoncooperliu/",
-           "https://nyu-web.github.io/homework-8-leoncooperliu/"],
-    location: ["img/blogs/hw-2.jpg",
-               "img/blogs/hw-3.jpg",
-               "img/blogs/hw-5.jpg",
-               "img/blogs/hw-8.jpg"],
-    name: ["View on GitHub",
-           "View on GitHub",
-           "View on GitHub",
-           "View on GitHub"],
-    poster: ["", "", "", ""],
-    type: ["img", "img", "img", "img"]
-}
 
 console.log("Hi");
-console.log(FILMS["location"][0]);
 
 const allProject = document.querySelector('#all-project');
 const films = document.querySelector('#nav-film');
@@ -187,14 +147,5 @@ const showPhotoProjects = (event) => {
     recent.classList.remove('btn--active');
 }
 
-const showRecentProjects = (event) => {
-    showProjects(RECENTS);
-    recent.classList.add('btn--active');
-    designs.classList.remove('btn--active');
-    photos.classList.remove('btn--active');
-    films.classList.remove('btn--active');
-}
-
 films.addEventListener('click', showFilmProjects);
 photos.addEventListener('click', showPhotoProjects);
-recent.addEventListener('click', showRecentProjects);

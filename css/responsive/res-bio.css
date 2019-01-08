@@ -114,31 +114,34 @@
   .top {
     margin-bottom: 40px; }
     .top h2 {
-      font-size: 1.2rem; }
+      font-size: 1.1rem; }
     .top h4 {
       font-size: 0.8rem;
       margin-top: 40px;
       margin-bottom: 0; }
+    .top .intro--grid {
+      grid-template-columns: 30% 70%; }
+    .top .text--right {
+      text-align: right;
+      margin-right: 10px; }
 
-  .container .bio__section {
-    display: flex;
-    flex-direction: column; }
-    .container .bio__section .bio__right {
-      grid-template-columns: 1fr; }
-    .container .bio__section .bio--main p {
+  .bio--container {
+    width: 90vw; }
+    .bio--container h3 {
+      font-size: 1.2rem;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+    .bio--container p,
+    .bio--container ls {
       font-size: 1rem;
-      line-height: 2.2rem;
-      margin-bottom: 25px; }
-    .container .bio__section .bio--detail p,
-    .container .bio__section .bio--detail ls {
-      font-size: .9rem;
-      line-height: 2rem; }
-    .container .bio__section .bio__left {
-      text-align: left; }
-      .container .bio__section .bio__left p {
-        width: 60px; }
-    .container .bio__section .bio__right .bio__right__card {
-      width: 300px;
+      line-height: 2rem;
+      margin-bottom: 20px; }
+    .bio--container .bio__contact {
+      margin-bottom: 20px; }
+      .bio--container .bio__contact ls {
+        display: block;
+        margin-right: 20px; }
+    .bio--container .bio__resume {
       margin-bottom: 20px; } }
 @media (min-width: 576px) {
   .top {
@@ -149,26 +152,29 @@
       font-size: .8rem;
       margin-top: 40px;
       margin-bottom: 0; }
+    .top .intro--grid {
+      grid-template-columns: 40% 60%; }
+    .top .text--right {
+      text-align: right;
+      margin-right: 30px; }
 
-  .container .bio__section {
-    display: flex;
-    flex-direction: row; }
-    .container .bio__section .bio--main p {
-      font-size: 1rem;
-      line-height: 2.2rem;
-      margin-bottom: 25px; }
-    .container .bio__section .bio--detail p,
-    .container .bio__section .bio--detail ls {
-      font-size: 1rem;
-      line-height: 2rem; }
-    .container .bio__section .bio__left {
-      text-align: right; }
-      .container .bio__section .bio__left p {
-        width: 80px;
-        margin-right: 20px; }
-    .container .bio__section .bio__right .bio__right__card {
-      width: 300px;
-      margin-bottom: 20px; } }
+  .bio--container {
+    width: 750px; }
+    .bio--container h3 {
+      font-size: 1.7rem;
+      margin-top: 50px;
+      margin-bottom: 35px; }
+    .bio--container p,
+    .bio--container ls {
+      font-size: 1.4rem;
+      line-height: 3rem;
+      margin-bottom: 35px; }
+    .bio--container .bio__contact {
+      margin-bottom: 35px; }
+      .bio--container .bio__contact ls {
+        margin-right: 35px; }
+    .bio--container .bio__resume {
+      margin-bottom: 35px; } }
 @media (min-width: 768px) and (orientation: portrait) {
   .top {
     margin-bottom: 40px; }
@@ -178,23 +184,29 @@
       font-size: 1.2rem;
       margin-top: 40px;
       margin-bottom: 0; }
+    .top .intro--grid {
+      grid-template-columns: 40% 60%; }
+    .top .text--right {
+      text-align: right;
+      margin-right: 30px; }
 
-  .container .bio__section .bio--main p {
-    font-size: 1.2rem;
-    line-height: 3rem;
-    margin-bottom: 40px; }
-  .container .bio__section .bio--detail p,
-  .container .bio__section .bio--detail ls {
-    font-size: 1rem;
-    line-height: 2rem; }
-  .container .bio__section .bio__left p {
-    width: 80px;
-    margin-right: 25px; }
-  .container .bio__section .bio__right {
-    grid-template-columns: 1fr 1fr; }
-    .container .bio__section .bio__right .bio__right__card {
-      width: 300px;
-      margin-bottom: 30px; } }
+  .bio--container {
+    width: 750px; }
+    .bio--container h3 {
+      font-size: 1.7rem;
+      margin-top: 50px;
+      margin-bottom: 35px; }
+    .bio--container p,
+    .bio--container ls {
+      font-size: 1.4rem;
+      line-height: 3rem;
+      margin-bottom: 35px; }
+    .bio--container .bio__contact {
+      margin-bottom: 35px; }
+      .bio--container .bio__contact ls {
+        margin-right: 35px; }
+    .bio--container .bio__resume {
+      margin-bottom: 35px; } }
 @media (min-width: 768px) and (orientation: landscape) {
   .top {
     margin-bottom: 20px; }
@@ -204,23 +216,29 @@
       font-size: .8rem;
       margin-top: 20px;
       margin-bottom: 0; }
+    .top .intro--grid {
+      grid-template-columns: 40% 60%; }
+    .top .text--right {
+      text-align: right;
+      margin-right: 30px; }
 
-  .container .bio__section .bio--main p {
-    font-size: 1.2rem;
-    line-height: 3rem;
-    margin-bottom: 40px; }
-  .container .bio__section .bio--detail p,
-  .container .bio__section .bio--detail ls {
-    font-size: 1rem;
-    line-height: 2rem; }
-  .container .bio__section .bio__left p {
-    width: 80px;
-    margin-right: 25px; }
-  .container .bio__section .bio__right {
-    grid-template-columns: 1fr 1fr; }
-    .container .bio__section .bio__right .bio__right__card {
-      width: 300px;
-      margin-bottom: 30px; } }
+  .bio--container {
+    width: 750px; }
+    .bio--container h3 {
+      font-size: 1.7rem;
+      margin-top: 50px;
+      margin-bottom: 35px; }
+    .bio--container p,
+    .bio--container ls {
+      font-size: 1.4rem;
+      line-height: 3rem;
+      margin-bottom: 35px; }
+    .bio--container .bio__contact {
+      margin-bottom: 35px; }
+      .bio--container .bio__contact ls {
+        margin-right: 35px; }
+    .bio--container .bio__resume {
+      margin-bottom: 35px; } }
 @media (min-width: 992px) {
   .top {
     margin-bottom: 40px; }
@@ -230,23 +248,29 @@
       font-size: 1.2rem;
       margin-top: 40px;
       margin-bottom: 0; }
+    .top .intro--grid {
+      grid-template-columns: 40% 60%; }
+    .top .text--right {
+      text-align: right;
+      margin-right: 30px; }
 
-  .container .bio__section .bio--main p {
-    font-size: 1.2rem;
-    line-height: 3rem;
-    margin-bottom: 40px; }
-  .container .bio__section .bio--detail p,
-  .container .bio__section .bio--detail ls {
-    font-size: 1rem;
-    line-height: 2rem; }
-  .container .bio__section .bio__left p {
-    width: 100px;
-    margin-right: 25px; }
-  .container .bio__section .bio__right {
-    grid-template-columns: 1fr 1fr; }
-    .container .bio__section .bio__right .bio__right__card {
-      width: 300px;
-      margin-bottom: 30px; } }
+  .bio--container {
+    width: 750px; }
+    .bio--container h3 {
+      font-size: 1.7rem;
+      margin-top: 50px;
+      margin-bottom: 35px; }
+    .bio--container p,
+    .bio--container ls {
+      font-size: 1.4rem;
+      line-height: 3rem;
+      margin-bottom: 35px; }
+    .bio--container .bio__contact {
+      margin-bottom: 35px; }
+      .bio--container .bio__contact ls {
+        margin-right: 35px; }
+    .bio--container .bio__resume {
+      margin-bottom: 35px; } }
 @media (min-width: 1200px) {
   .top {
     margin-bottom: 50px; }
@@ -256,6 +280,11 @@
       font-size: 1.2rem;
       margin-top: 50px;
       margin-bottom: 0; }
+    .top .intro--grid {
+      grid-template-columns: 40% 60%; }
+    .top .text--right {
+      text-align: right;
+      margin-right: 30px; }
 
   .bio--container {
     width: 750px; }
