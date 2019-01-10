@@ -92,8 +92,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
-  body .bg-image-shadows {
-    background-image: url(../img/next-project-shadows.jpg);
+  body .bg-image-hidden {
+    background-image: url(../img/home-film-hidden.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }

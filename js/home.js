@@ -1,15 +1,15 @@
 const FILMS = {
     page: ["film-near.html",
-           "film-chasing.html",
+           "film-hidden.html",
            "film-gala.html"],
-    location: ["mp4/home-near1.mp4",
-               "mp4/home-shadow.mp4",
+    location: ["mp4/home-near.mp4",
+               "mp4/home-hidden.mp4",
                "mp4/home-gala.mp4"],
     name: ["View Short Film",
-           "View Feature Film",
+           "View Horror Short",
            "View Trailer"],
     poster: ["img/home-film-near.jpg",
-             "img/home-film-shadow.jpg",
+             "img/home-film-hidden.jpg",
              "img/home-film-gala.jpg"],
     type: ["mp4",
            "mp4",
@@ -33,6 +33,29 @@ const PHOTOS = {
            "img",
            "img",
           "img"]
+}
+
+const RECENT = {
+    page: ["photo-dancer.html",
+           "photo-kathy.html",
+           "film-near.html",
+          "film-gala.html"],
+    location: ["img/home-photo-dancer.jpg",
+               "img/home-photo-kathy.jpg",
+               "mp4/home-near.mp4",
+              "mp4/home-gala.mp4"],
+    name: ["View Portraiture",
+           "View Landscape",
+           "View Short Film",
+          "View Trailer"],
+    poster: ['',
+               '',
+             "img/home-film-near.jpg",
+              "img/home-film-gala.jpg"],
+    type: ["img",
+           "img",
+           "mp4",
+          "mp4"]
 }
 
 
@@ -64,12 +87,15 @@ const showProjects = (inputArray) => {
 
         if (inputArray['type'][i] == "mp4") {
             const vid = document.createElement('video');
+            const source = document.createElement('source');
             a1.setAttribute('href', inputArray["page"][i]);
-            vid.src = inputArray["location"][i];
+            source.src = inputArray["location"][i];
+            source.type = "video/mp4";
             vid.loop = true;
             vid.muted = true;
             vid.autoplay = true;
             vid.poster = inputArray["poster"][i];
+            vid.appendChild(source);
             a1.appendChild(vid);
 
             a2.setAttribute('href', inputArray["page"][i]);
@@ -131,6 +157,15 @@ const showProjects = (inputArray) => {
     }
 }
 
+const showRecentProjects = (event) => {
+    showProjects(RECENT);
+    recent.classList.add('btn--active');
+    designs.classList.remove('btn--active');
+    photos.classList.remove('btn--active');
+    films.classList.remove('btn--active');
+}
+
+
 const showFilmProjects = (event) => {
     showProjects(FILMS);
     films.classList.add('btn--active');
@@ -149,3 +184,4 @@ const showPhotoProjects = (event) => {
 
 films.addEventListener('click', showFilmProjects);
 photos.addEventListener('click', showPhotoProjects);
+recent.addEventListener('click', showRecentProjects);
