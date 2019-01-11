@@ -27,7 +27,8 @@
     }
 
     .next-project {
-        height: 180px;
+        height: auto;
+        padding: 40px 0;
 
         .hero-next {
             height: 140px;
@@ -35,8 +36,8 @@
     }
 
     .info {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
 
         .info--grid {
             display: grid;
@@ -44,7 +45,7 @@
             color: white;
 
             .info__card {
-                margin-bottom: 10px;
+                margin-bottom: 20px;
 
                 h3 {
                     font-size: .8rem;
@@ -83,7 +84,8 @@
     }
 
     .next-project {
-        height: 250px;
+        height: auto;
+        padding: 50px 0;
 
         .hero-next {
             height: 200px;
@@ -92,7 +94,7 @@
 
     .info--grid {
         .info__card {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
 
             h3 {
                 font-size: 1rem;
@@ -138,7 +140,8 @@
     }
 
     .next-project {
-        height: 340px;
+        height: auto;
+        padding: 60px 0;
 
         .hero-next {
             height: 280px;
@@ -156,7 +159,8 @@
     }
 
     .next-project {
-        height: 400px;
+        height: auto;
+        padding: 50px 0;
 
         .hero-next {
             height: 350px;
@@ -171,6 +175,11 @@
             display: flex;
             justify-content: space-between;
             color: white;
+
+            .info__card {
+                margin-top: 20px;
+                margin-bottom: 0;
+            }
         }
     }
 }
@@ -181,7 +190,8 @@
     }
 
     .next-project {
-        height: 550px;
+        height: auto;
+        padding: 70px 0;
 
         .hero-next {
             height: 450px;

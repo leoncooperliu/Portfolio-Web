@@ -21,6 +21,14 @@
         }
     }
 
+    .info {
+        p {
+            font-size: .9rem;
+            line-height: 1.8rem;
+            margin-bottom: 30px;
+        }
+    }
+
     .photos {
         padding-top: $photos-padding;
         padding-bottom: $photos-padding;
@@ -71,6 +79,14 @@
             font-size: .8rem;
             margin-top: $grid-gap;
             margin-bottom: 0;
+        }
+    }
+
+    .info {
+        p {
+            font-size: 1rem;
+            line-height: 2rem;
+            margin-bottom: 30px;
         }
     }
 
@@ -128,6 +144,14 @@
         }
     }
 
+    .info {
+        p {
+            font-size: 1rem;
+            line-height: 2rem;
+            margin-bottom: 40px;
+        }
+    }
+
     .photos {
         padding-top: $photos-padding;
         padding-bottom: $photos-padding;
@@ -178,6 +202,14 @@
             font-size: .8rem;
             margin-top: $grid-gap;
             margin-bottom: 0;
+        }
+    }
+
+    .info {
+        p {
+            font-size: 1rem;
+            line-height: 2rem;
+            margin-bottom: 40px;
         }
     }
 
@@ -235,6 +267,14 @@
         }
     }
 
+    .info {
+        p {
+            font-size: 1rem;
+            line-height: 2.5rem;
+            margin-bottom: 50px;
+        }
+    }
+
     .photos {
         padding-top: $photos-padding;
         padding-bottom: $photos-padding;
@@ -285,6 +325,14 @@
             font-size: 1.1rem;
             margin-top: $grid-gap;
             margin-bottom: 0;
+        }
+    }
+
+    .info {
+        p {
+            font-size: 1.2rem;
+            line-height: 2.7rem;
+            margin-bottom: 30px;
         }
     }
 

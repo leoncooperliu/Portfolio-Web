@@ -18,12 +18,18 @@ body {
     }
 
     .photos {
-        padding-bottom: 200px;
+        padding-bottom: 50px;
 
         img {
             width: 100%;
         }
 
+    }
+
+    .info {
+        p {
+            color: white;
+        }
     }
 
     .generate-button {

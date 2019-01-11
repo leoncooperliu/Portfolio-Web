@@ -6,7 +6,7 @@ const FILMS = {
                "mp4/home-hidden.mp4",
                "mp4/home-gala.mp4"],
     name: ["View Short Film",
-           "View Horror Short",
+           "View Short Film",
            "View Trailer"],
     poster: ["img/home-film-near.jpg",
              "img/home-film-hidden.jpg",
@@ -14,6 +14,22 @@ const FILMS = {
     type: ["mp4",
            "mp4",
            "mp4"]
+}
+
+const DESIGNS = {
+    page: ["design-lantern.html",
+           "design-mid.html",
+           "design-next.html"],
+    location: ["img/home-design-lantern.jpg",
+               "img/home-design-mid.jpg",
+               "img/home-design-next.jpg"],
+    name: ["View Poster",
+           "View Poster",
+           "View Layout"],
+    poster: [],
+    type: ["img",
+           "img",
+           "img"]
 }
 
 const PHOTOS = {
@@ -182,6 +198,15 @@ const showPhotoProjects = (event) => {
     recent.classList.remove('btn--active');
 }
 
+const showDesignProjects = (event) => {
+    showProjects(DESIGNS);
+    designs.classList.add('btn--active');
+    photos.classList.remove('btn--active');
+    films.classList.remove('btn--active');
+    recent.classList.remove('btn--active');
+}
+
 films.addEventListener('click', showFilmProjects);
 photos.addEventListener('click', showPhotoProjects);
 recent.addEventListener('click', showRecentProjects);
+designs.addEventListener('click', showDesignProjects);

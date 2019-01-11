@@ -165,9 +165,11 @@ body .top {
     color: #878787;
     text-decoration: underline; }
 body .photos {
-  padding-bottom: 200px; }
+  padding-bottom: 50px; }
   body .photos img {
     width: 100%; }
+body .info p {
+  color: white; }
 body .generate-button {
   text-align: center;
   margin-top: 30px; }
