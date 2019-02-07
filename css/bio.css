@@ -72,11 +72,6 @@ body {
     background-color: #FEFEFE; }
   body .bg-color-white {
     background-color: red; }
-  body .bg-image-gala {
-    background-image: url(../img/next-project-gala.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
   body .bg-image-dancer {
     background-image: url(../img/next-project-dancer.jpg);
     background-repeat: no-repeat;
@@ -99,11 +94,6 @@ body {
     background-position: center; }
   body .bg-image-hidden {
     background-image: url(../img/home-film-hidden.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body .bg-image-park {
-    background-image: url(../img/next-project-park.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -186,11 +176,6 @@ body {
     background-color: #FEFEFE; }
   body .bg-color-white {
     background-color: red; }
-  body .bg-image-gala {
-    background-image: url(../img/next-project-gala.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
   body .bg-image-dancer {
     background-image: url(../img/next-project-dancer.jpg);
     background-repeat: no-repeat;
@@ -213,11 +198,6 @@ body {
     background-position: center; }
   body .bg-image-hidden {
     background-image: url(../img/home-film-hidden.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body .bg-image-park {
-    background-image: url(../img/next-project-park.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }

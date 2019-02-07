@@ -15,17 +15,10 @@
 <body>
     <div class="quote">
         <div class="quote--center container">
-<!--
             <div class="img--container">
-                <img src="img/me-photo1.jpg" class="animated fadeIn" alt="me-photo">
+                <video src="mp4/home-me.mp4" muted loop autoplay preload="true" playsinline poster="img/me-photo1.jpg"></video>
                 <h1 class="font--oswald text--centered animated fadeIn delay-slow-4">LEON LIU</h1>
             </div>
--->
-            <div class="img--container">
-                 <video src="mp4/home-me.mp4" muted loop autoplay poster="img/home-film-gala.jpg"></video>
-                <h1 class="font--oswald text--centered animated fadeIn delay-slow-4">LEON LIU</h1>
-            </div>
-
             <div class="font--nova-semibold animated fadeInUp delay-slow-6 link--container">
                 <h4 class="quote--grey quote--inline"> <a href="#my-works">Works</a></h4>
                 <h4 class="quote--grey quote--inline" href="contact.html"><a href="bio.html"> Biography</a></h4>
@@ -36,14 +29,7 @@
         <div class="container">
             <div class="works__category font--cardo animated fadeInUp">
                 <ls class="text--pointer btn--active" id="nav-recent">
-                    Recent
-                </ls>
-                <ls class="text--pointer" id="nav-photo">
-                    Photo
-                </ls>
-
-                <ls class="text--pointer" id="nav-film">
-                    Film
+                    Photo &amp; Film
                 </ls>
                 <ls class="text--pointer" id="nav-design">
                     Design
@@ -53,12 +39,23 @@
                 <!--Photo: City Dancer-->
                 <div class="works__card animated fadeInUp">
                     <a href="photo-dancer.html">
-                        <img src="img/home-photo-dancer.jpg" alt="photo-kathy">
+                        <img src="img/home-photo-dancer.jpg" alt="photo-dancer">
                     </a>
                     <div class="works__card__text">
                         <h4 class="font--nova-semibold"><a href="photo-dancer.html">View Portraiture</a></h4>
                     </div>
                 </div>
+
+                <!--Film: Near-->
+                <div class="works__card animated fadeInUp">
+                    <a href="film-near.html">
+                        <video src="mp4/home-near.mp4" muted loop autoplay preload="true" playsinline poster="img/home-film-near.jpg"></video>
+                    </a>
+                    <div class="works__card__text">
+                        <h4 class="font--nova-semibold"><a href="film-near.html">View Short Film</a></h4>
+                    </div>
+                </div>
+
                 <!--Photo: Kathy-->
                 <div class="works__card animated fadeInUp">
                     <a href="photo-kathy.html">
@@ -68,45 +65,26 @@
                         <h4 class="font--nova-semibold"><a href="photo-kathy.html">View Portraiture</a></h4>
                     </div>
                 </div>
-                <!--Film: Near-->
-                <div class="works__card animated fadeInUp large-screen">
-                    <a href="film-near.html">
-                        <video src="mp4/home-near.mp4" muted loop autoplay poster="img/home-film-near.jpg"></video>
+
+                <!--Film: Hidden-->
+                <div class="works__card animated fadeInUp">
+                    <a href="film-hidden.html">
+                        <video src="mp4/home-hidden.mp4" muted loop autoplay preload="true" playsinline poster="img/home-film-hidden.jpg"></video>
                     </a>
                     <div class="works__card__text">
-                        <h4 class="font--nova-semibold"><a href="photo-park.html">View Short Film</a></h4>
+                        <h4 class="font--nova-semibold"><a href="film-hidden.html">View Short Horror</a></h4>
                     </div>
                 </div>
 
-                <div class="works__card animated fadeInUp small-screen">
-                    <a href="photo-park.html">
-                        <img src="img/home-film-near.jpg" alt="photo-long">
+                <!--Photo: Long Exposure-->
+                <div class="works__card animated fadeInUp">
+                    <a href="photo-long.html">
+                        <img src="img/home-photo-long.jpg" alt="photo-long">
                     </a>
                     <div class="works__card__text">
-                        <h4 class="font--nova-semibold"><a href="photo-park.html">View Short Film</a></h4>
+                        <h4 class="font--nova-semibold"><a href="photo-long.html">View Landscape</a></h4>
                     </div>
                 </div>
-
-                <!--Film: GALA-->
-                <div class="works__card animated fadeInUp large-screen">
-                    <a href="film-gala.html">
-                        <video src="mp4/home-gala.mp4" muted loop autoplay poster="img/home-film-gala.jpg"></video>
-                    </a>
-                    <div class="works__card__text">
-                        <h4 class="font--nova-semibold"><a href="photo-park.html">View Trailer</a></h4>
-                    </div>
-                </div>
-
-                <div class="works__card animated fadeInUp small-screen">
-                    <a href="film-gala.html">
-                        <img src="img/home-film-gala.jpg" alt="photo-long">
-                    </a>
-                    <div class="works__card__text">
-                        <h4 class="font--nova-semibold"><a href="photo-park.html">View Trailer</a></h4>
-                    </div>
-                </div>
-
-
             </div>
         </div>
     </div>
@@ -129,7 +107,7 @@
                 </div>
                 <div class="sitemap__card">
                     <ls class="card--margin"><a href="leon_resume.pdf" target="_blank"><u>View Resume ></u></a></ls>
-                    <ls><a href="photo-random.html">© 2018 by Leon Liu</a></ls>
+                    <ls><a href="blog.html">© 2018 by Leon Liu</a></ls>
                 </div>
             </div>
         </div>

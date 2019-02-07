@@ -2,18 +2,18 @@ const FILMS = {
     page: ["film-near.html",
            "film-hidden.html",
            "film-gala.html"],
-    location: ["mp4/home-near.mp4",
-               "mp4/home-hidden.mp4",
-               "mp4/home-gala.mp4"],
+    location: ["img/home-film-near.jpg",
+             "img/home-film-hidden.jpg",
+             "img/home-film-gala.jpg"],
     name: ["View Short Film",
            "View Short Film",
            "View Trailer"],
     poster: ["img/home-film-near.jpg",
              "img/home-film-hidden.jpg",
              "img/home-film-gala.jpg"],
-    type: ["mp4",
-           "mp4",
-           "mp4"]
+    type: ["img",
+           "img",
+           "img"]
 }
 
 const DESIGNS = {
@@ -58,8 +58,8 @@ const RECENT = {
           "film-gala.html"],
     location: ["img/home-photo-dancer.jpg",
                "img/home-photo-kathy.jpg",
-               "mp4/home-near.mp4",
-              "mp4/home-gala.mp4"],
+               "img/home-film-near.jpg",
+              "img/home-film-gala.jpg"],
     name: ["View Portraiture",
            "View Landscape",
            "View Short Film",
@@ -70,8 +70,8 @@ const RECENT = {
               "img/home-film-gala.jpg"],
     type: ["img",
            "img",
-           "mp4",
-          "mp4"]
+           "img",
+          "img"]
 }
 
 
@@ -107,9 +107,10 @@ const showProjects = (inputArray) => {
             a1.setAttribute('href', inputArray["page"][i]);
             source.src = inputArray["location"][i];
             source.type = "video/mp4";
+            vid.playsinline = true;
             vid.loop = true;
             vid.muted = true;
-            vid.autoplay = true;
+            vid.preload = true;
             vid.poster = inputArray["poster"][i];
             vid.appendChild(source);
             a1.appendChild(vid);
@@ -122,32 +123,10 @@ const showProjects = (inputArray) => {
             inDiv.appendChild(a2);
             inDiv.classList.add('works__card__text');
 
-            outDiv.classList.add('works__card', 'animated', 'fadeInUp', 'large-screen');
+            outDiv.classList.add('works__card', 'animated', 'fadeInUp');
             outDiv.appendChild(a1);
             outDiv.appendChild(inDiv);
             allProject.appendChild(outDiv);
-
-
-            //poster
-            a3.setAttribute('href', inputArray["page"][i]);
-            const img = document.createElement('img');
-            img.src = inputArray["poster"][i];
-            a3.appendChild(img);
-
-            a4.setAttribute('href', inputArray["page"][i]);
-            title1.innerHTML = inputArray["name"][i];
-            title1.classList.add('font--nova-semibold');
-            a4.appendChild(title1);
-
-            inDivPoster.appendChild(a4);
-            inDivPoster.classList.add('works__card__text');
-
-            outDivPoster.classList.add('works__card', 'animated', 'fadeInUp', 'small-screen')
-            outDivPoster.appendChild(a3);
-            outDivPoster.appendChild(inDivPoster);
-            allProject.appendChild(outDivPoster);
-            console.log('sucess video img')
-
         }
         if (inputArray['type'][i] == "img") {
             const img = document.createElement('img');

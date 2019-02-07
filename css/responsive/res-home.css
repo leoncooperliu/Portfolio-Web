@@ -147,7 +147,7 @@
     margin-top: 20px; }
     .quote .quote--center .link--container h4 {
       font-size: .8rem;
-      margin: 0 30px; } }
+      margin: 0 25px; } }
 @media (min-width: 576px) {
   .works h4 {
     font-size: .8rem; }
@@ -173,7 +173,7 @@
     margin-top: 30px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
-      margin: 0 30px; } }
+      margin: 0 25px; } }
 @media (min-width: 768px) and (orientation: landscape) {
   .works h4 {
     font-size: 1.2rem; }
@@ -199,7 +199,7 @@
     margin-top: 20px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
-      margin: 0 30px; } }
+      margin: 0 25px; } }
 @media (min-width: 768px) and (orientation: portrait) {
   .works h4 {
     font-size: 1.2rem; }
@@ -225,7 +225,7 @@
     margin-top: 20px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
-      margin: 0 30px; } }
+      margin: 0 25px; } }
 @media (min-width: 992px) {
   .works h4 {
     font-size: 1.2rem; }
@@ -251,7 +251,7 @@
     margin-top: 30px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
-      margin: 0 30px; } }
+      margin: 0 25px; } }
 @media (min-width: 1200px) {
   .works h4 {
     font-size: 1.2rem; }
@@ -277,7 +277,7 @@
     margin-top: 40px; }
     .quote .quote--center .link--container h4 {
       font-size: 1.1rem;
-      margin: 0 30px; }
+      margin: 0 25px; }
 
   .large-screen {
     display: block; }

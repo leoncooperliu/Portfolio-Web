@@ -1,0 +1,64 @@
+@import "style";
+
+.hero {
+    width: 100%;
+    height: 400px;
+    background-color: #1B1B1B;
+
+    .nav-bar {
+        position: absolute;
+        padding-top: 5vh;
+        width: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 5;
+
+        h3 {
+            color: #FAFAFA;
+            font-size: 1.4rem;
+            margin-bottom: 0;
+            margin-left: 15px;
+        }
+    }
+
+    .hero__title {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: white;
+            font-size: 2.5rem;
+            letter-spacing: .1rem;
+            margin: 0;
+        }
+    }
+}
+
+.blog {
+    background-color: #f3f3f3;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .blog__card {
+        padding-bottom: 50px;
+
+        video {
+            width: 100%;
+        }
+
+        .card__info {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4,
+            p {
+                margin: 0
+            }
+        }
+    }
+}
