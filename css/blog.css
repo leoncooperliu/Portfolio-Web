@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:700");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("anim/animate.css");
 @import url("anim/self-define.css");
 @font-face {
@@ -46,6 +47,12 @@ body {
     font-family: lato; }
   body .font--oswald {
     font-family: oswald; }
+  body .font--roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; }
+  body .font--roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; }
   body .sitemap .sitemap--flex .sitemap__card {
     height: auto;
     border: 0;
@@ -99,6 +106,8 @@ body {
     margin: 0 auto; }
   body .quote--container {
     width: 60vw;
+    margin: 0 auto; }
+  body .design--container {
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }

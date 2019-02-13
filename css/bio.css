@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:700");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("anim/animate.css");
 @import url("anim/self-define.css");
 @import url("https://fonts.googleapis.com/css?family=Cardo:700");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("anim/animate.css");
 @import url("anim/self-define.css");
 @font-face {
@@ -51,6 +53,12 @@ body {
     font-family: lato; }
   body .font--oswald {
     font-family: oswald; }
+  body .font--roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; }
+  body .font--roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; }
   body .sitemap .sitemap--flex .sitemap__card {
     height: auto;
     border: 0;
@@ -104,6 +112,8 @@ body {
     margin: 0 auto; }
   body .quote--container {
     width: 60vw;
+    margin: 0 auto; }
+  body .design--container {
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
@@ -155,6 +165,12 @@ body {
     font-family: lato; }
   body .font--oswald {
     font-family: oswald; }
+  body .font--roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; }
+  body .font--roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; }
   body .sitemap .sitemap--flex .sitemap__card {
     height: auto;
     border: 0;
@@ -208,6 +224,8 @@ body {
     margin: 0 auto; }
   body .quote--container {
     width: 60vw;
+    margin: 0 auto; }
+  body .design--container {
     margin: 0 auto; }
   body .underline {
     text-decoration: underline; }
@@ -258,15 +276,12 @@ body .top {
   background-color: #1B1B1B; }
   body .top h2 {
     margin: 0; }
-  body .top .intro--grid {
-    width: 100%;
-    display: grid; }
-    body .top .intro--grid .color--white {
-      color: white; }
-    body .top .intro--grid .color--grey {
-      color: #878787; }
-    body .top .intro--grid .margin--top {
-      margin-top: 30px; }
+  body .top .color--white {
+    color: white; }
+  body .top .color--grey {
+    color: #878787; }
+  body .top .margin--top {
+    margin-top: 30px; }
   body .top h4 {
     color: #878787;
     text-decoration: underline; }

@@ -12,21 +12,16 @@ body {
             margin: 0;
         }
 
-        .intro--grid {
-            width: 100%;
-            display: grid;
+        .color--white {
+            color: white;
+        }
 
-            .color--white {
-                color: white;
-            }
+        .color--grey {
+            color: #878787;
+        }
 
-            .color--grey {
-                color: #878787;
-            }
-
-            .margin--top {
-                margin-top: 30px;
-            }
+        .margin--top {
+            margin-top: 30px;
         }
 
         h4 {

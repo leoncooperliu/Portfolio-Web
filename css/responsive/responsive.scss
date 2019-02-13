@@ -2,6 +2,10 @@
     .container {
         max-width: 93vw;
     }
+    
+    .design--container {
+        max-width: 93vw;
+    }
 
     .sitemap {
         .sitemap--flex {
@@ -69,6 +73,10 @@
         max-width: 540px;
     }
 
+    .design--container {
+        max-width: 540px;
+    }
+
     .sitemap {
         .sitemap--flex {
 
@@ -116,6 +124,10 @@
         max-width: 720px;
     }
 
+    .design--container {
+        max-width: 720px;
+    }
+
 
     .sitemap {
         .sitemap--flex {
@@ -158,6 +170,10 @@
         max-width: 960px;
     }
 
+    .design--container {
+        max-width: 960px;
+    }
+
     .next-project {
         height: auto;
         padding: 50px 0;
@@ -187,6 +203,11 @@
 @media (min-width: 1200px) {
     .container {
         max-width: 1000px;
+    }
+
+    .design--container {
+        max-width: 1150px;
+
     }
 
     .next-project {

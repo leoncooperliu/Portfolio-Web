@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo:700');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 @import url('anim/animate.css');
 @import url('anim/self-define.css');
@@ -20,6 +21,8 @@
     src: url('fonts/proximanova-regular.otf');
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -30,18 +33,18 @@ body {
         display: none !important;
         -webkit-appearance: none;
     }
-    
-    
+
+
     video::-webkit-media-controls-play-button {
         display: none !important;
         -webkit-appearance: none;
     }
-    
+
     video::-webkit-media-controls {
         display: none !important;
         -webkit-appearance: none;
     }
-    
+
     video {
         pointer-events: none;
     }
@@ -79,6 +82,16 @@ body {
 
     .font--oswald {
         font-family: oswald;
+    }
+
+    .font--roboto {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    
+    .font--roboto-bold {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
     }
 
     .sitemap {
@@ -167,9 +180,13 @@ body {
         width: 95vw;
         margin: 0 auto;
     }
-    
+
     .quote--container {
-        width:60vw;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .design--container {
         margin: 0 auto;
     }
 
