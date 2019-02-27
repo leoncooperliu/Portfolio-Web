@@ -150,15 +150,16 @@ body {
   padding-bottom: 60px; }
   .blog .blog__card {
     padding-bottom: 50px; }
-    .blog .blog__card video {
-      width: 100%; }
-    .blog .blog__card .card__info {
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; }
-      .blog .blog__card .card__info h4,
-      .blog .blog__card .card__info p {
-        margin: 0; }
+    .blog .blog__card h2 {
+      margin-bottom: 20px; }
+    .blog .blog__card ul {
+      padding-left: 20px;
+      margin-bottom: 30px; }
+      .blog .blog__card ul li {
+        font-size: 1.1rem;
+        line-height: 1.9rem; }
+    .blog .blog__card img {
+      width: 100%;
+      margin-bottom: 10px; }
 
 /*# sourceMappingURL=blog.css.map */

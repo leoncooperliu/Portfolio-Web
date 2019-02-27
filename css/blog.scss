@@ -44,21 +44,22 @@
 
     .blog__card {
         padding-bottom: 50px;
-
-        video {
-            width: 100%;
+        
+        h2 {
+            margin-bottom: 20px;
         }
 
-        .card__info {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            h4,
-            p {
-                margin: 0
+        ul {
+            padding-left: 20px;
+            margin-bottom: 30px;
+            li {
+                font-size: 1.1rem;
+                line-height: 1.9rem;
             }
+        }
+        img {
+            width: 100%;
+            margin-bottom: 10px;
         }
     }
 }
