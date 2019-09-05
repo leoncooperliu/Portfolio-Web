@@ -33,6 +33,8 @@ body {
   body a {
     color: unset;
     height: inherit; }
+  body .a--color-white {
+    color: white; }
   body p {
     font-family: ProximaNova; }
   body .font--nova-semibold {

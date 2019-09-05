@@ -1,1 +1,366 @@
 @import "responsive";
+
+@import "responsive";
+
+@media (min-width: 300px) and (orientation:portrait) {
+    .top {
+        $margin: 40px;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+
+        h4 {
+            font-size: 0.8rem;
+            margin-top: $margin;
+            margin-bottom: 0;
+        }
+
+        .intro--grid {
+            grid-template-columns: 30% 70%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 10px;
+        }
+    }
+
+    .bio--container {
+        width: 90vw;
+        $margin-bottom: 20px;
+
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 30px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1rem;
+            line-height: 2rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                display: block;
+                margin-right: $margin-bottom;
+            }
+        }
+
+        .bio__resume {
+            margin-bottom: $margin-bottom;
+        }
+    }
+
+}
+
+
+
+
+@media (min-width: 576px) {
+    .top {
+        $margin: 40px;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+
+        h4 {
+            font-size: .8rem;
+            margin-top: $margin;
+            margin-bottom: 0;
+        }
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
+    }
+
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
+
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.4rem;
+            line-height: 3rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
+            }
+        }
+
+        .bio__resume {
+            margin-bottom: $margin-bottom;
+        }
+    }
+}
+
+@media (min-width: 768px) and (orientation:portrait) {
+    .top {
+        $margin: 40px;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $margin;
+            margin-bottom: 0;
+        }
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
+    }
+
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
+
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.2rem;
+            line-height: 2.5rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
+            }
+        }
+
+        .bio__resume {
+            margin-bottom: $margin-bottom;
+        }
+    }
+}
+
+@media (min-width: 768px) and (orientation:landscape) {
+    .top {
+        $margin: 20px;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: .8rem;
+            margin-top: $margin;
+            margin-bottom: 0;
+        }
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
+    }
+
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
+
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.4rem;
+            line-height: 3rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
+            }
+        }
+
+        .bio__resume {
+            margin-bottom: $margin-bottom;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .top {
+        $margin: 40px;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $margin;
+            margin-bottom: 0;
+        }
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
+    }
+
+    .bio--container {
+        width: 750px;
+        $margin-bottom: 35px;
+
+        h3 {
+            font-size: 1.7rem;
+            margin-top: 50px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.4rem;
+            line-height: 3rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
+            }
+        }
+
+        .bio__resume {
+            margin-bottom: $margin-bottom;
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .hero {
+        $margin: 50px;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $margin;
+            margin-bottom: 0;
+        }
+
+        margin-bottom: $margin;
+
+        .intro--grid {
+            grid-template-columns: 40% 60%;
+        }
+
+        .text--right {
+            text-align: right;
+            margin-right: 30px;
+        }
+
+    }
+
+    .bio--container {
+        width: 800px;
+        $margin-bottom: 30px;
+
+        h3 {
+            font-size: 1.6rem;
+            margin-top: 40px;
+            margin-bottom: $margin-bottom;
+        }
+
+        p,
+        ls {
+            font-size: 1.3rem;
+            line-height: 2.9rem;
+            margin-bottom: $margin-bottom;
+        }
+
+        .bio__contact {
+            margin-bottom: $margin-bottom;
+
+            ls {
+                margin-right: $margin-bottom;
+            }
+        }
+
+        .bio__resume {
+            margin-bottom: $margin-bottom;
+        }
+    }
+}

@@ -80,6 +80,18 @@ body {
                     width: 100%;
                 }
 
+                .works__video {
+                    position: relative;
+
+                    .img--centered {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+
+                }
+
                 video {
                     margin: 0;
                     padding: 0;

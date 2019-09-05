@@ -33,6 +33,8 @@ body {
   body a {
     color: unset;
     height: inherit; }
+  body .a--color-white {
+    color: white; }
   body p {
     font-family: ProximaNova; }
   body .font--nova-semibold {
@@ -163,6 +165,13 @@ body .works {
       border: 0; }
       body .works .works__grid .works__card img {
         width: 100%; }
+      body .works .works__grid .works__card .works__video {
+        position: relative; }
+        body .works .works__grid .works__card .works__video .img--centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
       body .works .works__grid .works__card video {
         margin: 0;
         padding: 0;
