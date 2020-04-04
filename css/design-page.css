@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("anim/animate.css");
+@import url("anim/self-define.css");
+@font-face {
+  font-family: ProximaNovaB;
+  src: url("fonts/proximanova-bold.otf");
+}
+
+@font-face {
+  font-family: ProximaNovaSB;
+  src: url("fonts/proximanova-semibold.otf");
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("fonts/proximanova-regular.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Fonts */
+  margin: 0;
+}
+
+body video::-webkit-media-controls-panel {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+body video::-webkit-media-controls-play-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+body video::-webkit-media-controls {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+body video {
+  pointer-events: none;
+}
+
+body a {
+  color: unset;
+  height: inherit;
+}
+
+body .a--color-white {
+  color: white;
+}
+
+body p {
+  font-family: "ProximaNova", sans-serif;
+}
+
+body .font--nova-semibold {
+  font-family: "ProximaNovaSB", sans-serif;
+}
+
+body .font--nova-bold {
+  font-family: "ProximaNovaB", sans-serif;
+}
+
+body .font--nova {
+  font-family: "ProximaNova", sans-serif;
+}
+
+body .font--cardo {
+  font-family: "cardo";
+}
+
+body .font--lato {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+}
+
+body .font--lato-semibold {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+}
+
+body .font--oswald {
+  font-family: "oswald", sans-serif;
+}
+
+body .font--roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body .font--roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+body .sitemap .sitemap--flex .sitemap__card {
+  height: auto;
+  border: 0;
+  background-color: transparent;
+}
+
+body .sitemap .sitemap--flex .sitemap__card h3 {
+  margin: 0;
+}
+
+body .sitemap .sitemap--flex .sitemap__card ls {
+  display: block;
+  color: #828282;
+}
+
+body .sitemap .sitemap--flex .sitemap__card .sitemap__icon {
+  width: 200px;
+}
+
+body .bg-color-black {
+  background-color: black;
+}
+
+body .bg-color-dark {
+  background-color: #121212;
+}
+
+body .bg-color-grey {
+  background-color: #fafafa;
+}
+
+body .bg-color-light {
+  background-color: #fefefe;
+}
+
+body .bg-color-white {
+  background-color: red;
+}
+
+body .bg-image-dancer {
+  background-image: url(../img/next-project-dancer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body .bg-image-long {
+  background-image: url(../img/next-project-long.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body .bg-image-havana {
+  background-image: url(../img/next-project-havana.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body .container {
+  padding: 0;
+}
+
+body .nav--container {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+body .quote--container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+body .design--container {
+  margin: 0 auto;
+}
+
+body .underline {
+  text-decoration: underline;
+}
+
+body .text--color-white {
+  color: white;
+}
+
+body a {
+  z-index: 10;
+}
+
+body .text--pointer {
+  cursor: pointer;
+}
+
+body .full-width img {
+  width: 100%;
+}
+
+body .full-width video {
+  width: 100%;
+}
+
+body .center-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .img--border {
+  border: 1px solid #ababab;
+}
+
+body .top {
+  height: 200px;
+}
+
+body .nav-bar {
+  position: fixed;
+  margin-top: 5vh;
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 5;
+}
+
+body .top--flex {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .top--flex-column {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .top--center {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .img--container {
+  position: relative;
+  text-align: center;
+}
+
+body .img--container .text--centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .header--container {
+  margin: 0 auto;
+}
+
+.color__darkgrey {
+  color: darkslategrey;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=design-page.css.map */

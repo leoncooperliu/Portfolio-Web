@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+    .hero {
+
+        .input-group {
+            margin: 0 auto;
+            width:800px;
+            
+            
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+
+            img {
+                width: 120px;
+                margin: 0 auto;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+                text-align: center;
+                margin-top: 30px;
+                ;
+            }
+        }
+
+        $input-gap: 50px;
+
+        .input-group {
+
+            margin-bottom: $input-gap;
+
+            input {
+                border-right: none;
+            }
+
+            border-left: none;
+
+            .input-group-append {
+                button {
+                    border-color: #ced4da;
+                    border-left: none;
+                }
+            }
+        }
+
+        .bar {
+            margin-bottom: $input-gap;
+            display: flex;
+            justify-content: center;
+
+            .btn-group {
+                margin: 0 5px;
+                button {
+                    width: 130px;
+                }
+               
+                .btn-secondary {
+                    color:#6c757d;
+                    background-color: white;
+                    border-color: #a6abaf;
+                }
+
+                .dropdown-menu {
+                    a {
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .photo--grid {
+
+        display: flex;
+        justify-content: center;
+
+        $photo-gap: 15px;
+
+        .grid {
+            margin-left: $photo-gap;
+            margin-right: $photo-gap;
+
+            line-height: 0;
+            margin-top: $photo-gap+ 30px;
+
+            -webkit-column-count: 5;
+            -webkit-column-gap: 0px;
+            -moz-column-count: 5;
+            -moz-column-gap: 0px;
+            column-count: 4;
+            column-gap: $photo-gap;
+
+            img {
+                margin-bottom: $photo-gap;
+            }
+        }
+    }
+}

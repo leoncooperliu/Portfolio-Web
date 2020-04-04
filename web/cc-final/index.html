@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash Advanced Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero">
+            <div class="logo">
+                <div>
+                    <img src="unsplash.png">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button" id="search-input">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" id="dropdown">
+                        Resolution
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#" id="high-res">High (40MP)</a>
+                        <a class="dropdown-item" href="#" id="medium-res">Medium (24MP)</a>
+                        <a class="dropdown-item" href="#" id="small-res">Small (12MP)</a>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Aspect Ratio
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#" id="landscape">Landscape</a>
+                        <a class="dropdown-item" href="#" id="portrait">Portrait</a>
+                        <a class="dropdown-item" href="#" id="square">Square</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#" id="3by2">3:2</a>
+                        <a class="dropdown-item" href="#" id="4by3"">4:3</a>
+                        <a class=" dropdown-item" href="#" id="7by5">7:5</a>
+                        <a class="dropdown-item" href="#" id="10by8">10:8</a>
+                        <a class="dropdown-item" href="#" id="16by9">16:9</a>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Popularity
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#" id="rankdown">High to Low</a>
+                        <a class="dropdown-item" href="#" id="rankup">Low to High</a>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Time
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Latest</a>
+                        <a class="dropdown-item" href="#">Earliest</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photo--grid">
+        <div class="grid"></div>
+    </div>
+
+
+</body>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src="js.js"></script>

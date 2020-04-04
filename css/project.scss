@@ -1,58 +1,55 @@
 @import "style";
 
 body {
-    .top {
-        height: 100vh;
+  .top {
+    height: 200px;
+  }  
 
-        .nav-bar {
-            position: fixed;
-            padding-top: 5vh;
-            width: inherit;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 5;
-        }
+  .nav-bar {
+    position: fixed;
+    margin-top: 5vh;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+  }
 
-        .top--flex {
-            height: 100vh;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+  .top--flex {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-        .top--flex-column {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+  .top--flex-column {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-        .top--center {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  .top--center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-        .img--container {
-            position: relative;
-            text-align: center;
+  .img--container {
+    position: relative;
+    text-align: center;
 
-            .text--centered {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-
-        }
-
+    .text--centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
+  }
 
-    .header--container {
-        margin: 0 auto;
-    }
-
+  .header--container {
+    margin: 0 auto;
+  }
 }

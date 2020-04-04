@@ -1,0 +1,351 @@
+@import "responsive";
+
+@media (min-width: 300px) and (orientation: portrait) {
+    $grid-gap: 12px;
+    $photos-padding: 12px;
+
+    .top {
+
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h4 {
+            font-size: 0.8rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo__section {
+        margin-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--portrait3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--land2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .design__img {
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    $grid-gap: 15px;
+    $photos-padding: 15px;
+
+    .top {
+
+        img {
+            width: 50%;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: .8rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo__section {
+        margin-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--portrait3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--land2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+
+    $grid-gap: 15px;
+    $photos-padding: 15px;
+
+    .top {
+
+        img {
+            width: 70%;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo__section {
+        margin-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--portrait3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--land2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    $grid-gap: 15px;
+    $photos-padding: 15px;
+
+    .top {
+
+        img {
+            width: 40%;
+        }
+
+        h2 {
+            font-size: 3rem;
+            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: .8rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo__section {
+        margin-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--portrait3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--land2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .design__img {
+        img {
+            height: auto;
+            width: 60%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    $grid-gap: 20px;
+    $photos-padding: 20px;
+
+    .top {
+
+        img {
+            width: 65%;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+
+
+    .photos {
+        padding-top: $photos-padding;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo__section {
+        margin-bottom: $photos-padding;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--portrait3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--land2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .design__img {
+        img {
+            height: 650px;
+            width: auto;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    $grid-gap: 20px;
+    $photos-padding: 20px;
+
+    .top {
+
+        img {
+            width: 55%;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            letter-spacing: .1rem;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            margin-top: $grid-gap;
+            margin-bottom: 0;
+        }
+    }
+
+
+    .photos {
+        padding-top: $grid-gap;
+        padding-bottom: $photos-padding;
+    }
+
+    .photo__section {
+        margin-bottom: $grid-gap;
+    }
+
+    .photo--grid--portrait32 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--portrait3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+
+    .photo--grid--land2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: $grid-gap;
+        grid-row-gap: $grid-gap;
+    }
+}

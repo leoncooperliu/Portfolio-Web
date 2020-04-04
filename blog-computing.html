@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134674265-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134674265-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/responsive/res-blog.css">
+    <link rel="icon" href="img/web-icon.jpg" sizes="16x16">
+    <script src="js/blog.js" defer></script>
+    <title>Personal Blogs</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="nav--container">
+            <div class="nav-bar animated fadeInDown">
+                <a href="index.html"><img id="back-icon" src="svg/back-icon-grey.svg"></a>
+                <a href="index.html" class="a--color-white">
+                    <h3 class="font--nova-semibold">Portoflio Site</h3>
+                </a>
+            </div>
+        </div>
+        <div class="img--container container">
+            <div class="text--center">
+                <h2 class="font--oswald animated fadeIn color--white margin--top">LEON LIU</h2>
+                <h3 class="font--nova-semibold animated fadeIn delay-1s color--white margin--top">A Minimalist Artist
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="blog">
+        <div class="blog__category container font--nova-semibold animated fadeInUp">
+            <a href="blog-avatar.html">
+                <button type="button" class="btn btn-outline-secondary" id="blog-avatar">Performative Avatar</button>
+            </a>
+            <a href="blog-computing.html">
+                <button type="button" class="btn btn-outline-info" id="blog-computing">Creative Computing</button>
+            </a>
+            <a href="blog-famous.html">
+                <button type="button" class="btn btn-outline-success" id="blog-famous">Internet Famous</button>
+            </a>
+        </div>
+        <div class="blog__card container">
+            <!-- 11-12-5 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">Unsplash Advanced Search</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">12-10-19</h6>
+                    <img src="img/blog/unsplash-final.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">Unsplash Advanced Search is a redesigned image search engine for Unsplash, which incoporates more powerful filter functions than the original one.</p>
+
+                    <a href="web/cc-final-2/index.html" target="_blank" class="card--margin-bottom">View Search Engine</a>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- 12-10-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">Unsplash Advanced Search Final Presentation</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">12-10-19</h6>
+                    <p class="card-text card--margin-bottom">Unsplash Advanced Search is a a image search engine
+                        specifically designed for Unsplash.</p>
+
+                    <p class="card-text card--margin-bottom">If you want to search for high-quality photos on the
+                        internet, you have powerful search engines like Google, Yahoo. However, their image databases
+                        are shitty. There are some high quality images but the majority of them are crappy, low
+                        resolution images. Is there free high-quality photos community? Yes there is. Unsplash is one of
+                        the most popular high-quality photo communities on the internet. The most awesome part of it is
+                        that Unsplash is free. However, on Unsplash website, there is no powerful search engine.
+                        Therefore, the purpose of my final project is to incorporate a powerful search engine in a
+                        high-quality photo database.
+                    </p>
+                    <img src="img/blog/com-final-api.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">The simple answer is API! I code my Javascrip with JQuery.
+                        When user searches image, the search engine will pull the according API data from Unsplash. Once
+                        all the data is loaded, I use html and sass to display them on the website. For all the
+                        functions, the search engine filters, reorganizes, and redisplay the loaded API data, which is
+                        lighter and faster than fetching new data. </p>
+                    <p class="card-text card--margin-bottom">What have I changed? </p>
+
+                    <p class="card-text card--margin-bottom">First of all, thanks for the useful feedback from last
+                        class. </p>
+                    <p class="card-text card--margin-bottom">1. I design an "delicate" header in the search box so that
+                        user will know what the website is for. The reason why I didn't put a header under the logo is
+                        that I don't want to break the neat minimalistic layout.
+                    </p>
+
+                    <p class="card-text card--margin-bottom">2. I removed the resolution filter because it is
+                        unnecessary. The filter would be useful in Google because Google is filled with low-quality and
+                        low-resolution photos. Almost 99% of photos on Unsplash are considered well-crafted and are in
+                        relatively high-resolutions, so it wouldn't be useful to keep a resolution filter. </p>
+                    <p class="card-text card--margin-bottom">3. I added a default button for each filter in case user
+                        wants to undo filter.
+                    </p>
+                    <p class="card-text card--margin-bottom">4. I added a no photos sign if no photo applies to the
+                        filter in case user gets confused.
+                        wants to undo filter.
+                    </p>
+                    <p class="card-text card--margin-bottom">5. I put on my credit and my photo on the website to let
+                        people know I made it.
+                    </p>
+
+                    <a href="web/cc-final/index.html" target="_blank" class="card--margin-bottom">View version 1.1</a>
+                    <a href="web/cc-final-2/index.html" target="_blank" class="card--margin-bottom">View version 2.3</a>
+                    <a href="https://docs.google.com/presentation/d/13zXkIEnWYzPKQqmYRJW1tD6H26_JIcRdAFaIPQ0kAgY/edit?usp=sharing"
+                        target="_blank" class="card--margin-bottom">View Presentation</a>
+
+                    <p class="card-text card--margin-bottom">Future Expectation </p>
+                    <p class="card-text card--margin-bottom">1. Because of limited time, I haven't added the page
+                        function. The maximum number of images I could access per page is 30. So adding a page function
+                        is necessary to help the users search as many images as possible.
+                    </p>
+                    <p class="card-text card--margin-bottom">2. Right now, the filter cannot overlap, which means it
+                        limits the possible filter combination users can search. For example, if user wants to search
+                        photo with a landscape 3 by 2 aspect ratio and see those photos in order of popularity, being
+                        able to combine filter will be handy.
+                    </p>
+                    <img src="img/blog/unsplash-stat.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">A tribute to Unsplash's Value & Why I didn't add download
+                        button
+                    </p>
+                    <p class="card-text card--margin-bottom">The reason why Unsplash is currently the most popular and
+                        well-curated photo community online is because it is for free. Under Unsplash's license, anyone
+                        can download photos and use them for all purposes including commercial use but saying thanks to
+                        the creators is always appreciated. Saying thanks can also help the photographers to gain more
+                        exposure. Not having a download button can force the users to go back to Unsplash original site
+                        and bring traffic back to the website but also to the creator. I am a photographer on Unsplash.
+                        I genuinely appreciate everyone who quotes my photo and brings traffic to my Unsplash account.
+                        At the same time, I hope users can also do the same to all the photographers on the site.
+                    </p>
+
+
+                </div>
+            </div>
+
+
+
+            <!-- 11-12-5 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">Unsplash Advanced Search Feedback</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">12-07-19</h6>
+                    <img src="img/blog/com-final-3.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">Full-screen 4 columns layout </p>
+                    <p class="card-text card--margin-bottom">Classmates prefer the wider full-screen 4 columns layout
+                        than the centered 3 columns layout of Unsplash website. Since the purpose of my project:
+                        Unsplash advanced search is to let users find the picture they need as fast as possible. So, a
+                        wider full-screen 4 columns layout can help them browse content in a faster way.
+                    </p>
+                    <p class="card-text card--margin-bottom">Header needed, a little more context</p>
+                    <p class="card-text card--margin-bottom">Classmates are not familiar with Unsplash's logo. Adding a
+                        header below the logo can be helpful in terms of helping them understand the purpose of the
+                        search engine. </p>
+
+                    <p class="card-text card--margin-bottom">The purpose of small resolution </p>
+                    <p class="card-text card--margin-bottom">The function to filter the small resolution photos might
+                        seem unnecessary. Firstly, since most users tend to search for the photo of the highest quality
+                        if possible, to filter out the small resolution is useless. Secondly, photos shared on Unsplash
+                        are all "high resolution" in a way. Unlike Google, Unsplash holds a well-curated, high-quality
+                        photo database. The bottom line is much higher so users don't need an extra function to filter
+                        photos according to their resolutions.
+                    </p>
+
+                    <p class="card-text card--margin-bottom">Undo Function </p>
+                    <p class="card-text card--margin-bottom">There is no undo function so if users want to see the
+                        photos in default order, they have to click the search button again, which is not intuitive.
+                    </p>
+
+                    <a href="web/cc-final/index.html" target="_blank" class="card--margin-bottom">View Search Engine</a>
+
+                </div>
+            </div>
+
+
+            <!-- 11-21-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">Unsplash Advanced Search 0.3</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">12-03-19</h6>
+                    <img src="img/blog/com-final-2.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">After looking into a few photo search engine and the API
+                        data I can access, I summarize four essential functions users might need and I could realize:
+                        resolution, aspect ratio, popularity (most likes), time (most recent). </p>
+                    <p class="card-text card--margin-bottom">The resolution function is pretty easy to realize. By
+                        timing the width and height data of the image, I can get the image resolution and compare the
+                        resolution to the three if statements (High 40M, Medium 24M, Low 12M), to get the result I need.
+                    </p>
+                    <img src="img/blog/com-final-2-1.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">The aspect ratio function is a little tricky. Since the
+                        width and height numbers are not perfectly divisible. For example, a image with 1999px width and
+                        2999px height is still counted as 2 by 3 aspect ratio. What I did is to use the math.abs
+                        function to get the absolute value of the remainder of width by height. I use an if statement to
+                        set a boundary (&#60;0.01,) so the function will only allow images with perfect or approximate 2
+                        by 3 aspect ratio to come through. </p>
+                    <img src="img/blog/com-final-2-2.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">PThe popularity function is tricky too. I used the sort()
+                        function which has many limitations I have to solve. Firstly, sort() function is supposed to
+                        sort one dimensional array but the API data I received from Unsplash is a complex
+                        multi-dimensional array. So I define a new one dimensional array called "popularity" to store
+                        only the numbers of likes and let the sort function to sort the popularity array. Secondly,
+                        sort() function is supposed to sort strings array but I only need to sort numbers. So I use an
+                        extra sortNumber function() to limit the capability of the sort function. </p>
+
+
+                    <p class="card-text card--margin-bottom">I am still working on the time function. </p>
+
+                    <a href="web/cc-final/index.html" target="_blank" class="card--margin-bottom">View Search Engine</a>
+
+
+                </div>
+            </div>
+
+
+
+            <!-- 11-21-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">FINAL PROJECT</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-24-19</h6>
+
+                    <p class="card-text card--margin-bottom">What is the project? </p>
+                    <p class="card-text card--margin-bottom">A specialized search engine for Unsplash, the largest high
+                        quality photo community on the internet. </p>
+
+                    <p class="card-text card--margin-bottom">Who is it for? </p>
+                    <p class="card-text card--margin-bottom">People who need high quality and well-polished
+                        copyright-free photos. </p>
+
+                    <img src="img/blog/com-final-1.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom">Why do you want to do it? </p>
+                    <p class="card-text card--margin-bottom">Unsplash's search engine is too simplified, lacking the
+                        basic functions which can help the users filter the photos they need. As you can see, if I
+                        search for "car," I can only filter photos in the given key words: sports car, Lamborghini, Bmw,
+                        etc. The website cannot show the photos of certain aspect ratio users are looking for. It cannot
+                        show the photos in terms of popularity. It cannot show photos with the highest resolution
+                        possible. Those are functions I believe users need and improves the overall user experience.
+                    </p>
+                    <p class="card-text card--margin-bottom">How will you do it?</p>
+                    <p class="card-text card--margin-bottom">It is a front-end development which I will use HTML CSS to
+                        design the search engine interface and use Javascript to access the API database of Unsplash.
+                    </p>
+
+                    <table>
+                        <tr>
+                            <td>12.3</td>
+                            <td>1.0</td>
+                            <td>All the basic functions should be realized |
+                                first round of feedback about functionality.</td>
+                        </tr>
+                        <tr>
+                            <td>12.5</td>
+                            <td>2.0</td>
+                            <td>All the user interface should be complete |
+                                second round of feedback about functionality and UI.</td>
+                        </tr>
+                        <tr>
+                            <td>12.10</td>
+                            <td>2.1</td>
+                            <td>Presentation</td>
+                        </tr>
+                    </table>
+
+
+
+                </div>
+            </div>
+
+
+
+            <!-- 11-21-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">ENHANCED BOUNCING BALLS</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-21-19</h6>
+
+                    <iframe src="https://editor.p5js.org/LeonCooper/embed/Nqwm6yvai" width="400px" height="570px"
+                        class="card--margin-bottom"></iframe>
+                    <p class="card-text card--margin-bottom">I enhanced my bouncing ball project by adding a slider
+                        controls the speed. </p>
+
+                    <p class="card-text card--margin-bottom"> A new if statement was added because when users drag the
+                        slider, they might accidently click the background, so new ball would be created under the
+                        canvas. </p>
+
+                    <code class="card--margin-bottom">if (mouseX < 400 && mouseY < 500) </code> <p
+                            class="card-text card--margin-bottom">If the speed is degrading, there will be a serious
+                            problem in the algorithm. The code doesn't calculate the fiction, which means it doesn't
+                            know when to have the ball to a complete stop. The ball will never stop even if it bounces
+                            many times.</p>
+                            <code class="card--margin-bottom">if (this.y > (height - this.w / 2)) {this.speed =
+                                this.speed * speed;} <br>
+                                if (this.y < this.w / 2) { this.y=this.y + 10; } </code> </code> <a
+                                    href="https://editor.p5js.org/LeonCooper/sketches/Nqwm6yvai" target="_blank">Edit on
+                                    P5.js</a>
+                </div>
+            </div>
+
+            <!-- 10-11-17 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">ENHANCED EYE TRACKING</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-17-19</h6>
+                    <p class="card-text card--margin-bottom">I enhanced my mid-term project with Kiwi by adding a
+                        function which allowed user to choose what the eyes should follow. </p>
+
+                    <p class="card-text card--margin-bottom"> When making this new function, I found a hack to
+                        understand the new data library you use. That is to output relevant variable on the screen. When
+                        I first try to understand the PostNet code, I “decompose” the program structure by understanding
+                        what variables are defined and where they are used. My first useful tip is the naming of the
+                        variables can tell what it is for, such as “post” and “keypoint.score.” Then “i” variable and
+                        “j” variable caught my attention. I don’t know what they are for; they might relate to the
+                        numbering. So I use the text() function, to output the variables with the keypoint. I
+                        immediately know what they are for. “I” represents the numbers of people and “J” represents the
+                        body position of each person. </p>
+
+                    <code class="card--margin-bottom">text("i="+i+" j="+j, keypoint.position.x,
+                        keypoint.position.y)</code>
+
+
+
+                    <p class="card-text card--margin-bottom">To add the position tracking function means to track which
+                        “j” variables. I add a few buttons with according functions that changes the trackPoint
+                        variable. The function is realized.
+                    </p>
+                    <a href="https://editor.p5js.org/LeonCooper/sketches/6dE2g5To6" target="_blank">PostNet with
+                        variables on P5.js</a>
+
+                    <a href="https://editor.p5js.org/LeonCooper/sketches/aSQhHe3DN" target="_blank"
+                        class="card--margin-bottom" style="margin-left: 30px">Enhanced Eyes Tracking on P5.js</a>
+
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">COMPUTATION MANIFESTO OF A FILMMAKER</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-17-19</h6>
+
+                    <p class="card-text card--margin-bottom"> Why computation is important to me? I have been wandering
+                        between the fields of filmmaking and computation media for about two years. I regard these two
+                        fields as my parallel interests and specialty because I have equal passions for both of them.
+                        However, for a long time, I fail to find the connection between these two. I can obviously feel
+                        that my two interests do benefit from each other but I don't know how. </p>
+
+                    <p class="card-text card--margin-bottom">Computation and filmmaking are fundamentally unrelated.
+                        Believe me it is true. The fundamental working philology are different. We code to solve
+                        problem. I think what IMA stands out from conventional computer science major is that we learn
+                        how to solve problems in a beautiful way. We make film to tell a story which represents a vision
+                        or an argument. Some people might disagree with me, by saying that computation and filmmaking
+                        are storytelling. That is cliché and bullshit in a sense. As long as we live and breath,
+                        anything we do is all story-telling. It is meaningless to tell such a widely known truth, like
+                        telling everyone the importance of critical thinking. The reason I fail to find the connection
+                        between these two is that even though some people argue that computation is also storytelling,
+                        the way how we tell stories are very distinct. To appreciate the beauty of computation and
+                        filmmaking, you need to realize their distinctiveness. I admit computation facilitates film
+                        industry in technical aspect especially in visual effect. Computation widely expand our
+                        imagination in movies. Without it, there will be no Star Wars. Without Star Wars, the modern
+                        cinema we know today will no longer exist.</p>
+
+                    <p class="card-text card--margin-bottom"> However my argument in the beginning doesn't defy the fact
+                        that computation facilitates filmmaking, what I am saying is that computation and filmmaking are
+                        fundamentally unrelated. As a director, writer, or director of cinematography, editor, the most
+                        "antique" titles in filmmaking, one immersive themselves in creating film. You enter into a
+                        totally territory. When you build a character and the story, you are constantly thinking about
+                        its inner or outer conflict, the complexity of humanity. When you draw storyboard, you are
+                        looking in the aesthetics, the framing, the composition. All of them are unrelated in any way to
+                        computation.</p>
+
+                    <p class="card-text card--margin-bottom"> Then, why computation is important to me? I spend almost
+                        my entire extracurricular time and energy in moving making either working on my films or helping
+                        others, so why I didn't transfer to a Film and Television? To me, studying computation rather
+                        than film helps me stand out from most of other filmmakers because the beauty and intricacy of
+                        computation enhance my ability to make film efficiently and meticulously. Efficiency and
+                        meticulousness are valuable qualities. Filmmaking is time-consuming. I won't say a director's
+                        vision and directing style are the most important part of filmmaking. Those things are more than
+                        important because they are required. An excellent and sustainable director must learn how to
+                        make film in a organized and timely manner. The ability to come up with awesome film idea is not
+                        rare, what is rare is that you not only have good idea and can turn that idea into a complete
+                        well-polished film. Studying computation is a training for me. I am trained to pay attention to
+                        every detail, because any minor error in any phase is not allowed. The intricate structure of
+                        object-orient programing is also a good training of my logical reasoning, which helps me ability
+                        to create complex characters' structures and storyline. </p>
+
+                </div>
+            </div>
+
+            <!-- 10-11-03 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">UNSPLASH PHOTO SEARCH</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-10-19</h6>
+                    <div class="card--margin-bottom">
+                        <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="js,result"
+                            data-user="leoncooperliu" data-slug-hash="rNNrWgp"
+                            style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                            data-pen-title="Use Unsplash API to Fill CSS Grid Layout // jQuery">
+                            <span>See the Pen <a href="https://codepen.io/leoncooperliu/pen/rNNrWgp">
+                                    Use Unsplash API to Fill CSS Grid Layout // jQuery</a> by Leon Liu (<a
+                                    href="https://codepen.io/leoncooperliu">@leoncooperliu</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                        </p>
+                        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                    <p class="card-text card--margin-bottom">I utilize the Unsplash Photo database API for the
+                        assignment. Because Unsplash is one of the best high quality photo-sharing community on the
+                        internet and it is for free, people download photos from it frequently. However, Unsplash
+                        doesn't feature a well-designed filters, so I design a Unsplash search engine which features the
+                        most basic filter function (landscape or portrait ratio). </p>
+
+                    <img src="img/blog/com-hw-7-1.jpg" class="card--margin-bottom">
+
+                    <p class="card-text card--margin-bottom"> Realizing the function is simple and straightforward.
+                        First, I use JQuery to get the API data from Unsplash and show it on the web. JQuery I believe
+                        is the most efficient JavaScript language since it is object-oriented from the ground. I use the
+                        selector to target the button and then I use JSON to get the API data from Unsplash. To add the
+                        photos to my website, I use the append() function to access the DOM. </p>
+
+
+                    <p class="card-text card--margin-bottom">Since the accessed API data is stored through var
+                        currentList, I can reuse it for the filter function.
+                    </p>
+                    <code class="card--margin-bottom">var APIKey =
+                        "c3ba5fa8e844fc1b4ef1ca56625e6e625aa111c6f8d5a0a68ff985fe5f001866";<br>
+                        var currentList;</code>
+                    <p class="card-text card--margin-bottom">I access the image height and width variables; then I use
+                        an if statement to compare them.
+                    </p>
+                    <code class="card--margin-bottom">var imageWidth = val.width;<br>
+                        var imageHeight = val.height;</code>
+                    <p class="card-text card--margin-bottom">I also add a button to show my photos on Unsplash. The
+                        filter works the same.
+                    </p>
+                    <a href="https://codepen.io/leoncooperliu/pen/rNNrWgp" target="_blank">Edit on P5.js</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">ART AS PRODUCT</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-10-19</h6>
+
+                    <p class="card-text card--margin-bottom"> Artificial Intelligence is unstoppable. Does it mean that
+                        our future will be like the movie "Matrix" where A.I. destroys our lives and turn us into their
+                        batteries? Not necessarily. Will Artificial Intelligence bring well-being to human races or
+                        troubles. It is hard to give an answer. However, there is one thing for sure. Artificial
+                        Intelligence is unstoppable and this overall tendency is detrimental to creative and meaningful
+                        arts. </p>
+
+                    <p class="card-text card--margin-bottom">Internet connects each others, as a result it creates an
+                        explosion of data and information. Artificial Intelligence and algorithm are important and
+                        necessary because they bring machine-generated "order" to the chaos. The central idea behind the
+                        "order" is efficiency. How can we navigate ourselves and find things we need in the explosion of
+                        information which might cost us 1 million years to go through? We can't at least without
+                        Artificial Intelligence and algorithm. So, are Artificial Intelligence and algorithm evil like
+                        the Uber drivers complain in the article? It might be to some people, but there is no better
+                        way?</p>
+
+                    <p class="card-text card--margin-bottom"> Why I believe artificial intelligence and algorithm are
+                        detrimental to creative and meaningful arts? because such an efficiency is shallow and
+                        uninspiring. One of the most influential directors of all time but also Tisch Alumni Martin
+                        Scorsese writes an article in the New York Times recently. He believes right now it is really
+                        such a depressing time for cinema and it will be even more depressing in the future. Disney and
+                        Netflix which take uncountable monetary advantage from internet and A.I. algorithm are behind
+                        such a tendency. When internet makes everything accessible, the number of TV shows and movies
+                        skyrockets. The average time users spent with each movie largely decreases. In order to attract
+                        more attention, Disney and Netflix have to "feed" people with movies that are attractive from
+                        the outside (beauty, sex, violence, superhero) but shallow in the inside. That is never why
+                        cinema is invented. "Cinema was about revelation - aesthetic, emotional and spiritual
+                        revelation. It was about characters - the complexity of people..." For superhero movies, there
+                        is no revelation, mystery or genuine emotional danger. Nothing is at risk. The pictures are made
+                        to satisfy a specific set of demands. It takes time to make good and thought-provoking films.
+                        The essence of the film is never to satisfy a specific demand. </p>
+
+                    <p class="card-text card--margin-bottom"> Algorithm should never curate our content or at least some
+                        part of it. As an artist, we should be our curators. We should dare to challenge what algorithm
+                        and most people call mainstream. We should challenge them and tell our stories through our
+                        unique visions. Surprise them and tell them that "that is a good story not Marvel." </p>
+
+                </div>
+            </div>
+
+
+
+            <!-- 10-11-03 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">ENDLESS BOUNCING BALLS</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-03-19</h6>
+                    <iframe width="400px" height="500px" class="card--margin-bottom"
+                        src="https://editor.p5js.org/LeonCooper/embed/ln5ExeZ-C"></iframe>
+
+                    <p class="card-text card--margin-bottom"> The bouncing balls won't degrade. They will bounce
+                        endlessly. Clicking those balls is such a relaxing experience. </p>
+
+                    <code class="card--margin-bottom">
+                        update() {<br>
+                        &nbsp;&nbsp;this.y = this.y + this.speed;<br>
+                        &nbsp;&nbsp;this.speed = this.speed + gravity;<br>
+                        &nbsp;&nbsp;if (this.y > (height - this.w / 2)) {<br>
+                        &nbsp;&nbsp;this.speed = this.speed * -1;<br>
+                        &nbsp;&nbsp;}<br>
+                        }</code>
+                    <p class="card-text card--margin-bottom">The way I achieve the endless bouncing is through a
+                        non-degrading "speed" variable. A constantly increasing "speed" variable is adding to the y
+                        location of the balls, since as ball approaches the ground, the acceleration will increase
+                        because of the gravity.
+                    </p>
+                    <code class="card--margin-bottom">this.speed = this.speed * -1;</code>
+                    <p class="card-text card--margin-bottom">However, when ball hits the ground and starts the next
+                        round of bouncing. The directionality of the acceleration should be reversed and the maximum
+                        acceleration it can achieve should be smaller. In the code, I reversed the direction without
+                        degrading the value.
+                    </p>
+                    <a href="https://editor.p5js.org/LeonCooper/sketches/ln5ExeZ-C" target="_blank">Edit on P5.js</a>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">THE FUTURE OF BACKUP</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">11-03-19</h6>
+
+                    <p class="card-text card--margin-bottom"> I have "obsessive compulsive disorder" especially in
+                        organizing and backing up my data. I have developed a high-efficient backup system but I still
+                        raise many concerns about the future of my data. Here is why. </p>
+
+                    <p class="card-text card--margin-bottom">Currently, I have used both cloud backup, mostly OneDrive,
+                        iCloud, Google Drive but also local DAS backup (3*2TB HDD Hard drive, 4*4TB HDD hard drive,
+                        1*10TB HDD thunderbolt drive, 1*4TB high speed SSD raid, 2*1TB SSD hard drive). The way how I
+                        incorporate all those 11 drives into my daily working system is that I categorize them into
+                        three groups.
+                    </p>
+                    <p class="card-text card--margin-bottom">Working group: 1*4TB high speed SSD raid, 2*1TB SSD hard
+                        drive <br>Transfer group: 1*10TB HDD thunderbolt drive <br>Transfer group: 1*10TB HDD
+                        thunderbolt drive <br>Cloud-based backup: OneDrive, iCloud, Google Drive
+                    </p>
+                    <img src="img/blog/com-hw-6.jpg" class="card--margin-bottom">
+                    <p>Left top: 4TB HDD Backup Drive. Left down: 10TB HDD Transfer Drive. Right: 1TB SSD Working Drive
+                    </p>
+                    <p class="card-text card--margin-bottom">Working disks are usually high speed SSD drives which can
+                        greatly speed up my workflow in terms of loading and rendering files. Transfer disks are the
+                        "transfer station." All my working files will be backed up to transfer station. It also stores
+                        finished project files which I might use for portfolio purposes in foreseeable future. The
+                        backup disks store project files I finished years ago. For cloud-based backup, I only will
+                        upload the finished products. For example, if the project is a film, I will only backup the
+                        finished editing. Here are a few problems which worries me.
+                    </p>
+                    <p class="card-text card--margin-bottom">Drives have life span and I haven't come up with a way to
+                        efficiently migrate my data to new drives. More importantly, I don't know when the hard drive
+                        will die. Unlike tape drive which can last longer than a decade, hard disk drive (HDD) can only
+                        last 5-6 years. A few of my backup disks are close to 5 years life span. The data is stored
+                        across different partitions in the hard disk. Some of the partitions inside the backup drive
+                        fail. The useable capacity shrinks significantly.
+                    </p>
+                    <p class="card-text card--margin-bottom">Not having a stable high-speed internet limits the
+                        possibility of cloud-based backup. If you backup your data to cloud. Since cloud-based service
+                        doesn't store your data in one specific disk inside a server, like how I backup myself. The data
+                        is actually allocated across multiple disks and multiple servers. It seems safer and more
+                        malleable. Companies such as Microsoft can redistribute the data from old malfunctioning disks
+                        and retire them. However, how can I know my data is safe and the company didn't access my files?
+                        How can I access those files if I don't have internet? Besides, it happens many times that
+                        because my latest working files are too large to back up in time, when I am away from home and
+                        work on my laptop, I just realize the files I am working on are not the latest.
+                    </p>
+                    <p class="card-text card--margin-bottom">In foreseeable future, I think SSD might be the solution.
+                        SSD is stable and durable because it stores data on flash memory chips. Unlike tape drive or
+                        HDD, it won't lose magnetics. However, SSD is still too expensive in terms of capacity and there
+                        is a physical limitation on how much flash memory chips can be squeezed on the motherboard. I
+                        guess we won't achieve the ultimate solutions that can solve all the problems at one time. What
+                        we can do is to solve problems time by time.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- 10-20-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">WAVING CUBE 3.0</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">10-20-19</h6>
+                    <p class="card-text card--margin-bottom"> I accessed the microphone of my computer and used the
+                        value to control the speed of the changing waves. </p>
+
+                    <code class="card--margin-bottom">mic = new p5.AudioIn();<br>
+                        mic.start();</code>
+                    <p class="card-text card--margin-bottom">Although the range of the value from mic is the same as
+                        speed (both are from 1 to 0), remapping the value is still necessary. The value cannot be 0,
+                        which will freeze the animation. The value can also not be 1, which will accelerate the
+                        animation to a point that is hard to see it. From 0.2 to 0.7 seems to be an appropriate range
+                        after testing for a few times.
+                    </p>
+                    <code class="card--margin-bottom">var value = map(mic.getLevel(), 0, 1, 0.2,0.7 );<br>
+                        createCube(3, 3, maxCircleSize, strokeSize, bgColor, strokeColor,value);</code>
+                    <a href="https://editor.p5js.org/LeonCooper/sketches/Wo6vpMaCz" target="_blank">Edit on P5.js</a>
+
+                </div>
+            </div>
+
+            <!-- 10-11-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">WAVING CUBE 2.0</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">10-11-19</h6>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/xWlXpzJT41o" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        class="card--margin-bottom"></iframe>
+
+                    <p class="card-text card--margin-bottom"> I planned to apply what we learnt on class to add more
+                        flavors to my previous waving cube design. The photocell can tell the brightness of the
+                        surrounding environment so I imagine that I could use it to control the brightness of the
+                        background color. I also planned to use the potentiometer to control the maximum size of the
+                        changing cube since potentiometer is the only controller we have, which can accurately adjust
+                        the value. </p>
+                    <p class="card-text card--margin-bottom"> The first step was to incorporate the waving cube code to
+                        the code Dan gave us on class. I copied and pasted the core of my waving cube code: the
+                        createCube() function. </p>
+                    <code class="card--margin-bottom">function createCube(numCols, numRows, maxCircleSize, strokeSize,
+                        bgColor, strokeColor)</code>
+                    <p class="card-text card--margin-bottom">The next step was to modify the output from the Arduino. I
+                        initialized two values and divided them with the commas.
+                    </p>
+                    <code class="card--margin-bottom">int value1 = analogRead(A0);<br>
+                        int value2 = analogRead(A1);<br>
+                        Serial.print(value1);<br>
+                        Serial.print(",");<br>
+                        Serial.println(value2);</code>
+                    <p class="card-text card--margin-bottom"> The third step was to modify the Dan's gotData() function.
+                        I printed the two values out, to check whether everything works fine. After remapping the
+                        values, I inputted the new values into my createCube() function. Since the createCube() function
+                        was wrapped in the gotData() function, while the gotData() function was wrapped in the setup()
+                        function, which the program would run in default. There was no need to have an extra draw()
+                        function.
+                    </p>
+                    <code class="card--margin-bottom">println("value 1:"+sensors[0]);<br>
+                        println("value 2:"+sensors[1]);
+                        <br><br>
+                        var color = map(sensors[0],0,255,0,255);<br>
+                        var size = map(sensors[1],10,1023,20,300);<br>
+                        createCanvas(canWidth, canWidth);<br>
+                        createCube(numRows, numRows, size, strokeSize, color, strokeColor);</code>
+                    <p class="card-text card--margin-bottom"> Everything went pretty smoothly and well. </p>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/kNmIXYeP1oE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        class="card--margin-bottom"></iframe>
+                    <a href="https://editor.p5js.org/LeonCooper/sketches/3-2J9y87U" target="_blank">Edit on P5.js</a>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">10 IDEAS!</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">10-11-19</h6>
+                    <!-- 1 -->
+                    <p class="card-text card--margin-bottom"> 1. The Painting (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> I am inspired by the painting installation in the Harry
+                        Porter attraction of Universal Studio. The painting is basically a display where the characters
+                        can be animated, they can talk, wave hand, smile, etc. The colors and lighting are calibrated so
+                        well that you really cannot tell it is a screen but a painting that has magic. </p>
+                    <p class="card-text card--margin-bottom"> So I want to make such a "painting" in which a scary
+                        character from one of the horror movies stand still. I will also install a camera on top of the
+                        painting. The camera will sensor whether there are people standing in front of the paintings. If
+                        there are people standing in front of the paintings, the character will not move at all. If
+                        there is no one standing in front of the painting (at least no one stands right in front of the
+                        painting), the character will move, such as yawning, looking around or walking out of the frame.
+                    </p>
+                    <img src="img/blog/com-hw-5-1.jpg" class="card--margin-bottom">
+                    <!-- 2 -->
+                    <p class="card-text card--margin-bottom"> 2. The mystrey (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> I can build a HTML interface through p5.js which is a
+                        game. Players have to turn off the three pumpkin lights through the combination of four on/off
+                        switches within 2 minutes. Each switch controls only a segment of a complex series-parallel
+                        circuit which will be realized through a algorithm using if or else statements. Players have to
+                        turn on or off each switch to figure out how each switch works. If they fail to turn off all the
+                        three pumpkin lights, they lose. </p>
+                    <img src="img/blog/com-hw-5-2.jpg" class="card--margin-bottom">
+                    <!-- 3 -->
+                    <p class="card-text card--margin-bottom"> 3. Awesome Cool Skull (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> Players can customize the appearance of the skull based on
+                        their preference. Once they finish it, the program can download the skull as JPEG and send it to
+                        their cell phones. </p>
+                    <img src="img/blog/com-hw-5-3.jpg" class="card--margin-bottom">
+                    <!-- 4 -->
+                    <p class="card-text card--margin-bottom"> 4. Drawing Candies Competition (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> I am inspired by Google Quick Draw. Player draw a certain
+                        object and let the computer will use the artificial neural engine to guess what it is. I could
+                        build a program using the Google draw api to have the players draw only Halloween-related
+                        objects. It can be an interesting competition and I will set up a record board to show who draw
+                        the most number of objects within 2 minutes. </p>
+                    <!-- 5 -->
+                    <p class="card-text card--margin-bottom"> 5. Candies Simulation (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> I think it is always interesting to see how compute
+                        algorithm simulates real-life physics. I imagine on the html interface within a limited amount
+                        of ink, player is asked to draw a two dimensional container. After you click the play button,
+                        lots of candies will be poured down, the one who draws the container that can contain the most
+                        number of candies wins. </p>
+                    <img src="img/blog/com-hw-5-4.jpg" class="card--margin-bottom">
+                    <!-- 6 -->
+                    <p class="card-text card--margin-bottom"> 6. Which door to open? (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> I am inspired by Google Quick Draw. Player draw a certain
+                        object and let the computer will use the artificial neural engine to guess what it is. I could
+                        build a program using the Google draw api to have the players draw only Halloween-related
+                        objects. It can be an interesting competition and I will set up a record board to show who draw
+                        the most number of objects within 2 minutes. </p>
+                    <img src="img/blog/com-hw-5-0.jpg" class="card--margin-bottom">
+                    <!-- 7 -->
+                    <p class="card-text card--margin-bottom"> 7. The Eye (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> This will be an art installation that incorporates p5.js.
+                        Similar to the painting idea, the installation also features a camera at the top, which will
+                        sensor viewers' position. The creepy large pupil will randomly select one of the viewers and
+                        stare at him or her. </p>
+                    <img src="img/blog/com-hw-5-5.jpg" class="card--margin-bottom">
+                    <!-- 8 -->
+                    <p class="card-text card--margin-bottom"> 8. Which one is the ghost? (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> Similar to the three doors concept, which one is the ghost
+                        is a game where player can pick one of the three characters standing in front of them and have
+                        them turn around. The difference is that when the three characters are facing the opposite
+                        direction player really can't tell which is normal people and which is the ghost. There is no
+                        signs that can provide evidence or deceive the players. </p>
+                    <img src="img/blog/com-hw-5-6.jpg" class="card--margin-bottom">
+                    <!-- 9 -->
+                    <p class="card-text card--margin-bottom"> 9. Ghost, run! (p5.js)</p>
+                    <p class="card-text card--margin-bottom"> Ghost, run will be a chrome plugin which is only available
+                        to download during Halloween. It basically replaces the original T-Rex, Run! game in chrome with
+                        Halloween theme characters and maps. </p>
+                    <!-- 10 -->
+                    <p class="card-text card--margin-bottom"> 10. Who makes the scary sound? (p5.js + Arduino)</p>
+                    <p class="card-text card--margin-bottom"> It will be an installation that hides a speak which is
+                        connected to Arduino with a camera sensor. When people pass by the installation, the speaker
+                        will play scary sound effect. Because the installation can act as a disguise for the speaker.
+                        For example it can be a water bottle or plant which people won't think that will be a speaker in
+                        it. Every time it plays a scary sound effect, it will scare the people. </p>
+                    <img src="img/blog/com-hw-5-7.jpg" class="card--margin-bottom">
+
+
+                </div>
+            </div>
+
+            <!-- 09-28-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">SLIDERS!!</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">10-04-19</h6>
+                    <iframe width="600px" height="800px" src="https://editor.p5js.org/LeonCooper/embed/wcS7vwLu9"
+                        class="card--margin-bottom"></iframe>
+
+                    <p class="card-text card--margin-bottom"> The organization started with creating a function and
+                        moving all the major algorithm into this function. The function I created is called createCube
+                        and it includes all the variables user are going to change. </p>
+                    <code class="card--margin-bottom">function createCube(numCols, numRows, maxCircleSize, strokeSize,
+                        bgColor, strokeColor)</code>
+                    <p class="card-text card--margin-bottom">The second step started with using DOM to create sliders
+                        that control each variables.
+                    </p>
+                    <code class="card--margin-bottom">text0 = createElement('h3', 'canvas size');<br> slider0 =
+                        createSlider(300, 550, 550, 10);</code>
+                    <p class="card-text card--margin-bottom"> Slider will have a default value, so when declaring the
+                        variables at the beginning of the code, I don't need to assign a value to it.
+                    </p>
+                    <code class="card--margin-bottom">slider = createSlider(minimum value, maximum value, default value,
+                        step size)</code>
+                    <p class="card-text card--margin-bottom"> The last step is to declare variables within the draw()
+                        function to store the value of the slider. I then input all the variables in the function. </p>
+                    <p class="card-text card--margin-bottom">A few problems I hope to improve. Having a front-end web
+                        development background, I found DOM is very inefficient in writing HTML. I usually use class to
+                        define all the CSS and then add the class to the div to apply the styling but in DOM I cannot
+                        create class. I want to use the flexbox feature of CSS so that every time user changes the size
+                        of the canvas, the position of all the sliders can change accordingly. </p>
+
+
+
+                    <a href="https://editor.p5js.org/LeonCooper/sketches/wcS7vwLu9" target="_blank">Edit on P5.js</a>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">REJECT OR EMBRACE? INFORMATION SECURITY OR EVERYDAY
+                        CONVENIENCE?</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">10-04-19</h6>
+                    <p class="card-text card--margin-bottom"> We are connected by the little devices we carry everyday:
+                        cell phones and the network cell phones connect to: internet. Today, cell phones are so capable
+                        and we are using them so naturally that we don't even realize we are using them: making phone
+                        calls, texting friends on social medias, searching the internet, taking photos, finding places
+                        on Google Map, paying, etc. We enjoy a level of convenience we never have before throughout
+                        human history, while at the same time we are actively uploading and exposing our data to the
+                        internet at a rate we also never have before throughout our history. In China, mobile payment
+                        such as WeChat pay and Alipay become so widespread that people tend not to bring any cash. We
+                        can pay the exact amount of money, no need for change. Every time we make a transaction via
+                        mobile payment, lots of our information are exposed: our location where the transaction happen,
+                        the time we make the transaction, the amount of money we spent, and our transaction record which
+                        will be saved to the server of Central Bank of China. So what? The question are we willing to
+                        sacrifice our information security with everyday convenience might not be central to our
+                        problem. In countries such as China, how the country runs is so different from western countries
+                        that people don't even have the choice to reject it. In some area, such as banking, the central
+                        government technically owns the majority of companies. The transaction you made anywhere or
+                        anytime even prior to mobile payment will be recorded by the Central Bank of China, unless you
+                        are living in a 100% cash-based way of living, which is unrealistic. We know it and we "embrace"
+                        it because we might not have a second choice. If that is the case, I guess the sarcastic lesson
+                        we Chinese always ask ourselves is that did I do something wrong. Only if we did something
+                        wrong, our data will become "valuable" for the government to track down. If not, I guess most
+                        Chinese will say "just relax." The logics might seem very absurd but I guess is true?</p>
+
+
+                </div>
+            </div>
+
+            <!-- 09-28-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">WAVE</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-28-19</h6>
+                    <iframe width="550px" height="550px" src="https://editor.p5js.org/LeonCooper/embed/g_8q9SsXW"
+                        class="card--margin-bottom"></iframe>
+
+                    <p class="card-text card--margin-bottom"> I designed the changing cubes project to be EXTREMELY
+                        CUSTOMIZABLE. User can change all the settings including the number of rows, number of columns,
+                        size of the cube, changing speed, changing gap, the width of the canvas, and the height of the
+                        canvas. </p>
+                    <p class="card-text card--margin-bottom">A few tricks I used are
+                    </p>
+                    <p class="card-text card--margin-bottom"> <b>FrameCount variable</b>, a constantly increasing
+                        variable from 0 when the user starts to run the function. I use the FrameCount variable as the x
+                        value for a Cos function which will output a constantly increasing then decreasing values within
+                        a particular range.
+                    </p>
+                    <p class="card-text card--margin-bottom"> <b>Double for loop</b>, which I use it to map out the
+                        cubes. I introduce a "offset" value together with a carefully-designed algorithm to create the
+                        waves effect. You can check my project online for detail. </p>
+
+
+                    <a href="https://editor.p5js.org/LeonCooper/sketches/g_8q9SsXW" target="_blank">Edit on P5.js</a>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">THE BEAUTY OF BIAS</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-28-19</h6>
+                    <p class="card-text card--margin-bottom"> The development of computer graphics makes human society
+                        more and more visual-driven than any other time throughout the history. Some people say it is a
+                        good thing since photos and images are very efficient in communicating ideas. We see things
+                        faster than read things. Some people say too much relying on photos and images is dangerous,
+                        because they can be deceiving and biased. Should we worry about that the images we see are
+                        subjective and deceiving?</p>
+
+                    <p class="card-text card--margin-bottom">"We create meaning about the world around us through the
+                        use of language and images." In another word, we understand the world through representing it.
+                        It has been long debated about whether the system of representation truly reflect the world as
+                        it is. The purpose of the debate sounds reasonable but how do people define "truly?" How do
+                        people define "objective?"</p>
+
+                    <p class="card-text card--margin-bottom">People have to accept that we never can truly or
+                        objectively represent the world as it is. if people are involved in the process, things never
+                        can be represented objectively because we as humans have limited knowledge. Consequently, our
+                        judgement and representation are always biased and reflected on the knowledge we acquire of. The
+                        invention of modern computer graphics even complicates it because we have so many ways of
+                        representing the world. Instead of worrying about it, I suggest we should embrace and see the
+                        beauty behind our "biased" representation: the uniqueness of each way of representing the world.
+                        For example, motion pictures are so efficient in telling interesting non-linear stories through
+                        light, camera, action and so on: the beauty of cinema. Poetry is so unique in its concise and
+                        thought-provoking sentences: the beauty of language. Computer games are so interactive that
+                        users can be part of the story: the beauty of interactive media. <b>New ways are emerging and
+                            old ways never die.</b></p>
+
+                </div>
+            </div>
+
+            <!-- 09-22-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">LIGHT SENSITIVE SPEAKER</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-22-19</h6>
+                    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/MFw_nV9318U" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        class="card--margin-bottom"></iframe>
+                    <p class="card-text card--margin-bottom"> I was inspired by cyborg artist Neil Harbission. Neil is
+                        color blind but instead of seeing color he is able to hear color through the antenna device he
+                        implants in his body. What my light sensitive speak does is help people to "hear" light. I use a
+                        photoresistor as the analog input, which can convert the surrounding light information to analog
+                        signal which is then converted to sound information through the speaker.</p>
+
+                    <code class="card--margin-bottom code--center">map (value, fromLow, fromHigh, toLow, toHigh)</code>
+
+                    <p class="card-text card--margin-bottom"> One of the challenges is how to use the map function to
+                        create fully functionable light sensitive speaker. Map function can remap a number to a defined
+                        range. In the first test, at certain analog inputs, the speaker is mute. If the speaker is mute,
+                        not giving out any feedback, the user will be blind. So, I re-adjust the lowest and highest
+                        value of the map function to make sure the speaker always make sound which will give instant
+                        feedback to the users when the light changes.</p>
+
+                    <code class="card--margin-bottom">void setup() {
+                        Serial.begin(9600);}</code>
+
+                    <code class="card--margin-bottom">void loop() {
+                        <br>
+                        int sensor = analogRead(A0);
+                        <br>
+                        int input = map(sensor, 0,1024,0,255);
+                        <br>
+                        analogWrite(9,input);
+                        <br>
+                        Serial.print("input: ");
+                        <br>
+                        Serial.println(sensor);
+                        <br>
+                        }</code>
+
+                    <video src="mp4/blog/com-hw-3-2.mp4" muted loop autoplay preload="true" playsinline
+                        poster="img/blog/com-hw-2.jpg" class="card--margin-bottom"></video>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">UNIVERSAL MACHINE</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-22-19</h6>
+                    <p class="card-text card--margin-bottom"> Things change because things don't change. It sounds
+                        contradictory but it is true. The opening paragraph of Marshall Mccluhan's "The Medium is the
+                        Message" summarizes a fundamental idea pretty well: the medium serves as an extension of
+                        ourselves. The purpose of the medium, or some might say the underlying message of any medium,
+                        always stays the same: they are tools serving us. The basic function of the advanced IBM's
+                        server-level computer is the same as the rock human used to make fire millions of years ago.</p>
+
+                    <p class="card-text card--margin-bottom">If everything is constantly changing, change will lose its
+                        meaning. Change won't make a difference since everything is changing. Change is only valid when
+                        something stays the same and that change can make a difference on it. In another world, we
+                        evolve because the way how we solve problem changes to a higher and higher, more and more
+                        efficient level but throughout the history the fundamental problem we are solving (the extension
+                        of ourselves) never changes. How is Computational media different from previous media?
+                        Efficiency changes. Computational media is a product of the highest efficiency we can create
+                        today but the idea of efficiency has no maximum. The efficiency of problem-solving would be a
+                        eternal challenge for the entire human race.</p>
+
+                </div>
+            </div>
+
+            <!-- 09-08-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">DOUBLE IF</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-15-19</h6>
+                    <img src="img/blog/com-hw-2.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom"> I plan to use a more complex if statement to challenge
+                        myself for the homework assignment. So I apply a double if statement. I was thinking about using
+                        two switches because it will generate three different possible output which can be presented
+                        through the light. I notice that the school gave us a transparent light bulb which I thought can
+                        output different colors but the light bulb could only shine white light so I had to find
+                        different way to present the three possible outputs. Then I decided to make the light blink and
+                        use the time difference between each blink to indicate the output.</p>
+                    <!--<img src="img/blog/com-hw-2-2.jpg" class="card--margin-bottom">
+                    <video src="mp4/blog/com-hw-2-2.mp4" muted loop autoplay preload="true" playsinline poster="img/blog/com-hw-2.jpg" class="card--margin-bottom"></video>-->
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">THE BOUNDARY?</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-15-19</h6>
+                    <p class="card-text card--margin-bottom">
+                        To find out what can or can't be used as variable, or stored or be remembered, one has to
+                        understand the purpose of technology, the idea of "assistive technology." The article All
+                        Technology is Assistive makes me think of an invention initially designed for the disable but
+                        everyone is using it every day. Think about what we are doing the most on our cell phones except
+                        listening to music and watching videos. It is not hard to find out the answer: we are texting
+                        all the time, on our social media applications, messages, email, etc. I guess twenty years ago
+                        the most typical way normal people communicate with each other is either talk in real life or
+                        through a phone call. However, I believe at this point if people are separated, people tend to
+                        text rather than talk to each others. Why?
+                    </p>
+                    <p class="card-text card--margin-bottom">
+                        It is shocking that our most common way of communicating with each other in the era of mass
+                        media is initially designed for deaf and mute people because they cannot speak or hear. For
+                        either talking or texting, their functions stay the same to help people communicate. so the
+                        question I asked in the very beginning about the boundary of mass media communication can be
+                        traced back to the question about boundary in the era before mass media communication when
+                        people tend to talk on the phone and write things on their notebook. At that time, do we have
+                        rules about what can be stored and remembered. I guess we do and we always do. Technology always
+                        serve the same fundamental functions: the extension of sense. What is changing is the way how we
+                        set up the boundaries as technology changes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 09-08-19 -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">THE SWITCH</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-08-19</h6>
+                    <img src="img/blog/computing-hw-1.jpg" class="card--margin-bottom">
+                    <p class="card-text card--margin-bottom"> The device I design can not only work as a switch but also
+                        be used to check the conductivity of certain liquid. You pour certain liquid in the glass. If
+                        the liquid is conductive, the light will be on. The more conductive the liquid is, the higher
+                        the intensity of the light will be. In the video, I poured some tap water. It is interesting
+                        that tap water is not conductive as we think, since the light is off. After I add some salt, the
+                        water immediately started to become conductive and the light is on. As I stir the water, the
+                        water becomes more conductive which can be told by the increasing intensity of the light.</p>
+                    <a href="https://youtu.be/LZERN2DatNs" target="_blank">Link to Video</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title card--margin-bottom">WHAT IS COMPUTER?</h5>
+                    <h6 class="card-subtitle text-muted card--margin-bottom">09-08-19</h6>
+                    <p class="card-text card--margin-bottom">
+                        Human is well-known for creating powerful tools throughout the history: camera, telephone,
+                        vehicle, airplane, and of course the foundation of all modern electronic devices——computers. The
+                        reason why I believe everyone should care about computer or computation is that you are using
+                        them every single day consciously or unconsciously. Some people might argue that they never use
+                        computer because they do not own one.
+                    </p>
+                    <p class="card-text card--margin-bottom">
+                        Then the question arises. What are computers? How do you define computers? To many people,
+                        computers might only refer to the large, black, box-size desktops or small light-weight laptops
+                        but is it true? I have the experience building my own desktop workstation from buying all "the
+                        elements:" CPU, GPU, RAM, cooling system, power system, hard drives to connecting everything up
+                        like building LEGO, then setting up the system and tweaking the performance by overclocking. So,
+                        I probably have a more "tangible" understanding of the computer. To me, anything that has a
+                        central processing unit (CPU), which means it is able to process and execute commands, is
+                        considered as a computer. Given that definition, cell-phone, digital camera, microwave, washing
+                        machine are all computers.
+                    </p>
+                    <p class="card-text card--margin-bottom">
+                        However, the definition might go out of date very soon because the invention of the cloud. Cloud
+                        computation means all the processing and computation moves from the local to the server. The
+                        advantage is that the performance of cloud computer can have no limit. Performance is not just
+                        about how powerful the CPU or GPU is. Performance is a complicated factor that considers not
+                        only the hardware but also the cooling. Laptop's performance is always not as good as desktop's
+                        because it is too thin to cool the motherboard well. In contrast, servers are optimized for
+                        cooling because it is designed to process huge amount of workflow 24 hours 7 days at all time.
+                        The disadvantage is that user need internet connection, since you need internet to send commands
+                        to the serve and the server would send the computing result to you. Previously I thought
+                        computer needs CPU to process, which is the reason why I define everything that has a CPU is a
+                        computer. In the near future, the internet becomes more and more essential in the process of
+                        computing. Doesn't it mean that the future definition of computer should also include internet?
+                        I guess we will see.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="sitemap">
+        <div class="nav--container">
+            <div class="sitemap--flex font--nova">
+                <div class="sitemap__card sitemap__icon">
+                    <a href="index.html">
+                        <h3 class="font--oswald">LEON LIU</h3>
+                    </a>
+                </div>
+                <div class="sitemap__card">
+                    <ls class="card--margin">E-mail: <span class="underline"><a
+                                href="mailto:leoncooper@nyu.edu">leoncooper@nyu.edu</a></span></ls>
+                    <ls> Follow: <span class="underline"><a href="https://unsplash.com/@leoncooper"
+                                target="_blank">unsplash/@leoncooper</a></span></ls>
+                </div>
+                <div class="sitemap__card">
+                    <ls class="card--margin"><a href="index.html">Photo / Film</a></ls>
+                    <ls><a href="design.html">Design</a></ls>
+                </div>
+                <div class="sitemap__card">
+                    <ls class="card--margin"><a href="bio.html" target="_blank">Biography</a></ls>
+                    <ls><a href="blog.html">© 2018 by Leon Liu</a></ls>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

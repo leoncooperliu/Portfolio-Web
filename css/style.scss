@@ -1,210 +1,221 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo:700');
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://fonts.googleapis.com/css?family=Cardo:700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
-@import url('anim/animate.css');
-@import url('anim/self-define.css');
+@import url("anim/animate.css");
+@import url("anim/self-define.css");
 
 @font-face {
-    font-family: ProximaNovaB;
-    src: url('fonts/proximanova-bold.otf');
+  font-family: ProximaNovaB;
+  src: url("fonts/proximanova-bold.otf");
 }
 
 @font-face {
-    font-family: ProximaNovaSB;
-    src: url('fonts/proximanova-semibold.otf');
+  font-family: ProximaNovaSB;
+  src: url("fonts/proximanova-semibold.otf");
 }
 
 @font-face {
-    font-family: ProximaNova;
-    src: url('fonts/proximanova-regular.otf');
+  font-family: ProximaNova;
+  src: url("fonts/proximanova-regular.otf");
 }
-
-
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
+  video::-webkit-media-controls-panel {
+    display: none !important;
+    -webkit-appearance: none;
+  }
 
-    video::-webkit-media-controls-panel {
-        display: none !important;
-        -webkit-appearance: none;
-    }
+  video::-webkit-media-controls-play-button {
+    display: none !important;
+    -webkit-appearance: none;
+  }
 
+  video::-webkit-media-controls {
+    display: none !important;
+    -webkit-appearance: none;
+  }
 
-    video::-webkit-media-controls-play-button {
-        display: none !important;
-        -webkit-appearance: none;
-    }
+  video {
+    pointer-events: none;
+  }
 
-    video::-webkit-media-controls {
-        display: none !important;
-        -webkit-appearance: none;
-    }
+  a {
+    color: unset;
+    height: inherit;
+  }
 
-    video {
-        pointer-events: none;
-    }
+  .a--color-white {
+    color: white;
+  }
 
-    a {
-        color: unset;
-        height: inherit;
-    }
+  p {
+    font-family: "ProximaNova", sans-serif;
+  }
 
-    .a--color-white {
-        color: white;
-    }
+  /* Fonts */
 
-    p {
-        font-family: ProximaNova;
-    }
+  .font--nova-semibold {
+    font-family: "ProximaNovaSB", sans-serif;
+  }
 
-    /* Fonts */
+  .font--nova-bold {
+    font-family: "ProximaNovaB", sans-serif;
+  }
 
-    .font--nova-semibold {
-        font-family: ProximaNovaSB;
-    }
+  .font--nova {
+    font-family: "ProximaNova", sans-serif;
+  }
 
-    .font--nova-bold {
-        font-family: ProximaNovaB;
-    }
+  .font--cardo {
+    font-family: "cardo";
+  }
 
-    .font--nova {
-        font-family: ProximaNova;
-    }
+  .font--lato {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+  }
 
-    .font--cardo {
-        font-family: cardo;
-    }
+  .font--lato-semibold {
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+  }
 
-    .font--lato {
-        font-family: lato;
-    }
+  .font--oswald {
+    font-family: "oswald", sans-serif;
+  }
 
-    .font--oswald {
-        font-family: oswald;
-    }
+  .font--roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
 
-    .font--roboto {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-    }
+  .font--roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
 
-    .font--roboto-bold {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-    }
+  .sitemap {
+    .sitemap--flex {
+      .sitemap__card {
+        height: auto;
+        border: 0;
+        background-color: transparent;
 
-    .sitemap {
-        .sitemap--flex {
-            .sitemap__card {
-                height: auto;
-                border: 0;
-                background-color: transparent;
-
-                h3 {
-                    margin: 0;
-                }
-
-                ls {
-                    display: block;
-                    color: #828282;
-                }
-
-                .sitemap__icon {
-                    width: 200px;
-                }
-            }
+        h3 {
+          margin: 0;
         }
-    }
 
-    .bg-color-black {
-        background-color: black;
-    }
+        ls {
+          display: block;
+          color: #828282;
+        }
 
-    .bg-color-dark {
-        background-color: #1B1B1B;
+        .sitemap__icon {
+          width: 200px;
+        }
+      }
     }
+  }
 
-    .bg-color-grey {
-        background-color: #FAFAFA;
+  .bg-color-black {
+    background-color: black;
+  }
+
+  .bg-color-dark {
+    background-color: #121212;
+  }
+
+  .bg-color-grey {
+    background-color: #fafafa;
+  }
+
+  .bg-color-light {
+    background-color: #fefefe;
+  }
+
+  .bg-color-white {
+    background-color: red;
+  }
+
+  .bg-image-dancer {
+    background-image: url(../img/next-project-dancer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-image-long {
+    background-image: url(../img/next-project-long.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-image-havana {
+    background-image: url(../img/next-project-havana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .nav--container {
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .quote--container {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .design--container {
+    margin: 0 auto;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .text--color-white {
+    color: white;
+  }
+
+  a {
+    z-index: 10;
+  }
+
+  .text--pointer {
+    cursor: pointer;
+  }
+
+  margin: 0;
+
+  .full-width {
+    img {
+      width: 100%;
     }
-
-    .bg-color-light {
-        background-color: #FEFEFE;
+    video {
+      width: 100%;
     }
+  }
 
-    .bg-color-white {
-        background-color: red;
-    }
+  .center-align {
+    display: flex;
+    justify-content: center;
+  }
 
-    .bg-image-dancer {
-        background-image: url(../img/next-project-dancer.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .bg-image-long {
-        background-image: url(../img/next-project-long.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .bg-image-kathy {
-        background-image: url(../img/next-project-kathy.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .bg-image-near {
-        background-image: url(../img/next-project-near.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .bg-image-hidden {
-        background-image: url(../img/home-film-hidden.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .container {
-        padding: 0;
-    }
-
-    .nav--container {
-        width: 95vw;
-        margin: 0 auto;
-    }
-
-    .quote--container {
-        width: 60vw;
-        margin: 0 auto;
-    }
-
-    .design--container {
-        margin: 0 auto;
-    }
-
-    .underline {
-        text-decoration: underline;
-    }
-
-    a {
-        z-index: 10;
-    }
-
-    .text--pointer {
-        cursor: pointer;
-    }
-
-    margin: 0;
+  .img--border {
+    border: 1px solid #ababab;
+  }
 }

@@ -1,12 +1,25 @@
 body .delay-slow-2 {
-  animation-delay: .2s; }
-body .delay-slow-4 {
-  animation-delay: .4s; }
-body .delay-slow-6 {
-  animation-delay: .6s; }
-body .delay-1s {
-  animation-delay: 1s; }
-body .delay-6s {
-  animation-delay: 6s; }
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
 
+body .delay-slow-4 {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+body .delay-slow-6 {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+
+body .delay-1s {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+body .delay-6s {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
 /*# sourceMappingURL=self-define.css.map */

@@ -28,36 +28,43 @@
             text-align: right;
             margin-right: 10px;
         }
+
+        img {
+            width: 100%;
+        }
     }
 
-    .bio--container {
-        width: 90vw;
-        $margin-bottom: 20px;
+    .container {
+        $margin-1: 10px; //narrow
+        $margin-2: 30px;
+        margin-bottom: 0; //wide
 
-        h3 {
-            font-size: 1.2rem;
-            margin-top: 30px;
-            margin-bottom: $margin-bottom;
+        .margin-bottom-1 {
+            margin-bottom: $margin-1;
         }
 
-        p,
-        ls {
-            font-size: 1rem;
-            line-height: 2rem;
-            margin-bottom: $margin-bottom;
+        .margin-bottom-2 {
+            margin-bottom: $margin-2;
         }
 
-        .bio__contact {
-            margin-bottom: $margin-bottom;
-
-            ls {
-                display: block;
-                margin-right: $margin-bottom;
-            }
+        .margin-top-2 {
+            margin-top: $margin-2;
         }
 
-        .bio__resume {
-            margin-bottom: $margin-bottom;
+        .font-size-1 {
+            font-size: .9rem;
+            line-height: 1.7rem;
+            width:100%;
+        }
+
+        .font-size-2 {
+            font-size: .9rem;
+            line-height: 1.7rem;
+        }
+
+        .bio__edu {
+            display: grid;
+            grid-template-columns: 1fr;
         }
     }
 
@@ -94,37 +101,44 @@
             text-align: right;
             margin-right: 30px;
         }
-    }
 
-    .bio--container {
-        width: 750px;
-        $margin-bottom: 35px;
-
-        h3 {
-            font-size: 1.7rem;
-            margin-top: 50px;
-            margin-bottom: $margin-bottom;
-        }
-
-        p,
-        ls {
-            font-size: 1.4rem;
-            line-height: 3rem;
-            margin-bottom: $margin-bottom;
-        }
-
-        .bio__contact {
-            margin-bottom: $margin-bottom;
-
-            ls {
-                margin-right: $margin-bottom;
-            }
-        }
-
-        .bio__resume {
-            margin-bottom: $margin-bottom;
+        img {
+            width: 50%;
         }
     }
+
+    .container {
+        $margin-1: 10px; //narrow
+        $margin-2: 30px; //wide
+
+        .margin-bottom-1 {
+            margin-bottom: $margin-1;
+        }
+
+        .margin-bottom-2 {
+            margin-bottom: $margin-2;
+        }
+
+        .margin-top-2 {
+            margin-top: $margin-2;
+        }
+
+        .font-size-1 {
+            font-size: 1.1rem;
+            line-height: 2.5rem;
+        }
+
+        .font-size-2 {
+            font-size: 1.1rem;
+            line-height: 2.5rem;
+        }
+
+        .bio__edu {
+            display: grid;
+            grid-template-columns: 1fr 1fr
+        }
+    }
+
 }
 
 @media (min-width: 768px) and (orientation:portrait) {
@@ -155,37 +169,12 @@
             text-align: right;
             margin-right: 30px;
         }
-    }
 
-    .bio--container {
-        width: 750px;
-        $margin-bottom: 35px;
-
-        h3 {
-            font-size: 1.7rem;
-            margin-top: 50px;
-            margin-bottom: $margin-bottom;
-        }
-
-        p,
-        ls {
-            font-size: 1.2rem;
-            line-height: 2.5rem;
-            margin-bottom: $margin-bottom;
-        }
-
-        .bio__contact {
-            margin-bottom: $margin-bottom;
-
-            ls {
-                margin-right: $margin-bottom;
-            }
-        }
-
-        .bio__resume {
-            margin-bottom: $margin-bottom;
+        img {
+            width: 70%;
         }
     }
+
 }
 
 @media (min-width: 768px) and (orientation:landscape) {
@@ -216,37 +205,49 @@
             text-align: right;
             margin-right: 30px;
         }
-    }
 
-    .bio--container {
-        width: 750px;
-        $margin-bottom: 35px;
-
-        h3 {
-            font-size: 1.7rem;
-            margin-top: 50px;
-            margin-bottom: $margin-bottom;
-        }
-
-        p,
-        ls {
-            font-size: 1.4rem;
-            line-height: 3rem;
-            margin-bottom: $margin-bottom;
-        }
-
-        .bio__contact {
-            margin-bottom: $margin-bottom;
-
-            ls {
-                margin-right: $margin-bottom;
-            }
-        }
-
-        .bio__resume {
-            margin-bottom: $margin-bottom;
+        img {
+            width: 40%;
         }
     }
+
+    .container {
+        $margin-1: 15px; //narrow
+        $margin-2: 100px; //wide
+
+        .margin-bottom-1 {
+            margin-bottom: $margin-1;
+        }
+
+        .margin-bottom-2 {
+            margin-bottom: $margin-2;
+        }
+
+        .margin-top-2 {
+            margin-top: $margin-2;
+        }
+
+        .font-size-1 {
+            font-size: 1.3rem;
+            line-height: 2.7rem;
+        }
+
+        .font-size-2 {
+            font-size: 1.2rem;
+            line-height: 2.7rem;
+        }
+
+        .font-size-large {
+            font-size: 2.3rem;
+            line-height: 4rem;
+        }
+
+        .bio__edu {
+            display: grid;
+            grid-template-columns: 1fr 1fr
+        }
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -277,35 +278,47 @@
             text-align: right;
             margin-right: 30px;
         }
+
+        img {
+            width: 65%;
+        }
     }
 
-    .bio--container {
-        width: 750px;
-        $margin-bottom: 35px;
+    .container {
+        $margin-1: 10px; //narrow
+        $margin-2: 50px; //wide
 
-        h3 {
-            font-size: 1.7rem;
-            margin-top: 50px;
-            margin-bottom: $margin-bottom;
+        .margin-bottom-1 {
+            margin-bottom: $margin-1;
         }
 
-        p,
-        ls {
-            font-size: 1.4rem;
-            line-height: 3rem;
-            margin-bottom: $margin-bottom;
+        .margin-bottom-2 {
+            margin-bottom: $margin-2;
         }
 
-        .bio__contact {
-            margin-bottom: $margin-bottom;
-
-            ls {
-                margin-right: $margin-bottom;
-            }
+        .margin-top-2 {
+            margin-top: $margin-2;
         }
 
-        .bio__resume {
-            margin-bottom: $margin-bottom;
+        .font-size-1 {
+            font-size: 1.2rem;
+            line-height: 2.6rem;
+            width: 600px;
+        }
+
+        .font-size-2 {
+            font-size: 1.1rem;
+            line-height: 2.6rem;
+        }
+
+        .font-size-large {
+            font-size: 2.2rem;
+            line-height: 4rem;
+        }
+
+        .bio__edu {
+            display: grid;
+            grid-template-columns: 1fr 1fr
         }
     }
 }
@@ -340,35 +353,9 @@
             margin-right: 30px;
         }
 
-    }
-
-    .bio--container {
-        width: 800px;
-        $margin-bottom: 30px;
-
-        h3 {
-            font-size: 1.6rem;
-            margin-top: 40px;
-            margin-bottom: $margin-bottom;
+        img {
+            width: 55%;
         }
 
-        p,
-        ls {
-            font-size: 1.3rem;
-            line-height: 2.9rem;
-            margin-bottom: $margin-bottom;
-        }
-
-        .bio__contact {
-            margin-bottom: $margin-bottom;
-
-            ls {
-                margin-right: $margin-bottom;
-            }
-        }
-
-        .bio__resume {
-            margin-bottom: $margin-bottom;
-        }
     }
 }

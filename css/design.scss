@@ -22,8 +22,8 @@ $break:90px;
         z-index: 5;
 
         h3 {
-            color: #0F0F0F;
-            font-size: 1.4rem;
+            color:#707070;
+            font-size: 1.1rem;
             margin-bottom: 0;
             margin-left: 15px;
         }
@@ -32,23 +32,27 @@ $break:90px;
     .hero__title {
 
         h1 {
-            color: black;
-            margin: 0;
+            color: #272727;
         }
 
         .title__info {
             text-align: right;
             color: #707070;
 
-            h3 {
-                color: #707070;
-            }
+        }
+        
+        ul {
+            padding: 0;
         }
 
-        p {
+        p, ul {
             color: #707070;
-            margin-bottom: 0;
         }
+    }
+
+    .text__red {
+        color:red;
+        font-size: 1.7rem;
     }
 }
 
@@ -67,6 +71,13 @@ $break:90px;
             }
         }
     }
+    
+
+    
+}
+
+.text--grey {
+    color:#707070;
 }
 
 hr {
@@ -74,3 +85,4 @@ hr {
     margin-bottom: $break;
     border-width: 3px;
 }
+

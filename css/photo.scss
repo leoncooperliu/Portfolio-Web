@@ -3,7 +3,6 @@
 body {
     .top {
         height: 100vh;
-        background-color: #1B1B1B;
 
         h2 {
             color: white;
@@ -18,10 +17,16 @@ body {
     }
 
     .photos {
-        padding-bottom: 50px;
 
         img {
             width: 100%;
+        }
+
+        p {
+            color: grey;
+            margin-bottom: 0;
+            margin-top: .5rem;
+            font-size: .8rem;
         }
 
     }
@@ -29,6 +34,7 @@ body {
     .info {
         p {
             color: white;
+
         }
     }
 

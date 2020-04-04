@@ -1,0 +1,22 @@
+@import "project";
+
+.color__darkgrey {
+  color: darkslategrey;
+}
+
+.info {
+  h2 {
+    text-align: center;
+  }
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+}
+
+.design__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
